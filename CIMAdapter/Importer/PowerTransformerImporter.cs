@@ -103,6 +103,62 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 		}
 
 		#region Import
+
+		private void ImportPerLengthImpendance()
+		{
+        }
+        private ResourceDescription CreatePerLengthImpendanceResourceDescription(FTN.BaseVoltage cimBaseVoltage)
+        {
+
+            return rd;
+        }
+
+        private void ImportPerLengthPhaseImpendance()
+		{
+
+		}
+        private void ImportPhaseImpedanceData()
+        {
+
+        }
+        private void ImportPowerSystemResource()
+        {
+
+        }
+        private void ImportACLineSegment()
+        {
+
+        }
+        private void ImportPerLengthSequenceImpedance()
+        {
+
+        }
+        private void ImportEquipment()
+        {
+
+        }
+        private void ImportConductingEquipment()
+        {
+
+        }
+        private void ImportConductor()
+        {
+
+        }
+        private void ImportDCLineSegment()
+        {
+
+        }
+        private void ImportSeriesCompensator()
+        {
+
+        }
+        private void ImportTerminal()
+        {
+
+        }
+
+        /*
 		private void ImportBaseVoltages()
 		{
 			SortedDictionary<string, object> cimBaseVoltages = concreteModel.GetAllObjectsOfType("FTN.BaseVoltage");
@@ -297,7 +353,8 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 			}
 			return rd;
 		}
-		#endregion Import
-	}
+		*/
+        #endregion Import
+    }
 }
 

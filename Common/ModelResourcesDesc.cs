@@ -866,11 +866,10 @@ namespace FTN.Common
 
 		private void InitializeTypeIdsInInsertOrder()
 		{			
-			typeIdsInInsertOrder.Add(ModelCode.BASEVOLTAGE);
-			typeIdsInInsertOrder.Add(ModelCode.LOCATION);
-			typeIdsInInsertOrder.Add(ModelCode.POWERTR);
-			typeIdsInInsertOrder.Add(ModelCode.POWERTRWINDING);
-			typeIdsInInsertOrder.Add(ModelCode.WINDINGTEST);			
+			typeIdsInInsertOrder.Add(ModelCode.PID);
+			typeIdsInInsertOrder.Add(ModelCode.PLSI);
+			typeIdsInInsertOrder.Add(ModelCode.DCLS);
+			typeIdsInInsertOrder.Add(ModelCode.SC);		
 		}
 
 		private void InitializeNotSettablePropertyIds()
