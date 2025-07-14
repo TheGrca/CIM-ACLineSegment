@@ -864,17 +864,27 @@ namespace FTN.Common
 
 		# region Initialization of metadata
 
+
+		//DMS
 		private void InitializeTypeIdsInInsertOrder()
 		{			
+			
 			typeIdsInInsertOrder.Add(ModelCode.PID);
-			typeIdsInInsertOrder.Add(ModelCode.PLSI);
-			typeIdsInInsertOrder.Add(ModelCode.DCLS);
-			typeIdsInInsertOrder.Add(ModelCode.SC);		
-		}
+            //PLPI
+            typeIdsInInsertOrder.Add(ModelCode.PLSI);
+            //acline
+            typeIdsInInsertOrder.Add(ModelCode.DCLS);
+			typeIdsInInsertOrder.Add(ModelCode.SC);
+            //terminal
+        }
 
-		private void InitializeNotSettablePropertyIds()
+		//LISTE REFERENCI
+        private void InitializeNotSettablePropertyIds()
 		{			
 			notSettablePropertyIds.Add(ModelCode.IDOBJ_GID);
+			//CONDEQ_TERMINALS
+			//PERLENGTHIMPENDANCE_ACLINESEGMENTS
+			//PHASEIMPEDANCEDATA_PERLENGTHPHASEIMPEDANCES
 			notSettablePropertyIds.Add(ModelCode.BASEVOLTAGE_CONDEQS);
 			notSettablePropertyIds.Add(ModelCode.LOCATION_PSRS);
 			notSettablePropertyIds.Add(ModelCode.POWERTRWINDING_TESTS);

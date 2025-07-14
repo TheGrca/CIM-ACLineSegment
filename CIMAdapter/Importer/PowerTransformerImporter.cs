@@ -104,6 +104,8 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 
 		#region Import
 
+
+		//SAMO ZA DMS TYPES
 		private void ImportPerLengthImpendance()
 		{
         }

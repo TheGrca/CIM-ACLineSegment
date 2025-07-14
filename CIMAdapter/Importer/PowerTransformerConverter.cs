@@ -10,6 +10,7 @@
 	{
 
 		#region Populate ResourceDescription
+		//SAMO DMS
 		public static void PopulateIdentifiedObjectProperties(FTN.IdentifiedObject cimIdentifiedObject, ResourceDescription rd)
 		{
 			if ((cimIdentifiedObject != null) && (rd != null))
