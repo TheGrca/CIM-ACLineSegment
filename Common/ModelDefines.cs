@@ -11,7 +11,7 @@ namespace FTN.Common
 		PID					                = 0x0001,
 		PLSI								= 0x0002,
         DCLS								= 0x0003,
-		SERIESCOMPENSATOR					= 0X0004,
+        SC									= 0X0004,
 		ACLS								= 0x0005,
 		TERM								= 0x0006,
 		PLPI								= 0x0007,

@@ -870,25 +870,22 @@ namespace FTN.Common
 		{			
 			
 			typeIdsInInsertOrder.Add(ModelCode.PID);
-            //PLPI
+			typeIdsInInsertOrder.Add(ModelCode.PLPI);
             typeIdsInInsertOrder.Add(ModelCode.PLSI);
-            //acline
+			typeIdsInInsertOrder.Add(ModelCode.ACLS);
             typeIdsInInsertOrder.Add(ModelCode.DCLS);
 			typeIdsInInsertOrder.Add(ModelCode.SC);
-            //terminal
+			typeIdsInInsertOrder.Add(ModelCode.TERM);
         }
 
 		//LISTE REFERENCI
         private void InitializeNotSettablePropertyIds()
 		{			
 			notSettablePropertyIds.Add(ModelCode.IDOBJ_GID);
-			//CONDEQ_TERMINALS
-			//PERLENGTHIMPENDANCE_ACLINESEGMENTS
+			notSettablePropertyIds.Add(ModelCode.CE_TERMINALS);
+			notSettablePropertyIds.Add(ModelCode.PLI_ACLINESEGMENTS);
+			notSettablePropertyIds.Add(ModelCode.PLPI_PHASEIMPEDANCEDATAS);
 			//PHASEIMPEDANCEDATA_PERLENGTHPHASEIMPEDANCES
-			notSettablePropertyIds.Add(ModelCode.BASEVOLTAGE_CONDEQS);
-			notSettablePropertyIds.Add(ModelCode.LOCATION_PSRS);
-			notSettablePropertyIds.Add(ModelCode.POWERTRWINDING_TESTS);
-            notSettablePropertyIds.Add(ModelCode.POWERTR_WINDINGS);	
 		}
 	
 		# endregion Initialization of metadata

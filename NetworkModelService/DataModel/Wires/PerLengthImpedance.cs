@@ -1,63 +1,68 @@
 ﻿using FTN.Common;
+using FTN.Services.NetworkModelService.DataModel.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FTN.Services.NetworkModelService.DataModel.Core
+namespace FTN.Services.NetworkModelService.DataModel.Wires
 {
-    public class ConductingEquipment : Equipment
+    public class PerLengthImpedance : IdentifiedObject
     {
-        private List<long> terminals = new List<long>();
-        public ConductingEquipment(long globalId) : base(globalId) { }
+        private List<long> acLineSegments = new List<long>();
+        public PerLengthImpedance(long globalId) : base(globalId) { }
 
-        public List<long> Terminals
+        public List<long> ACLineSegments
         {
-            get { return terminals; }
-            set { terminals = value; }
+            get { return acLineSegments; }
+            set { acLineSegments = value; }
+
         }
 
+
         #region Overrides
-        public override bool Equals(object obj)
+
+        public override bool Equals(object x)
         {
-            return base.Equals(obj);
+            return base.Equals(x);
         }
 
         public override int GetHashCode()
         {
             return base.GetHashCode();
         }
+
         #endregion
 
-        #region IAccess implementation
+        #region IAccess implementation		
 
         public override bool HasProperty(ModelCode property)
         {
             switch (property)
             {
-                case ModelCode.CE_TERMINALS:
+                case ModelCode.PLI_ACLINESEGMENTS:
                     return true;
 
                 default: return base.HasProperty(property);
             }
         }
 
-        public override void GetProperty(Property prop)
+        public override void GetProperty(Property property)
         {
-            switch (prop.Id)
+            switch (property.Id)
             {
-                case ModelCode.CE_TERMINALS: prop.SetValue(terminals); break;
+                case ModelCode.PLI_ACLINESEGMENTS: property.SetValue(acLineSegments); break;
                 default:
-                    base.GetProperty(prop);
-                    break;
+                    base.GetProperty(property); break;
             }
-
         }
 
         public override void SetProperty(Property property)
         {
+
             base.SetProperty(property);
+
         }
 
         #endregion IAccess implementation
@@ -68,15 +73,15 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
         {
             get
             {
-                return Terminals.Count > 0 || base.IsReferenced;
+                return ACLineSegments.Count > 0 || base.IsReferenced;
             }
         }
 
         public override void GetReferences(Dictionary<ModelCode, List<long>> references, TypeOfReference refType)
         {
-            if (Terminals != null && Terminals.Count != 0 && (refType == TypeOfReference.Target || refType == TypeOfReference.Both))
+            if (ACLineSegments != null && ACLineSegments.Count != 0 && (refType == TypeOfReference.Target || refType == TypeOfReference.Both))
             {
-                references[ModelCode.CE_TERMINALS] = Terminals.GetRange(0, Terminals.Count);
+                references[ModelCode.PLI_ACLINESEGMENTS] = ACLineSegments.GetRange(0, ACLineSegments.Count);
             }
             base.GetReferences(references, refType);
         }
@@ -85,8 +90,8 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
         {
             switch (referenceId)
             {
-                case ModelCode.TERM_CONDUCTINGEQUIPMENT:
-                    Terminals.Add(globalId);
+                case ModelCode.ACLS_PERLENGTHIMPEDANCE:
+                    ACLineSegments.Add(globalId);
                     break;
 
                 default:
@@ -99,10 +104,10 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
         {
             switch (referenceId)
             {
-                case ModelCode.TERM_CONDUCTINGEQUIPMENT:
-                    if (Terminals.Contains(globalId))
+                case ModelCode.ACLS_PERLENGTHIMPEDANCE:
+                    if (ACLineSegments.Contains(globalId))
                     {
-                        Terminals.Remove(globalId);
+                        ACLineSegments.Remove(globalId);
                     }
                     else
                     {
@@ -117,6 +122,5 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
         }
 
         #endregion IReference implementation
-
     }
 }

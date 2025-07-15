@@ -89,16 +89,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Core\BaseVoltage .cs" />
     <Compile Include="Core\ConductingEquipment.cs" />
     <Compile Include="Core\Equipment.cs" />
-    <Compile Include="Core\Location.cs" />
     <Compile Include="Core\IdentifiedObject.cs" />
     <Compile Include="Core\PowerSystemResource.cs" />
+    <Compile Include="Core\Terminal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Wires\WindingTest.cs" />
-    <Compile Include="Wires\PowerTransformer.cs" />
-    <Compile Include="Wires\TransformerWinding.cs" />
+    <Compile Include="Wires\ACLineSegment.cs" />
+    <Compile Include="Wires\Conductor.cs" />
+    <Compile Include="Wires\DCLineSegment.cs" />
+    <Compile Include="Wires\PerLengthImpedance.cs" />
+    <Compile Include="Wires\PerLengthPhaseImpedance.cs" />
+    <Compile Include="Wires\PerLengthSequenceImpedance.cs" />
+    <Compile Include="Wires\PhaseImpedanceData.cs" />
+    <Compile Include="Wires\SeriesCompensator.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Common\Common.csproj">

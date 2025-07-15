@@ -22,3 +22,16 @@ D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.pdb
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\bin\Predefined\PredefinedClasses.xml
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\bin\Predefined\PredefinedEnumerations.xml
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\bin\Predefined\PredefinedPackages.xml
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\bin\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe.config
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\bin\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\bin\FTN.ESI.SIMES.CIM.CIMProfileCreator.pdb
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\CIMProfileCreator.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.CIMProfileCreatorForm.resources
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.Properties.Resources.resources
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\CIMProfileCreator.csproj.GenerateResource.cache
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\CIMProfileCreator.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.pdb
