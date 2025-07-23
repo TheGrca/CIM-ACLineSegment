@@ -1,0 +1,6 @@
+23.7.2025. 13:46:39 : Entering entity id failed. Please use hex (0x) or decimal format.
+23.7.2025. 13:46:45 : Getting values method started.
+23.7.2025. 13:47:04 : Getting values method for entered id = 25769803779 failed.
+	Getting values for resource with ID = 0x0000000600000003 failed. Failed to get values for entity with GID = 0x0000000600000003. Entity  (GID = 0x0000000600000003) does not exist.
+23.7.2025. 13:47:40 : Getting values method started.
+23.7.2025. 13:47:40 : Getting values method successfully finished.

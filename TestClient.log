@@ -1,0 +1,187 @@
+16.7.2025. 18:57:56 : Network Model Service Test Client is up and running...
+16.7.2025. 18:57:56 : Result directory: ../Results
+16.7.2025. 18:58:04 : Getting values method started.
+16.7.2025. 18:58:04 : Failed to get model type code for DMS type: 0. Invalid DMS type
+16.7.2025. 18:58:04 : Getting values method for entered id = 2 failed.
+	Failed to get model type code for DMS type: 0. Invalid DMS type
+16.7.2025. 18:58:40 : Getting extent values method started.
+16.7.2025. 18:59:16 : Getting extent values method failed for PLPI.
+	You have tried to create a channel to a service that does not support .Net Framing. It is possible that you are encountering an HTTP endpoint.
+16.7.2025. 18:59:53 : Getting related values method started.
+16.7.2025. 19:00:23 : Getting related values method  failed for sourceGlobalId = 1152921504606847236 and association (propertyId = PLPI, type = PLPI). Reason: You have tried to create a channel to a service that does not support .Net Framing. It is possible that you are encountering an HTTP endpoint.
+17.7.2025. 13:25:27 : Network Model Service Test Client is up and running...
+17.7.2025. 13:25:27 : Result directory: ../Results
+17.7.2025. 13:26:05 : Getting values method started.
+17.7.2025. 13:26:05 : Failed to get model type code for DMS type: 0. Invalid DMS type
+17.7.2025. 13:26:05 : Getting values method for entered id = 2 failed.
+	Failed to get model type code for DMS type: 0. Invalid DMS type
+17.7.2025. 13:26:55 : Getting extent values method started.
+17.7.2025. 13:27:26 : Getting extent values method failed for PLI.
+	You have tried to create a channel to a service that does not support .Net Framing. It is possible that you are encountering an HTTP endpoint.
+17.7.2025. 13:33:02 : Apply update method started.
+17.7.2025. 13:33:34 : Apply update method failed. You have tried to create a channel to a service that does not support .Net Framing. It is possible that you are encountering an HTTP endpoint.
+
+17.7.2025. 14:32:24 : Network Model Service Test Client is up and running...
+17.7.2025. 14:32:24 : Result directory: ../Results
+17.7.2025. 16:21:36 : Network Model Service Test Client is up and running...
+17.7.2025. 16:21:36 : Result directory: ../Results
+17.7.2025. 16:21:43 : Getting values method started.
+17.7.2025. 17:13:12 : Network Model Service Test Client is up and running...
+17.7.2025. 17:13:12 : Result directory: ../Results
+17.7.2025. 17:15:16 : Network Model Service Test Client is up and running...
+17.7.2025. 17:15:16 : Result directory: ../Results
+17.7.2025. 17:20:26 : Network Model Service Test Client is up and running...
+17.7.2025. 17:20:26 : Result directory: ../Results
+17.7.2025. 17:20:30 : Getting values method started.
+17.7.2025. 17:20:55 : Getting values method for entered id = 21474836479 failed.
+	Getting values for resource with ID = 0x00000004ffffffff failed. Failed to get values for entity with GID = 0x00000004ffffffff. Entity  (GID = 0x00000004ffffffff) does not exist.
+17.7.2025. 17:21:12 : Getting extent values method started.
+17.7.2025. 17:21:12 : Getting extent values method failed for 21474836479.
+	Invalid Model Code: 21474836479
+17.7.2025. 17:21:24 : Entering association failed. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s)
+   at FTN.Services.NetworkModelService.TestClient.Program.InputAssociation() in C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\Program.cs:line 254
+17.7.2025. 17:21:24 : GetRelatedValues failed. Input string was not in a correct format.
+17.7.2025. 17:21:27 : Apply update method started.
+17.7.2025. 17:21:57 : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000100000001) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64).
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000001
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000001
+
+17.7.2025. 17:22:17 : Getting values method started.
+17.7.2025. 17:22:27 : Getting values method for entered id = 8589934591 failed.
+	Getting values for resource with ID = 0x00000001ffffffff failed. Failed to get values for entity with GID = 0x00000001ffffffff. Entity  (GID = 0x00000001ffffffff) does not exist.
+17.7.2025. 17:22:37 : Getting values method started.
+17.7.2025. 17:22:40 : Getting values method for entered id = 17179869185 failed.
+	Getting values for resource with ID = 0x0000000400000001 failed. Failed to get values for entity with GID = 0x0000000400000001. Entity  (GID = 0x0000000400000001) does not exist.
+17.7.2025. 17:22:46 : Getting values method started.
+17.7.2025. 19:36:13 : Network Model Service Test Client is up and running...
+17.7.2025. 19:36:13 : Result directory: ../Results
+17.7.2025. 19:37:12 : Apply update method started.
+17.7.2025. 19:37:12 : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000100000002) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64).
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000002
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000001
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000002
+
+17.7.2025. 19:37:25 : Getting values method started.
+17.7.2025. 19:37:25 : Getting values method successfully finished.
+17.7.2025. 19:38:03 : Getting values method started.
+17.7.2025. 19:38:09 : Getting values method for entered id = 12884901889 failed.
+	Getting values for resource with ID = 0x0000000300000001 failed. Failed to get values for entity with GID = 0x0000000300000001. Entity  (GID = 0x0000000300000001) does not exist.
+17.7.2025. 19:38:19 : Getting values method started.
+17.7.2025. 19:38:19 : Getting values method successfully finished.
+17.7.2025. 19:39:17 : Getting extent values method started.
+17.7.2025. 19:39:17 : Getting extent values method successfully finished.
+17.7.2025. 19:39:34 : Getting extent values method started.
+17.7.2025. 19:39:34 : Getting extent values method successfully finished.
+17.7.2025. 19:40:12 : Entering association failed. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s)
+   at FTN.Services.NetworkModelService.TestClient.Program.InputAssociation() in C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\Program.cs:line 254
+17.7.2025. 19:40:12 : GetRelatedValues failed. Input string was not in a correct format.
+18.7.2025. 13:51:21 : Network Model Service Test Client is up and running...
+18.7.2025. 13:51:21 : Result directory: ../Results
+18.7.2025. 13:51:58 : Apply update method started.
+18.7.2025. 13:51:58 : Apply update method finished. 
+Update result: Failed
+Message: Applying delta to network model failed. Failed to insert entity (GID = 0x0000000100000003) into model. Failed to return value from property for specified type (Int32) because it is incompatible with actual property type (Int64).
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000003
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000002
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000003
+
+18.7.2025. 13:52:06 : Getting values method started.
+18.7.2025. 13:52:06 : Getting values method successfully finished.
+18.7.2025. 13:52:12 : Getting values method started.
+18.7.2025. 13:52:12 : Getting values method successfully finished.
+18.7.2025. 13:52:18 : Getting values method started.
+19.7.2025. 14:58:43 : Network Model Service Test Client is up and running...
+19.7.2025. 14:58:43 : Result directory: ../Results
+19.7.2025. 14:58:52 : Apply update method started.
+19.7.2025. 14:58:52 : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000004
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000003
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000001
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000001
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000001
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000001
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000004
+
+19.7.2025. 14:59:00 : Getting values method started.
+19.7.2025. 14:59:00 : Getting values method successfully finished.
+19.7.2025. 14:59:05 : Getting values method started.
+19.7.2025. 14:59:05 : Getting values method successfully finished.
+19.7.2025. 14:59:09 : Getting values method started.
+19.7.2025. 14:59:09 : Getting values method successfully finished.
+19.7.2025. 14:59:17 : Getting values method started.
+19.7.2025. 14:59:17 : Getting values method successfully finished.
+19.7.2025. 14:59:23 : Getting values method started.
+19.7.2025. 14:59:23 : Getting values method successfully finished.
+19.7.2025. 14:59:30 : Getting values method started.
+19.7.2025. 14:59:30 : Getting values method successfully finished.
+19.7.2025. 14:59:35 : Getting values method started.
+19.7.2025. 14:59:35 : Getting values method successfully finished.
+19.7.2025. 15:00:06 : Entering association failed. System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s)
+   at FTN.Services.NetworkModelService.TestClient.Program.InputAssociation() in C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\Test\NMSTestClient\Program.cs:line 254
+19.7.2025. 15:00:06 : GetRelatedValues failed. Input string was not in a correct format.
+19.7.2025. 15:00:11 : Network Model Service Test Client stopped.
+22.7.2025. 16:16:55 : Network Model Service Test Client is up and running...
+22.7.2025. 16:16:55 : Result directory: ../Results
+22.7.2025. 16:17:10 : Apply update method started.
+22.7.2025. 16:17:11 : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000005
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000004
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000002
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000002
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000002
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000002
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000005
+
+22.7.2025. 16:17:42 : Getting values method started.
+22.7.2025. 16:17:42 : Getting values method successfully finished.
+22.7.2025. 16:19:34 : Getting values method started.
+22.7.2025. 16:19:34 : Getting values method successfully finished.
+22.7.2025. 16:24:14 : Getting extent values method started.
+22.7.2025. 16:24:14 : Getting extent values method failed for 2.
+	Invalid Model Code: 2
+22.7.2025. 16:26:52 : Getting extent values method started.
+22.7.2025. 16:26:53 : Getting extent values method successfully finished.
+23.7.2025. 12:17:13 : Network Model Service Test Client is up and running...
+23.7.2025. 12:17:13 : Result directory: ../Results
+23.7.2025. 12:29:10 : Network Model Service Test Client is up and running...
+23.7.2025. 12:29:10 : Result directory: ../Results
+23.7.2025. 12:29:54 : Getting extent values method started.
+23.7.2025. 12:47:44 : Network Model Service Test Client is up and running...
+23.7.2025. 12:47:44 : Result directory: ../Results
+23.7.2025. 12:48:17 : Getting extent values method started.
+23.7.2025. 12:48:18 : Getting extent values method successfully finished.

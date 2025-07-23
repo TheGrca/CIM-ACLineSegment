@@ -73,7 +73,7 @@
                         report.Report.Append("WARNING: Convert ").Append(cimPhaseImpedanceData.GetType().ToString()).Append(" rdfID = \"").Append(cimPhaseImpedanceData.ID);
                         report.Report.Append("\" - Failed to set reference to PhaseImpedance: rdfID \"").Append(cimPhaseImpedanceData.PhaseImpedance.ID).AppendLine(" \" is not mapped to GID!");
                     }
-                    rd.AddProperty(new Property(ModelCode.PID_PERLENGTHPHASEIMPEDANCE, gid));
+                    rd.AddProperty(new Property(ModelCode.PID_PHASEIMPEDANCE, gid));
                 }
             }
         }

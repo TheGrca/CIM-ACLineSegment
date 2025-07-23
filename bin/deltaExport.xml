@@ -1,0 +1,94 @@
+﻿<delta id="0">
+  <operations>
+    <operation type="insert">
+      <ResourceDescriptions count="7">
+        <ResourceDescription>
+          <id gid="0x00000007ffffffff" type="PLPI" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="PerLengthPhaseImpedanceMRID" />
+            <Property id="IDOBJ_NAME" value="PerLengthPhaseImpedanceName" />
+            <Property id="IDOBJ_ALLIASNAME" value="PerLengthPhaseImpedanceAlias" />
+            <Property id="PLPI_CONDUCTORCOUNT" value="1" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000001ffffffff" type="PID" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="PhaseImpedanceDataMRID" />
+            <Property id="IDOBJ_NAME" value="PhaseImpedanceDataName" />
+            <Property id="IDOBJ_ALLIASNAME" value="PhaseImpedanceDataAlias" />
+            <Property id="PID_B" value="0.1" />
+            <Property id="PID_R" value="0.2" />
+            <Property id="PID_SEQUENCENUMBER" value="1" />
+            <Property id="PID_X" value="0.3" />
+            <Property id="PID_PHASEIMPEDANCE" value="0x00000007ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002ffffffff" type="PLSI" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="PerLengthSequenceImpedanceMRID" />
+            <Property id="IDOBJ_NAME" value="PerLengthSequenceImpedanceName" />
+            <Property id="IDOBJ_ALLIASNAME" value="PerLengthSequenceImpedanceAlias" />
+            <Property id="PLSI_B0CH" value="0.1" />
+            <Property id="PLSI_BCH" value="0.2" />
+            <Property id="PLSI_G0CH" value="0.3" />
+            <Property id="PLSI_GCH" value="0.4" />
+            <Property id="PLSI_R" value="0.5" />
+            <Property id="PLSI_R0" value="0.6" />
+            <Property id="PLSI_X" value="0.7" />
+            <Property id="PLSI_X0" value="0.8" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005ffffffff" type="ACLS" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="ACLineSegmentMRID" />
+            <Property id="IDOBJ_NAME" value="ACLineSegmentName" />
+            <Property id="IDOBJ_ALLIASNAME" value="ACLineSegmentAlias" />
+            <Property id="COND_LENGTH" value="1" />
+            <Property id="ACLS_B0CH" value="0.1" />
+            <Property id="ACLS_BCH" value="0.2" />
+            <Property id="ACLS_G0CH" value="0.3" />
+            <Property id="ACLS_GCH" value="0.4" />
+            <Property id="ACLS_R" value="0.5" />
+            <Property id="ACLS_R0" value="0.6" />
+            <Property id="ACLS_X" value="0.7" />
+            <Property id="ACLS_X0" value="0.8" />
+            <Property id="ACLS_PERLENGTHIMPEDANCE" value="0x00000007ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003ffffffff" type="DCLS" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="DCLineSegmentMRID" />
+            <Property id="IDOBJ_NAME" value="DCLineSegmentName" />
+            <Property id="IDOBJ_ALLIASNAME" value="DCLineSegmentAliasName" />
+            <Property id="COND_LENGTH" value="1" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004ffffffff" type="SC" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="SeriesCompensatorMRID" />
+            <Property id="IDOBJ_NAME" value="SeriesCompensatorName" />
+            <Property id="IDOBJ_ALLIASNAME" value="SeriesCompensatorAliasName" />
+            <Property id="SC_R" value="0.1" />
+            <Property id="SC_R0" value="0.11" />
+            <Property id="SC_X" value="0.12" />
+            <Property id="SC_X0" value="0.2" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006ffffffff" type="TERM" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="TerminalMRID" />
+            <Property id="IDOBJ_NAME" value="TerminalName" />
+            <Property id="IDOBJ_ALLIASNAME" value="TerminalAlias" />
+            <Property id="TERM_CONDUCTINGEQUIPMENT" value="0x00000003ffffffff" />
+          </Properties>
+        </ResourceDescription>
+      </ResourceDescriptions>
+    </operation>
+  </operations>
+</delta>

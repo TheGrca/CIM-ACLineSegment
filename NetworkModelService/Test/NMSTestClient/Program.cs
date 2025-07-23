@@ -146,6 +146,8 @@ namespace FTN.Services.NetworkModelService.TestClient
             Console.WriteLine("\nUnknown option entered. Please try again.");
         }
 
+
+        //GID nakon apply delta
         private static long InputGlobalId()
         {
             CommonTrace.WriteTrace(CommonTrace.TraceVerbose, "Entering globalId started.");
@@ -177,6 +179,7 @@ namespace FTN.Services.NetworkModelService.TestClient
             }
         }
 
+        //
         private static ModelCode InputModelCode()
         {
             CommonTrace.WriteTrace(CommonTrace.TraceVerbose, "Entering Model Code started.");

@@ -42,3 +42,11 @@ D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\bin\FTN_NetworkModelSe
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\FTN_NetworkModelService.exe
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\FTN_NetworkModelService.pdb
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\bin\FTN_NetworkModelService.exe.config
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\bin\FTN_NetworkModelService.exe
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\bin\FTN_NetworkModelService.pdb
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\NetworkModelServiceSelfHost.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\NetworkModelServiceSelfHost.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\NetworkM.C8FE02EA.Up2Date
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\FTN_NetworkModelService.exe
+C:\Users\Korisnik\Desktop\Modeli\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\obj\x86\Debug\FTN_NetworkModelService.pdb

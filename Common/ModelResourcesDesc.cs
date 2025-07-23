@@ -867,14 +867,13 @@ namespace FTN.Common
 
 		//DMS
 		private void InitializeTypeIdsInInsertOrder()
-		{			
-			
-			typeIdsInInsertOrder.Add(ModelCode.PID);
-			typeIdsInInsertOrder.Add(ModelCode.PLPI);
+		{
+            typeIdsInInsertOrder.Add(ModelCode.PLPI);
             typeIdsInInsertOrder.Add(ModelCode.PLSI);
+            typeIdsInInsertOrder.Add(ModelCode.PID);
 			typeIdsInInsertOrder.Add(ModelCode.ACLS);
+            typeIdsInInsertOrder.Add(ModelCode.SC);
             typeIdsInInsertOrder.Add(ModelCode.DCLS);
-			typeIdsInInsertOrder.Add(ModelCode.SC);
 			typeIdsInInsertOrder.Add(ModelCode.TERM);
         }
 
@@ -885,7 +884,6 @@ namespace FTN.Common
 			notSettablePropertyIds.Add(ModelCode.CE_TERMINALS);
 			notSettablePropertyIds.Add(ModelCode.PLI_ACLINESEGMENTS);
 			notSettablePropertyIds.Add(ModelCode.PLPI_PHASEIMPEDANCEDATAS);
-			//PHASEIMPEDANCEDATA_PERLENGTHPHASEIMPEDANCES
 		}
 	
 		# endregion Initialization of metadata

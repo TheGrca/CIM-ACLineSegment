@@ -1,4 +1,5 @@
 ﻿using FTN.Common;
+using FTN.Services.NetworkModelService.DataModel.Wires;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,28 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
             set { conductingEquipment = value; }
         }
 
+
+        #region Overrides
+
+        public override bool Equals(object x)
+        {
+            if (Object.ReferenceEquals(x, null))
+            {
+                return false;
+            }
+            else
+            {
+                Terminal ter = (Terminal)x;
+                return ter.ConductingEquipment == this.ConductingEquipment;
+            }
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
+        #endregion
 
 
 

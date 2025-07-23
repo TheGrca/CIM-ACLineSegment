@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2010/CIM-schema-cim15#"
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:ftn="http://www.ftnydro.com/CIM15/2010/extension#">
+
+   <cim:PerLengthPhaseImpedance rdf:ID="PLPI_1">
+    <cim:PerLengthPhaseImpedance.conductorCount>1</cim:PerLengthPhaseImpedance.conductorCount>
+    <cim:IdentifiedObject.aliasName>PerLengthPhaseImpedanceAlias</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>PerLengthPhaseImpedanceMRID</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>PerLengthPhaseImpedanceName</cim:IdentifiedObject.name>
+  </cim:PerLengthPhaseImpedance>
+
+  <cim:PerLengthSequenceImpedance rdf:ID="PLSI_1">
+    <cim:PerLengthSequenceImpedance.b0ch>0.10</cim:PerLengthSequenceImpedance.b0ch>
+    <cim:PerLengthSequenceImpedance.bch>0.20</cim:PerLengthSequenceImpedance.bch>
+    <cim:PerLengthSequenceImpedance.g0ch>0.30</cim:PerLengthSequenceImpedance.g0ch>
+    <cim:PerLengthSequenceImpedance.gch>0.40</cim:PerLengthSequenceImpedance.gch>
+    <cim:PerLengthSequenceImpedance.r>0.50</cim:PerLengthSequenceImpedance.r>
+    <cim:PerLengthSequenceImpedance.r0>0.60</cim:PerLengthSequenceImpedance.r0>
+    <cim:PerLengthSequenceImpedance.x>0.70</cim:PerLengthSequenceImpedance.x>
+    <cim:PerLengthSequenceImpedance.x0>0.80</cim:PerLengthSequenceImpedance.x0>
+    <cim:IdentifiedObject.aliasName>PerLengthSequenceImpedanceAlias</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>PerLengthSequenceImpedanceMRID</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>PerLengthSequenceImpedanceName</cim:IdentifiedObject.name>
+  </cim:PerLengthSequenceImpedance>
+
+
+ <cim:PhaseImpedanceData rdf:ID="PID_1">
+     <cim:PhaseImpedanceData.PhaseImpedance rdf:resource="#PLPI_1"/> 
+    <cim:PhaseImpedanceData.b>0.10</cim:PhaseImpedanceData.b>
+    <cim:PhaseImpedanceData.r>0.20</cim:PhaseImpedanceData.r>
+    <cim:PhaseImpedanceData.sequenceNumber>1</cim:PhaseImpedanceData.sequenceNumber>
+    <cim:PhaseImpedanceData.x>0.30</cim:PhaseImpedanceData.x>
+    <cim:IdentifiedObject.aliasName>PhaseImpedanceDataAlias</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>PhaseImpedanceDataMRID</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>PhaseImpedanceDataName</cim:IdentifiedObject.name>
+ </cim:PhaseImpedanceData>
+
+  <cim:ACLineSegment rdf:ID="ACLS_1">
+    <cim:ACLineSegment.b0ch>0.10</cim:ACLineSegment.b0ch>
+    <cim:ACLineSegment.bch>0.20</cim:ACLineSegment.bch>
+    <cim:ACLineSegment.g0ch>0.30</cim:ACLineSegment.g0ch>
+    <cim:ACLineSegment.gch>0.40</cim:ACLineSegment.gch>
+    <cim:ACLineSegment.PerLengthImpedance rdf:resource="#PLPI_1"/> 
+    <cim:ACLineSegment.r>0.50</cim:ACLineSegment.r>
+    <cim:ACLineSegment.r0>0.60</cim:ACLineSegment.r0>
+    <cim:ACLineSegment.x>0.70</cim:ACLineSegment.x>
+    <cim:ACLineSegment.x0>0.80</cim:ACLineSegment.x0> 
+    <cim:Conductor.length>1</cim:Conductor.length>
+    <cim:IdentifiedObject.aliasName>ACLineSegmentAlias</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>ACLineSegmentMRID</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>ACLineSegmentName</cim:IdentifiedObject.name>
+  </cim:ACLineSegment>
+
+  <cim:SeriesCompensator rdf:ID="SC_1">
+    <cim:SeriesCompensator.r>0.1</cim:SeriesCompensator.r>
+    <cim:SeriesCompensator.r0>0.11</cim:SeriesCompensator.r0>
+    <cim:SeriesCompensator.x>0.12</cim:SeriesCompensator.x>
+    <cim:SeriesCompensator.x0>0.20</cim:SeriesCompensator.x0>
+    <cim:IdentifiedObject.aliasName>SeriesCompensatorAliasName</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>SeriesCompensatorMRID</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>SeriesCompensatorName</cim:IdentifiedObject.name>
+  </cim:SeriesCompensator>
+	
+	
+	  <cim:DCLineSegment rdf:ID="DCL_1">
+    <cim:Conductor.length>1</cim:Conductor.length>
+    <cim:IdentifiedObject.aliasName>DCLineSegmentAliasName</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>DCLineSegmentMRID</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>DCLineSegmentName</cim:IdentifiedObject.name>
+  </cim:DCLineSegment>
+
+
+
+
+	<cim:Terminal rdf:ID="Terminal_1">
+		<cim:Terminal.ConductingEquipment rdf:resource="#DCL_1"/>
+		<cim:IdentifiedObject.aliasName>TerminalAlias</cim:IdentifiedObject.aliasName>
+		<cim:IdentifiedObject.mRID>TerminalMRID</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>TerminalName</cim:IdentifiedObject.name>
+	</cim:Terminal>
+
+
+
+
+</rdf:RDF>

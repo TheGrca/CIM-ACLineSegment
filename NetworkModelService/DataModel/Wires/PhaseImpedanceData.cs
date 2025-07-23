@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 namespace FTN.Services.NetworkModelService.DataModel.Wires
 {
 
-    //Zavrsiti
     public class PhaseImpedanceData : IdentifiedObject
     {
         private float b;
         private float r;
         private int sequenceNumber;
         private float x;
+        private long phaseImpedance;
         public PhaseImpedanceData(long globalId) : base(globalId) { }
 
         public float B
@@ -39,6 +39,13 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
             set { x = value; }
         }
 
+        public long PhaseImpedance
+        {
+                get { return phaseImpedance; }
+                set { phaseImpedance = value; }
+        }
+
+
         #region Overrides
 
         public override bool Equals(object x)
@@ -50,7 +57,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
             else
             {
                 PhaseImpedanceData pid = (PhaseImpedanceData)x;
-                return ((pid.B == this.B) && (pid.R == this.R) && (pid.SequenceNumber == this.SequenceNumber) && (pid.X == this.X));
+                return ((pid.B == this.B) && (pid.R == this.R) && (pid.SequenceNumber == this.SequenceNumber) && (pid.X == this.X) && (pid.PhaseImpedance == this.PhaseImpedance));
             }
         }
 
@@ -70,6 +77,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
                 case ModelCode.PID_R:
                 case ModelCode.PID_SEQUENCENUMBER:
                 case ModelCode.PID_X:
+                case ModelCode.PID_PHASEIMPEDANCE:
                     return true;
 
                 default:
@@ -98,6 +106,10 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
                     property.SetValue(X);
                     break;
 
+                case ModelCode.PID_PHASEIMPEDANCE:
+                    property.SetValue(PhaseImpedance);
+                    break;
+
                 default:
                     base.GetProperty(property);
                     break;
@@ -124,6 +136,10 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
                     X = property.AsFloat();
                     break;
 
+                case ModelCode.PID_PHASEIMPEDANCE:
+                    PhaseImpedance = property.AsLong();
+                    break;
+
                 default:
                     base.SetProperty(property);
                     break;
@@ -131,6 +147,22 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
         }
 
         #endregion IAccess implementation
+
+
+
+        #region IReference implementation
+
+        public override void GetReferences(Dictionary<ModelCode, List<long>> references, TypeOfReference refType)
+        {
+            if(PhaseImpedance != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
+            {
+                references[ModelCode.PID_PHASEIMPEDANCE] = new List<long>();
+                references[ModelCode.PID_PHASEIMPEDANCE].Add(PhaseImpedance);
+            }
+            base.GetReferences(references, refType);
+        }
+
+        #endregion
 
     }
 }

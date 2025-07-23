@@ -9,6 +9,7 @@ namespace FTN.Common
 	{
 		private Dictionary<ModelCode, Type> property2enumType = new Dictionary<ModelCode, Type>();
 
+		/*
 		public EnumDescs()
 		{
 			property2enumType.Add(ModelCode.CONDEQ_PHASES, typeof(PhaseCode));
@@ -16,7 +17,7 @@ namespace FTN.Common
 			property2enumType.Add(ModelCode.POWERTRWINDING_CONNTYPE, typeof(WindingConnection));
 			property2enumType.Add(ModelCode.POWERTRWINDING_WINDTYPE, typeof(WindingType));														
 		}
-
+		*/
 		public List<string> GetEnumList(ModelCode propertyId)
 		{
 			List<string> enumList = new List<string>();

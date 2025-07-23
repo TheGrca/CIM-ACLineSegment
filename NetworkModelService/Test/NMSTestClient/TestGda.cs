@@ -87,6 +87,7 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
 			return rd;
 		}
 
+        ///
 		public List<long> GetExtentValues(ModelCode modelCode)
 		{
             string message = "Getting extent values method started.";
@@ -164,7 +165,7 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
 			try
 			{						
 				List<ModelCode> properties = new List<ModelCode>();
-                properties.Add(ModelCode.IDOBJ_DESCRIPTION);
+                properties.Add(ModelCode.IDOBJ_ALLIASNAME);
                 properties.Add(ModelCode.IDOBJ_MRID);
                 properties.Add(ModelCode.IDOBJ_NAME);
 						
