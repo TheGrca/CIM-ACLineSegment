@@ -120,6 +120,37 @@ namespace NMSTestClientWPF
 
 
         //Get extent values
+        private static ModelCode InputModelCode(string userModelCode)
+        {
+            CommonTrace.WriteTrace(CommonTrace.TraceVerbose, "Entering Model Code started.");
+
+            try
+            {
+                Console.Write("Enter Model Code: ");
+                ModelCode modelCode = 0;
+
+                if (!ModelCodeHelper.GetModelCodeFromString(userModelCode, out modelCode))
+                {
+                    if (userModelCode.StartsWith("0x", StringComparison.Ordinal))
+                    {
+                        modelCode = (ModelCode)long.Parse(userModelCode.Substring(2), System.Globalization.NumberStyles.HexNumber);
+                    }
+                    else
+                    {
+                        modelCode = (ModelCode)long.Parse(userModelCode);
+                    }
+                }
+
+                return modelCode;
+            }
+            catch (Exception ex)
+            {
+                string message = string.Format("Entering Model Code failed. {0}", ex);
+                CommonTrace.WriteTrace(CommonTrace.TraceError, message);
+                Console.WriteLine(message);
+                throw ex;
+            }
+        }
         private void LoadAttributes_Click(object sender, RoutedEventArgs e)
         {
             string modelCode = ModelCodeTextBox.Text.Trim();
@@ -191,7 +222,7 @@ namespace NMSTestClientWPF
         {
             TestGda tgda = new TestGda();
             string modelCodeString = ModelCodeTextBox.Text.Trim();
-            string position = PositionTextBox.Text.Trim();
+            string positionText = PositionTextBox.Text.Trim();
 
             // Get selected attributes
             List<string> selectedAttributes = new List<string>();
@@ -210,11 +241,6 @@ namespace NMSTestClientWPF
                 return;
             }
 
-            if (!Enum.TryParse<ModelCode>(modelCodeString, true, out ModelCode modelCode))
-            {
-                Console.WriteLine($"Model code {modelCodeString} is not a valid ModelCode enum.");
-                return;
-            }
 
             var attributesMap = ModelCodeAttributeMap[modelCodeString];
             var selectedModelCodes = new List<ModelCode>();
@@ -231,7 +257,115 @@ namespace NMSTestClientWPF
                 }
             }
 
-            var result = tgda.GetExtentValues(modelCode, selectedModelCodes);
+            int position = 0;
+            if (!string.IsNullOrEmpty(positionText))
+            {
+                if (!int.TryParse(positionText, out position) || position < 0)
+                {
+                    Console.WriteLine("Invalid position. Showing all resources.");
+                    position = 0;
+                }
+            }
+            var result = tgda.GetExtentValues(InputModelCode(modelCodeString), selectedModelCodes, position);
+        }
+        // GET RELATED VALUES
+        private void PropertyIdComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // This can be used to provide context-specific help or validation
+            if (PropertyIdComboBox.SelectedItem is ComboBoxItem selectedItem)
+            {
+                string tag = selectedItem.Tag?.ToString();
+                // You can add logic here to show relevant target types based on the property selected
+            }
+        }
+
+        private void GetRelatedValues_Click(object sender, RoutedEventArgs e)
+        {
+            TestGda tgda = new TestGda();
+            string sourceGidText = SourceGidTextBox.Text.Trim();
+
+            if (string.IsNullOrEmpty(sourceGidText))
+            {
+                RelatedValuesStatusLabel.Content = "Please enter a source GID.";
+                RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Red);
+                return;
+            }
+
+            if (PropertyIdComboBox.SelectedItem == null)
+            {
+                RelatedValuesStatusLabel.Content = "Please select a Property ID.";
+                RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Red);
+                return;
+            }
+
+            try
+            {
+                long sourceGid = InputGlobalId(sourceGidText);
+
+                // Get the selected property ID string and convert using the correct hex values
+                string propertyIdString = ((ComboBoxItem)PropertyIdComboBox.SelectedItem).Tag.ToString();
+
+                // Parse the hex string to long first, then cast to ModelCode
+                long propertyIdLong;
+                if (propertyIdString.StartsWith("0x"))
+                {
+                    propertyIdLong = Convert.ToInt64(propertyIdString.Substring(2), 16);
+                }
+                else
+                {
+                    propertyIdLong = Convert.ToInt64(propertyIdString);
+                }
+                ModelCode propertyId = (ModelCode)propertyIdLong;
+
+                // Get the selected target type
+                ModelCode targetType = 0; // Default to base type
+                if (TargetTypeComboBox.SelectedItem != null)
+                {
+                    string targetTypeString = ((ComboBoxItem)TargetTypeComboBox.SelectedItem).Tag.ToString();
+                    if (targetTypeString != "0x0000000000000000") // Not "All Types"
+                    {
+                        long targetTypeLong;
+                        if (targetTypeString.StartsWith("0x"))
+                        {
+                            targetTypeLong = Convert.ToInt64(targetTypeString.Substring(2), 16);
+                        }
+                        else
+                        {
+                            targetTypeLong = Convert.ToInt64(targetTypeString);
+                        }
+                        targetType = (ModelCode)targetTypeLong;
+                    }
+                }
+
+                // Create Association
+                Association association = new Association()
+                {
+                    PropertyId = propertyId,
+                    Type = targetType,
+                    Inverse = InverseCheckBox.IsChecked ?? false
+                };
+
+                // Debug output to verify values
+                Console.WriteLine($"Source GID: {sourceGid}");
+                Console.WriteLine($"Property ID: {propertyId} ({(long)propertyId})");
+                Console.WriteLine($"Target Type: {targetType} ({(long)targetType})");
+                Console.WriteLine($"Inverse: {association.Inverse}");
+                var result = tgda.GetRelatedValues(sourceGid, association);
+                RelatedValuesStatusLabel.Content = $"GetRelatedValues successful. Found {result.Count} related resources.";
+                RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Green);
+            }
+            catch (Exception ex)
+            {
+                RelatedValuesStatusLabel.Content = $"Error: {ex.Message}";
+                RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Red);
+
+                // Additional debug info
+                Console.WriteLine($"Full exception: {ex}");
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine($"Inner exception: {ex.InnerException.Message}");
+                }
+            }
         }
     }
 }

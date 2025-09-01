@@ -1,7 +1,7 @@
 ﻿<delta id="0">
   <operations>
     <operation type="insert">
-      <ResourceDescriptions count="7">
+      <ResourceDescriptions count="8">
         <ResourceDescription>
           <id gid="0x00000007ffffffff" type="PLPI" />
           <Properties>
@@ -85,7 +85,16 @@
             <Property id="IDOBJ_MRID" value="TerminalMRID" />
             <Property id="IDOBJ_NAME" value="TerminalName" />
             <Property id="IDOBJ_ALLIASNAME" value="TerminalAlias" />
-            <Property id="TERM_CONDUCTINGEQUIPMENT" value="0x00000003ffffffff" />
+            <Property id="TERM_CONDUCTINGEQUIPMENT" value="0x00000005ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffffe" type="TERM" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="Terminal2MRID" />
+            <Property id="IDOBJ_NAME" value="Terminal2Name" />
+            <Property id="IDOBJ_ALLIASNAME" value="Terminal2Alias" />
+            <Property id="TERM_CONDUCTINGEQUIPMENT" value="0x00000004ffffffff" />
           </Properties>
         </ResourceDescription>
       </ResourceDescriptions>

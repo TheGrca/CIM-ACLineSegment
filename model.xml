@@ -24,7 +24,6 @@
     <cim:IdentifiedObject.name>PerLengthSequenceImpedanceName</cim:IdentifiedObject.name>
   </cim:PerLengthSequenceImpedance>
 
-
  <cim:PhaseImpedanceData rdf:ID="PID_1">
      <cim:PhaseImpedanceData.PhaseImpedance rdf:resource="#PLPI_1"/> 
     <cim:PhaseImpedanceData.b>0.10</cim:PhaseImpedanceData.b>
@@ -62,25 +61,25 @@
     <cim:IdentifiedObject.name>SeriesCompensatorName</cim:IdentifiedObject.name>
   </cim:SeriesCompensator>
 	
-	
-	  <cim:DCLineSegment rdf:ID="DCL_1">
+  <cim:DCLineSegment rdf:ID="DCL_1">
     <cim:Conductor.length>1</cim:Conductor.length>
     <cim:IdentifiedObject.aliasName>DCLineSegmentAliasName</cim:IdentifiedObject.aliasName>
     <cim:IdentifiedObject.mRID>DCLineSegmentMRID</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>DCLineSegmentName</cim:IdentifiedObject.name>
   </cim:DCLineSegment>
 
+  <cim:Terminal rdf:ID="Terminal_1">
+    <cim:Terminal.ConductingEquipment rdf:resource="#ACLS_1"/>
+    <cim:IdentifiedObject.aliasName>TerminalAlias</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>TerminalMRID</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TerminalName</cim:IdentifiedObject.name>
+  </cim:Terminal>
 
-
-
-	<cim:Terminal rdf:ID="Terminal_1">
-		<cim:Terminal.ConductingEquipment rdf:resource="#DCL_1"/>
-		<cim:IdentifiedObject.aliasName>TerminalAlias</cim:IdentifiedObject.aliasName>
-		<cim:IdentifiedObject.mRID>TerminalMRID</cim:IdentifiedObject.mRID>
-		<cim:IdentifiedObject.name>TerminalName</cim:IdentifiedObject.name>
-	</cim:Terminal>
-
-
-
+  <cim:Terminal rdf:ID="Terminal_2">
+    <cim:Terminal.ConductingEquipment rdf:resource="#SC_1"/>
+    <cim:IdentifiedObject.aliasName>Terminal2Alias</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>Terminal2MRID</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Terminal2Name</cim:IdentifiedObject.name>
+  </cim:Terminal>
 
 </rdf:RDF>

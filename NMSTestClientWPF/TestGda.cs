@@ -86,8 +86,7 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
 
 			return rd;
 		}
-
-        public List<long> GetExtentValues(ModelCode modelCode, List<ModelCode> selectedProperties)
+        public List<long> GetExtentValues(ModelCode modelCode, List<ModelCode> selectedProperties, int position = 0)
         {
             string message = "Getting extent values method started.";
             CommonTrace.WriteTrace(CommonTrace.TraceError, message);
@@ -100,8 +99,9 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
             {
                 int numberOfResources = 2;
                 int resourcesLeft = 0;
+                int currentPosition = 0;
+                bool found = false;
 
-                // Use the selected properties instead of all
                 List<ModelCode> properties = selectedProperties;
 
                 iteratorId = GdaQueryProxy.GetExtentValues(modelCode, properties);
@@ -110,15 +110,26 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                 xmlWriter = new XmlTextWriter(Config.Instance.ResultDirecotry + "\\GetExtentValues_Results.xml", Encoding.Unicode);
                 xmlWriter.Formatting = Formatting.Indented;
 
-                while (resourcesLeft > 0)
+                while (resourcesLeft > 0 && !found)
                 {
                     List<ResourceDescription> rds = GdaQueryProxy.IteratorNext(numberOfResources, iteratorId);
 
                     for (int i = 0; i < rds.Count; i++)
                     {
-                        ids.Add(rds[i].Id);
-                        rds[i].ExportToXml(xmlWriter);
-                        xmlWriter.Flush();
+                        // If position is 0 (get all) or we're at the requested position
+                        if (position == 0 || currentPosition == position - 1)
+                        {
+                            ids.Add(rds[i].Id);
+                            rds[i].ExportToXml(xmlWriter);
+                            xmlWriter.Flush();
+
+                            if (position > 0)
+                            {
+                                found = true;
+                                break;
+                            }
+                        }
+                        currentPosition++;
                     }
 
                     resourcesLeft = GdaQueryProxy.IteratorResourcesLeft(iteratorId);
@@ -126,13 +137,22 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
 
                 GdaQueryProxy.IteratorClose(iteratorId);
 
-                message = "Getting extent values method successfully finished.";
-                Console.WriteLine(message);
-                CommonTrace.WriteTrace(CommonTrace.TraceError, message);
+                if (position > 0 && !found)
+                {
+                    message = $"Resource at position {position} not found. Only {currentPosition} resources available.";
+                    Console.WriteLine(message);
+                    CommonTrace.WriteTrace(CommonTrace.TraceWarning, message);
+                }
+                else
+                {
+                    message = $"Getting extent values method successfully finished. Found {ids.Count} resources.";
+                    Console.WriteLine(message);
+                    CommonTrace.WriteTrace(CommonTrace.TraceError, message);
+                }
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                message = $"Getting extent values method failed for {modelCode}.\n\t{e.Message}";
+                message = $"Getting extent values method failed for {modelCode}.\n\t{ex.Message}";
                 Console.WriteLine(message);
                 CommonTrace.WriteTrace(CommonTrace.TraceError, message);
             }
@@ -145,67 +165,109 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
         }
 
         public List<long> GetRelatedValues(long sourceGlobalId, Association association)
-		{
+        {
             string message = "Getting related values method started.";
             Console.WriteLine(message);
             CommonTrace.WriteTrace(CommonTrace.TraceError, message);
-			
-			List<long> resultIds = new List<long>();
 
-			
-			XmlTextWriter xmlWriter = null;
-			int numberOfResources = 2;
+            List<long> resultIds = new List<long>();
+            XmlTextWriter xmlWriter = null;
+            int numberOfResources = 2;
+            int iteratorId = 0;
 
-			try
-			{						
-				List<ModelCode> properties = new List<ModelCode>();
+            try
+            {
+                // Get default properties for related entities - basic identification properties
+                List<ModelCode> properties = new List<ModelCode>();
                 properties.Add(ModelCode.IDOBJ_ALLIASNAME);
                 properties.Add(ModelCode.IDOBJ_MRID);
                 properties.Add(ModelCode.IDOBJ_NAME);
-						
-				int iteratorId = GdaQueryProxy.GetRelatedValues(sourceGlobalId, properties, association);
-				int resourcesLeft = GdaQueryProxy.IteratorResourcesLeft(iteratorId);
+
+                // If the association has a specific type, get all properties for that type
+                if (association.Type != ModelCode.IDOBJ && association.Type != 0)
+                {
+                    try
+                    {
+                        short targetType = ModelCodeHelper.ExtractTypeFromGlobalId((long)association.Type);
+                        if (targetType > 0)
+                        {
+                            List<ModelCode> typeSpecificProperties = modelResourcesDesc.GetAllPropertyIds((DMSType)targetType);
+
+                            // Add type-specific properties, avoiding duplicates
+                            foreach (var prop in typeSpecificProperties)
+                            {
+                                if (!properties.Contains(prop))
+                                {
+                                    properties.Add(prop);
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Warning: Could not get type-specific properties: {ex.Message}");
+                    }
+                }
+
+                iteratorId = GdaQueryProxy.GetRelatedValues(sourceGlobalId, properties, association);
+                int resourcesLeft = GdaQueryProxy.IteratorResourcesLeft(iteratorId);
+
+                Console.WriteLine($"Iterator ID: {iteratorId}");
+                Console.WriteLine($"Resources left: {resourcesLeft}");
+                Console.WriteLine($"Association - PropertyId: {association.PropertyId}, Type: {association.Type}, Inverse: {association.Inverse}");
 
                 xmlWriter = new XmlTextWriter(Config.Instance.ResultDirecotry + "\\GetRelatedValues_Results.xml", Encoding.Unicode);
-                xmlWriter.Formatting = Formatting.Indented; 
+                xmlWriter.Formatting = Formatting.Indented;
 
-				while (resourcesLeft > 0)
-				{
-					List<ResourceDescription> rds =  GdaQueryProxy.IteratorNext(numberOfResources, iteratorId);
+                while (resourcesLeft > 0)
+                {
+                    List<ResourceDescription> rds = GdaQueryProxy.IteratorNext(numberOfResources, iteratorId);
 
-					for (int i = 0; i < rds.Count; i++)
-					{
-						resultIds.Add(rds[i].Id);
-						rds[i].ExportToXml(xmlWriter);
-						xmlWriter.Flush();
-					}
-							
-					resourcesLeft = GdaQueryProxy.IteratorResourcesLeft(iteratorId);
-				}
+                    for (int i = 0; i < rds.Count; i++)
+                    {
+                        resultIds.Add(rds[i].Id);
+                        rds[i].ExportToXml(xmlWriter);
+                        xmlWriter.Flush();
+                    }
 
-				GdaQueryProxy.IteratorClose(iteratorId);
+                    resourcesLeft = GdaQueryProxy.IteratorResourcesLeft(iteratorId);
+                }
 
-                message = "Getting related values method successfully finished.";
-                Console.WriteLine(message);
-                CommonTrace.WriteTrace(CommonTrace.TraceError, message);				
-			}
-			catch (Exception e)
-			{
-                message = string.Format("Getting related values method  failed for sourceGlobalId = {0} and association (propertyId = {1}, type = {2}). Reason: {3}", sourceGlobalId, association.PropertyId, association.Type, e.Message);
+                GdaQueryProxy.IteratorClose(iteratorId);
+                iteratorId = 0; // Mark as closed
+
+                message = $"Getting related values method successfully finished. Found {resultIds.Count} related resources.";
                 Console.WriteLine(message);
                 CommonTrace.WriteTrace(CommonTrace.TraceError, message);
             }
-			finally
-			{
-				if (xmlWriter != null)
-				{
-					xmlWriter.Close();
-				}
-			}
-						
-			return resultIds;
-		}
+            catch (Exception e)
+            {
+                message = string.Format("Getting related values method failed for sourceGlobalId = {0} and association (propertyId = {1}, type = {2}). Reason: {3}", sourceGlobalId, association.PropertyId, association.Type, e.Message);
+                Console.WriteLine(message);
+                CommonTrace.WriteTrace(CommonTrace.TraceError, message);
+            }
+            finally
+            {
+                if (xmlWriter != null)
+                {
+                    xmlWriter.Close();
+                }
 
+                if (iteratorId != 0)
+                {
+                    try
+                    {
+                        GdaQueryProxy.IteratorClose(iteratorId);
+                    }
+                    catch
+                    {
+                        // Iterator might already be closed or invalid
+                    }
+                }
+            }
+
+            return resultIds;
+        }
         #endregion GDAQueryService
 
         #region Test Methods

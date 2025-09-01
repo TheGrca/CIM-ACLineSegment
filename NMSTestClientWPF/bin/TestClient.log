@@ -4,3 +4,156 @@
 	Getting values for resource with ID = 0x0000000600000003 failed. Failed to get values for entity with GID = 0x0000000600000003. Entity  (GID = 0x0000000600000003) does not exist.
 23.7.2025. 13:47:40 : Getting values method started.
 23.7.2025. 13:47:40 : Getting values method successfully finished.
+23.7.2025. 14:16:51 : Getting extent values method started.
+23.7.2025. 14:16:52 : Getting extent values method successfully finished.
+23.7.2025. 14:17:33 : Getting extent values method started.
+23.7.2025. 14:17:33 : Getting extent values method successfully finished.
+23.7.2025. 14:17:52 : Getting extent values method started.
+23.7.2025. 14:17:52 : Getting extent values method successfully finished.
+23.7.2025. 14:18:28 : Getting extent values method started.
+23.7.2025. 14:18:28 : Getting extent values method successfully finished.
+23.7.2025. 14:20:47 : Getting extent values method started.
+23.7.2025. 14:20:47 : Getting extent values method successfully finished.
+23.7.2025. 14:21:17 : Getting extent values method started.
+23.7.2025. 14:21:17 : Getting extent values method successfully finished.
+23.7.2025. 14:21:54 : Getting extent values method started.
+23.7.2025. 14:21:54 : Getting extent values method successfully finished.
+23.7.2025. 14:27:08 : Getting values method started.
+23.7.2025. 14:27:27 : Getting values method for entered id = 21474836483 failed.
+	Getting values for resource with ID = 0x0000000500000003 failed. Failed to get values for entity with GID = 0x0000000500000003. Entity  (GID = 0x0000000500000003) does not exist.
+23.7.2025. 14:27:38 : Getting values method started.
+23.7.2025. 14:38:35 : Getting values method started.
+23.7.2025. 14:38:35 : Getting values method successfully finished.
+23.7.2025. 14:38:46 : Getting values method started.
+23.7.2025. 14:38:46 : Getting values method successfully finished.
+23.7.2025. 14:39:12 : Getting values method started.
+23.7.2025. 14:39:12 : Getting values method successfully finished.
+23.7.2025. 14:55:07 : Getting extent values method started.
+23.7.2025. 14:55:07 : Getting extent values method successfully finished. Found 1 resources.
+23.7.2025. 14:55:28 : Getting extent values method started.
+23.7.2025. 14:55:28 : Getting extent values method successfully finished. Found 9 resources.
+23.7.2025. 14:55:44 : Getting extent values method started.
+23.7.2025. 14:55:44 : Getting extent values method successfully finished. Found 1 resources.
+23.7.2025. 14:55:56 : Getting extent values method started.
+23.7.2025. 14:55:56 : Getting extent values method successfully finished. Found 1 resources.
+1.9.2025. 10:58:42 : Getting related values method started.
+1.9.2025. 10:59:13 : Getting related values method failed for sourceGlobalId = 34359738367 and association (propertyId = 1373879361324777497, type = IDOBJ). Reason: You have tried to create a channel to a service that does not support .Net Framing. It is possible that you are encountering an HTTP endpoint.
+1.9.2025. 11:00:10 : Getting related values method started.
+1.9.2025. 11:00:42 : Getting related values method failed for sourceGlobalId = 34359738367 and association (propertyId = 1229482698272604162, type = IDOBJ). Reason: You have tried to create a channel to a service that does not support .Net Framing. It is possible that you are encountering an HTTP endpoint.
+1.9.2025. 11:01:40 : Getting related values method started.
+1.9.2025. 11:02:11 : Getting related values method failed for sourceGlobalId = 34359738367 and association (propertyId = 1229482698272604162, type = PID). Reason: You have tried to create a channel to a service that does not support .Net Framing. It is possible that you are encountering an HTTP endpoint.
+1.9.2025. 11:03:57 : Getting related values method started.
+1.9.2025. 11:03:57 : Getting related values method failed for sourceGlobalId = 34359738367 and association (propertyId = 1441151880758951937, type = IDOBJ). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1441151880758951937' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+1.9.2025. 11:04:19 : Getting related values method started.
+1.9.2025. 11:04:19 : Getting related values method failed for sourceGlobalId = 34359738367 and association (propertyId = 1229482698272604162, type = IDOBJ). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229482698272604162' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+1.9.2025. 11:06:08 : Getting values method started.
+1.9.2025. 11:06:15 : Getting values method for entered id = 34359738367 failed.
+	Getting values for resource with ID = 0x00000007ffffffff failed. Failed to get values for entity with GID = 0x00000007ffffffff. Entity  (GID = 0x00000007ffffffff) does not exist.
+1.9.2025. 11:06:24 : Getting related values method started.
+1.9.2025. 11:06:24 : Getting related values method failed for sourceGlobalId = 34359738367 and association (propertyId = 1441151880758951937, type = TERM). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1441151880758951937' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+1.9.2025. 11:06:35 : Getting related values method started.
+1.9.2025. 11:06:35 : Getting related values method failed for sourceGlobalId = 34359738367 and association (propertyId = 1229482698272604162, type = IDOBJ). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229482698272604162' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+1.9.2025. 11:06:38 : Getting related values method started.
+1.9.2025. 11:06:38 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 11:06:39 : Getting related values method failed for sourceGlobalId = 34359738367 and association (propertyId = 1229482698272604162, type = ACLS). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229482698272604162' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+1.9.2025. 11:06:46 : Getting related values method started.
+1.9.2025. 11:06:46 : Getting related values method failed for sourceGlobalId = 30064771071 and association (propertyId = 1441151880758951937, type = IDOBJ). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1441151880758951937' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+1.9.2025. 11:06:52 : Getting related values method started.
+1.9.2025. 11:06:52 : Getting related values method failed for sourceGlobalId = 30064771071 and association (propertyId = 1441151880758951937, type = IDOBJ). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1441151880758951937' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+1.9.2025. 11:18:08 : Getting related values method started.
+1.9.2025. 11:18:08 : Getting related values method failed for sourceGlobalId = 30064771071 and association (propertyId = 1441151880758951937, type = IDOBJ). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1441151880758951937' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+1.9.2025. 11:19:10 : Getting related values method started.
+1.9.2025. 11:19:10 : Getting related values method failed for sourceGlobalId = 30064771071 and association (propertyId = 1441151880758951937, type = IDOBJ). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1441151880758951937' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+1.9.2025. 11:23:36 : Getting related values method started.
+1.9.2025. 11:25:08 : Getting extent values method started.
+1.9.2025. 11:25:08 : Getting extent values method successfully finished. Found 1 resources.
+1.9.2025. 11:26:32 : Getting related values method started.
+1.9.2025. 11:26:32 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 11:26:54 : Getting related values method started.
+1.9.2025. 11:26:54 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 11:28:27 : Getting values method started.
+1.9.2025. 11:28:32 : Getting values method for entered id = 34359738367 failed.
+	Getting values for resource with ID = 0x00000007ffffffff failed. Failed to get values for entity with GID = 0x00000007ffffffff. Entity  (GID = 0x00000007ffffffff) does not exist.
+1.9.2025. 11:29:00 : Getting related values method started.
+1.9.2025. 11:29:00 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 11:29:04 : Getting related values method started.
+1.9.2025. 11:29:04 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 11:29:20 : Getting related values method started.
+1.9.2025. 11:29:20 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 11:29:25 : Getting related values method started.
+1.9.2025. 11:29:25 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 11:42:51 : Getting values method started.
+1.9.2025. 11:42:53 : Getting values method for entered id = 30064771070 failed.
+	Getting values for resource with ID = 0x00000006fffffffe failed. Failed to get values for entity with GID = 0x00000006fffffffe. Entity  (GID = 0x00000006fffffffe) does not exist.
+1.9.2025. 11:43:36 : Getting related values method started.
+1.9.2025. 11:43:36 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 11:43:48 : Getting related values method started.
+1.9.2025. 11:43:48 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 11:44:00 : Getting related values method started.
+1.9.2025. 11:44:00 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 11:44:05 : Getting related values method started.
+1.9.2025. 11:44:05 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 11:46:09 : Getting values method started.
+1.9.2025. 11:48:42 : Getting extent values method started.
+1.9.2025. 11:48:43 : Getting extent values method successfully finished. Found 13 resources.
+1.9.2025. 11:49:16 : Getting values method started.
+1.9.2025. 11:49:30 : Getting values method for entered id = 8589934591 failed.
+	Getting values for resource with ID = 0x00000001ffffffff failed. Failed to get values for entity with GID = 0x00000001ffffffff. Entity  (GID = 0x00000001ffffffff) does not exist.
+1.9.2025. 11:49:58 : Getting values method started.
+1.9.2025. 11:50:07 : Getting values method for entered id = 12884901887 failed.
+	Getting values for resource with ID = 0x00000002ffffffff failed. Failed to get values for entity with GID = 0x00000002ffffffff. Entity  (GID = 0x00000002ffffffff) does not exist.
+1.9.2025. 11:50:14 : Getting values method started.
+1.9.2025. 11:50:19 : Getting values method for entered id = 8589934591 failed.
+	Getting values for resource with ID = 0x00000001ffffffff failed. Failed to get values for entity with GID = 0x00000001ffffffff. Entity  (GID = 0x00000001ffffffff) does not exist.
+1.9.2025. 11:50:27 : Getting values method started.
+1.9.2025. 11:50:27 : Getting values method successfully finished.
+1.9.2025. 11:51:25 : Getting values method started.
+1.9.2025. 11:51:30 : Getting values method for entered id = 30064771071 failed.
+	Getting values for resource with ID = 0x00000006ffffffff failed. Failed to get values for entity with GID = 0x00000006ffffffff. Entity  (GID = 0x00000006ffffffff) does not exist.
+1.9.2025. 11:51:38 : Getting values method started.
+1.9.2025. 11:51:38 : Getting values method successfully finished.
+1.9.2025. 11:51:59 : Getting related values method started.
+1.9.2025. 11:51:59 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 11:53:42 : Getting values method started.
+1.9.2025. 11:53:42 : Getting values method successfully finished.
+1.9.2025. 11:56:02 : Getting related values method started.
+1.9.2025. 11:56:02 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 11:58:20 : Getting related values method started.
+1.9.2025. 11:58:21 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 11:59:14 : Getting related values method started.
+1.9.2025. 11:59:32 : Getting related values method failed for sourceGlobalId = 21474836485 and association (propertyId = TERM_CONDUCTINGEQUIPMENT, type = TERM). Reason: Getting related values for resource with ID = 0x0000000500000005 failed. Failed to get related values for source GID = 0x0000000500000005. Entity with GID = 0x0000000500000005 does not contain prperty with Id = TERM_CONDUCTINGEQUIPMENT..
+1.9.2025. 12:00:05 : Getting related values method started.
+1.9.2025. 12:00:05 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 12:01:01 : Getting related values method started.
+1.9.2025. 12:01:01 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 12:01:27 : Getting related values method started.
+1.9.2025. 12:01:27 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 12:01:32 : Getting related values method started.
+1.9.2025. 12:01:32 : Getting related values method failed for sourceGlobalId = 21474836485 and association (propertyId = CE_TERMINALS, type = 1373879361324777472). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1373879361324777472' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+1.9.2025. 12:01:34 : Getting related values method started.
+1.9.2025. 12:01:34 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 12:01:36 : Getting related values method started.
+1.9.2025. 12:01:36 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 12:01:38 : Getting related values method started.
+1.9.2025. 12:01:38 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 12:01:38 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 12:01:39 : Getting related values method started.
+1.9.2025. 12:01:39 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 12:05:37 : Getting related values method started.
+1.9.2025. 12:05:38 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 12:05:41 : Getting related values method started.
+1.9.2025. 12:05:41 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 12:05:43 : Getting related values method started.
+1.9.2025. 12:05:43 : Getting related values method failed for sourceGlobalId = 25769803782 and association (propertyId = TERM_CONDUCTINGEQUIPMENT, type = 1373879361324777472). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1373879361324777472' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+1.9.2025. 12:05:45 : Getting related values method started.
+1.9.2025. 12:05:45 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 12:05:46 : Getting related values method started.
+1.9.2025. 12:05:46 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 12:05:48 : Getting related values method started.
+1.9.2025. 12:05:48 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 12:05:48 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 12:05:51 : Getting related values method started.
+1.9.2025. 12:05:51 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 12:05:55 : Getting related values method started.
+1.9.2025. 12:05:55 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 12:06:00 : Getting related values method started.

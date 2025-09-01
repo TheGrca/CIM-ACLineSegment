@@ -120,7 +120,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
         {
             switch (referenceId)
             {
-                case ModelCode.PLPI_PHASEIMPEDANCEDATAS:
+                case ModelCode.PID_PHASEIMPEDANCE:
                     PhaseImpedanceDatas.Add(globalId);
                     break;
 
@@ -134,7 +134,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
         {
             switch (referenceId)
             {
-                case ModelCode.PLPI_PHASEIMPEDANCEDATAS:
+                case ModelCode.PID_PHASEIMPEDANCE:
                     if (PhaseImpedanceDatas.Contains(globalId))
                     {
                         PhaseImpedanceDatas.Remove(globalId);
