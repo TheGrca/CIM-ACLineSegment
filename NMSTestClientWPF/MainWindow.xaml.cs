@@ -101,14 +101,35 @@ namespace NMSTestClientWPF
             }
         }
 
+
         private void GetValues_Click(object sender, RoutedEventArgs e)
         {
+            if (EntityTypeComboBox.SelectedItem == null)
+            {
+                GetValuesStatusLabel.Content = "Please select an entity type";
+                GetValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Orange);
+                return;
+            }
+            if (string.IsNullOrEmpty(PositionInputTextBox.Text))
+            {
+                GetValuesStatusLabel.Content = "Please enter a position";
+                GetValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Orange);
+                return;
+            }
             TestGda tgda = new TestGda();
-            string gidInput = GidInputTextBox.Text;
             try
             {
-                tgda.GetValues(InputGlobalId(gidInput));
-                GetValuesStatusLabel.Content = $"GetValues was successful for {gidInput}";
+                string entityTypeTag = ((ComboBoxItem)EntityTypeComboBox.SelectedItem).Tag.ToString();
+                string entityTypeName = ((ComboBoxItem)EntityTypeComboBox.SelectedItem).Content.ToString();
+                string position = PositionInputTextBox.Text.Trim().PadLeft(2, '0'); // Pad position to 2 chars
+
+                // Remove 0x prefix and add position
+                string baseHex = entityTypeTag.Substring(2); // Remove "0x"
+                string fullGidHex = $"0x{baseHex}{position}";
+
+                Console.WriteLine("FULL GID: " + fullGidHex);
+                tgda.GetValues(InputGlobalId(fullGidHex));
+                GetValuesStatusLabel.Content = $"GetValues successful for {entityTypeName}";
                 GetValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Green);
             }
             catch (Exception ex)
@@ -153,9 +174,12 @@ namespace NMSTestClientWPF
         }
         private void LoadAttributes_Click(object sender, RoutedEventArgs e)
         {
-            string modelCode = ModelCodeTextBox.Text.Trim();
+            if (ExtentEntityTypeComboBox.SelectedItem == null) return;
+
+            string modelCodeTag = ((ComboBoxItem)ExtentEntityTypeComboBox.SelectedItem).Tag.ToString();
             List<string> attributes = new List<string>();
-            switch (modelCode)
+
+            switch (modelCodeTag)
             {
                 case "0x1200000000010000": // PID
                     attributes.AddRange(new[] { "B", "R", "SEQUENCENUMBER", "X", "PHASEIMPEDANCE" });
@@ -189,6 +213,7 @@ namespace NMSTestClientWPF
                     // Wrong input
                     break;
             }
+
             DynamicCheckboxesPanel.Items.Clear();
             AttributesMessageLabel.Visibility = Visibility.Collapsed;
 
@@ -203,16 +228,21 @@ namespace NMSTestClientWPF
                     };
                     DynamicCheckboxesPanel.Items.Add(checkbox);
                 }
+
+                // Enable Get Extended Values button after attributes are loaded
+                GetExtendedValuesButton.IsEnabled = true;
             }
             else
             {
-                if (modelCode == "0x1311110000030000") // DCLS
+                if (modelCodeTag == "0x1311110000030000") // DCLS
                 {
                     AttributesMessageLabel.Content = "Model has no attributes.";
+                    GetExtendedValuesButton.IsEnabled = true; // Still enable since it's valid
                 }
                 else
                 {
                     AttributesMessageLabel.Content = "Invalid model code.";
+                    GetExtendedValuesButton.IsEnabled = false;
                 }
 
                 AttributesMessageLabel.Visibility = Visibility.Visible;
@@ -221,8 +251,8 @@ namespace NMSTestClientWPF
         private void GetExtentValues_Click(object sender, RoutedEventArgs e)
         {
             TestGda tgda = new TestGda();
-            string modelCodeString = ModelCodeTextBox.Text.Trim();
-            string positionText = PositionTextBox.Text.Trim();
+            string modelCodeString = ((ComboBoxItem)ExtentEntityTypeComboBox.SelectedItem).Tag.ToString();
+            string entityTypeName = ((ComboBoxItem)ExtentEntityTypeComboBox.SelectedItem).Content.ToString();
 
             // Get selected attributes
             List<string> selectedAttributes = new List<string>();
@@ -237,10 +267,10 @@ namespace NMSTestClientWPF
 
             if (!ModelCodeAttributeMap.ContainsKey(modelCodeString))
             {
-                Console.WriteLine("Invalid model code.");
+                ExtendedValuesStatusLabel.Content = "Invalid model code.";
+                ExtendedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Red);
                 return;
             }
-
 
             var attributesMap = ModelCodeAttributeMap[modelCodeString];
             var selectedModelCodes = new List<ModelCode>();
@@ -257,17 +287,35 @@ namespace NMSTestClientWPF
                 }
             }
 
-            int position = 0;
-            if (!string.IsNullOrEmpty(positionText))
+            try
             {
-                if (!int.TryParse(positionText, out position) || position < 0)
-                {
-                    Console.WriteLine("Invalid position. Showing all resources.");
-                    position = 0;
-                }
+                var result = tgda.GetExtentValues(InputModelCode(modelCodeString), selectedModelCodes, 0); // Always position 0 (all)
+                ExtendedValuesStatusLabel.Content = $"GetExtentValues successful for {entityTypeName}";
+                ExtendedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Green);
             }
-            var result = tgda.GetExtentValues(InputModelCode(modelCodeString), selectedModelCodes, position);
+            catch (Exception ex)
+            {
+                ExtendedValuesStatusLabel.Content = $"Error: {ex.Message}";
+                ExtendedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Red);
+            }
         }
+
+        private void ExtentEntityTypeComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // Clear any existing attributes
+            DynamicCheckboxesPanel.Items.Clear();
+            AttributesMessageLabel.Visibility = Visibility.Collapsed;
+
+            // Enable Load Attributes button when entity type is selected
+            LoadAttributesButton.IsEnabled = ExtentEntityTypeComboBox.SelectedItem != null;
+
+            // Disable Get Extended Values button until attributes are loaded
+            GetExtendedValuesButton.IsEnabled = false;
+
+            // Clear status
+            ExtendedValuesStatusLabel.Content = "";
+        }
+
         // GET RELATED VALUES
         private void PropertyIdComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

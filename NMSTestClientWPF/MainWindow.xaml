@@ -7,8 +7,20 @@
             <!-- Tab 1: Get Values -->
             <TabItem Header="Get Values">
                 <StackPanel Margin="20" VerticalAlignment="Top" HorizontalAlignment="Left">
-                    <Label Content="Input GID:" />
-                    <TextBox x:Name="GidInputTextBox" Width="200" Margin="0,5,0,10" />
+                    <Label Content="Select Entity Type:" />
+                    <ComboBox x:Name="EntityTypeComboBox" Width="200" Margin="0,5,0,10">
+                        <ComboBoxItem Content="PerLengthPhaseImpedance" Tag="0x00000007000000"/>
+                        <ComboBoxItem Content="PhaseImpedanceData" Tag="0x00000001000000"/>
+                        <ComboBoxItem Content="PerLengthSequenceImpedance" Tag="0x00000002000000"/>
+                        <ComboBoxItem Content="ACLineSegment" Tag="0x00000005000000"/>
+                        <ComboBoxItem Content="DCLineSegment" Tag="0x00000003000000"/>
+                        <ComboBoxItem Content="SeriesCompensator" Tag="0x00000004000000"/>
+                        <ComboBoxItem Content="Terminal" Tag="0x00000006000000"/>
+                    </ComboBox>
+
+                    <Label Content="Enter Position: " />
+                    <TextBox x:Name="PositionInputTextBox" Width="200" Margin="0,5,0,10" />
+
                     <Button Content="Get Values" Width="120" Height="30" Click="GetValues_Click" />
                     <Label x:Name="GetValuesStatusLabel" Margin="0,10,0,0"
                            Foreground="Green" FontWeight="Bold"/>
@@ -18,11 +30,18 @@
             <!-- Tab 2: Get Extended Values -->
             <TabItem Header="Get Extent Values">
                 <StackPanel Margin="20" VerticalAlignment="Top" HorizontalAlignment="Left">
-                    <Label Content="Enter Model Code:" HorizontalAlignment="Left" />
-                    <TextBox x:Name="ModelCodeTextBox" Width="200" Margin="7,5,0,10" />
-                    <Label Content="Enter Position:" HorizontalAlignment="Left"/>
-                    <TextBox x:Name="PositionTextBox" Width="50" Margin="7,5,0,10" HorizontalAlignment="Left"/>
-                    <Button Content="Load Attributes" Width="140" Height="30" Margin="0,0,0,10" Click="LoadAttributes_Click"/>
+                    <Label Content="Select Entity Type:" HorizontalAlignment="Left" />
+                    <ComboBox x:Name="ExtentEntityTypeComboBox" Width="200" Margin="7,5,0,10" SelectionChanged="ExtentEntityTypeComboBox_SelectionChanged">
+                        <ComboBoxItem Content="PerLengthPhaseImpedance" Tag="0x1110000000070000"/>
+                        <ComboBoxItem Content="PhaseImpedanceData" Tag="0x1200000000010000"/>
+                        <ComboBoxItem Content="PerLengthSequenceImpedance" Tag="0x1120000000020000"/>
+                        <ComboBoxItem Content="DCLineSegment" Tag="0x1311110000030000"/>
+                        <ComboBoxItem Content="SeriesCompensator" Tag="0x1311200000040000"/>
+                        <ComboBoxItem Content="ACLineSegment" Tag="0x1311120000050000"/>
+                        <ComboBoxItem Content="Terminal" Tag="0x1400000000060000"/>
+                    </ComboBox>
+
+                    <Button x:Name="LoadAttributesButton" Content="Load Attributes" Width="140" Height="30" Margin="0,10,0,10" Click="LoadAttributes_Click" IsEnabled="False"/>
 
                     <!-- Placeholder for dynamic checkboxes -->
                     <ItemsControl x:Name="DynamicCheckboxesPanel">
@@ -31,51 +50,44 @@
                                 <StackPanel />
                             </ItemsPanelTemplate>
                         </ItemsControl.ItemsPanel>
-                        <!-- CheckBoxes will be bound and generated dynamically in code-behind or ViewModel -->
                     </ItemsControl>
-                    <Label x:Name="AttributesMessageLabel"
-                       Margin="0,10,0,0"
-                       Foreground="Red"
-                       FontWeight="Bold"
-                       Visibility="Collapsed"/>
 
-                    <Button Content="Get Extended Values" Width="160" Height="30" Margin="0,10,0,0" Click="GetExtentValues_Click"/>
+                    <Label x:Name="AttributesMessageLabel"
+           Margin="0,10,0,0"
+           Foreground="Red"
+           FontWeight="Bold"
+           Visibility="Collapsed"/>
+
+                    <Button x:Name="GetExtendedValuesButton" Content="Get Extended Values" Width="160" Height="30" Margin="0,10,0,0" Click="GetExtentValues_Click" IsEnabled="False"/>
                     <Label x:Name="ExtendedValuesStatusLabel" Margin="0,10,0,0"
-                           Foreground="Green" FontWeight="Bold"/>
+               Foreground="Green" FontWeight="Bold"/>
                 </StackPanel>
             </TabItem>
 
             <!-- Tab 3: Get Related Values -->
             <TabItem Header="Get Related Values">
                 <StackPanel Margin="20" VerticalAlignment="Top" HorizontalAlignment="Left">
-                    <Label Content="Source GID:" />
+                    <Label Content="Select Source Entity Type:" />
+                    <ComboBox x:Name="SourceEntityTypeComboBox" Width="200" Margin="0,5,0,10" SelectionChanged="SourceEntityTypeComboBox_SelectionChanged">
+                        <ComboBoxItem Content="Terminal" Tag="0x1400000000060000"/>
+                        <ComboBoxItem Content="ACLineSegment" Tag="0x1311120000050000"/>
+                        <ComboBoxItem Content="SeriesCompensator" Tag="0x1311200000040000"/>
+                        <ComboBoxItem Content="DCLineSegment" Tag="0x1311110000030000"/>
+                        <ComboBoxItem Content="PerLengthPhaseImpedance" Tag="0x1110000000070000"/>
+                        <ComboBoxItem Content="PhaseImpedanceData" Tag="0x1200000000010000"/>
+                    </ComboBox>
+
+                    <Label Content="Select Property:" />
+                    <ComboBox x:Name="RelatedPropertyComboBox" Width="200" Margin="0,5,0,10" IsEnabled="False" SelectionChanged="RelatedPropertyComboBox_SelectionChanged"/>
+
+                    <Label Content="Select Target Type:" />
+                    <ComboBox x:Name="RelatedTargetTypeComboBox" Width="200" Margin="0,5,0,10" IsEnabled="False"/>
+
+                    <Label Content="Enter Source GID:" />
                     <TextBox x:Name="SourceGidTextBox" Width="200" Margin="0,5,0,10" />
 
-                    <Label Content="Property ID:" />
-                    <ComboBox x:Name="PropertyIdComboBox" Width="200" Margin="0,5,0,10" 
-                              SelectionChanged="PropertyIdComboBox_SelectionChanged">
-                        <ComboBoxItem Content="TERM_CONDUCTINGEQUIPMENT" Tag="0x1400000000060109"/>
-                        <ComboBoxItem Content="CE_TERMINALS" Tag="0x1311000000000119"/>
-                        <ComboBoxItem Content="PLPI_PHASEIMPEDANCEDATAS" Tag="0x1110000000070219"/>
-                        <ComboBoxItem Content="PID_PHASEIMPEDANCE" Tag="0x1200000000010509"/>
-                        <ComboBoxItem Content="ACLS_PERLENGTHIMPEDANCE" Tag="0x1311120000050909"/>
-                    </ComboBox>
-
-                    <Label Content="Target Type (optional):" />
-                    <ComboBox x:Name="TargetTypeComboBox" Width="200" Margin="0,5,0,10">
-                        <ComboBoxItem Content="All Types" Tag="0x0000000000000000"/>
-                        <ComboBoxItem Content="Terminal" Tag="0x1400000000060000"/>
-                        <ComboBoxItem Content="ConductingEquipment" Tag="0x1311000000010000"/>
-                        <ComboBoxItem Content="PhaseImpedanceData" Tag="0x1200000000010000"/>
-                        <ComboBoxItem Content="PerLengthImpedance" Tag="0x1110000000070000"/>
-                        <ComboBoxItem Content="ACLineSegment" Tag="0x1311120000050000"/>
-                    </ComboBox>
-
-                    <CheckBox x:Name="InverseCheckBox" Content="Inverse Association" Margin="0,10,0,10" />
-
-                    <Button Content="Get Related Values" Width="160" Height="30" Margin="0,10,0,0" Click="GetRelatedValues_Click"/>
-                    <Label x:Name="RelatedValuesStatusLabel" Margin="0,10,0,0"
-                           Foreground="Green" FontWeight="Bold"/>
+                    <Button x:Name="GetRelatedValuesButton" Content="Get Related Values" Width="160" Height="30" Margin="0,10,0,0" Click="GetRelatedValues_Click" IsEnabled="False"/>
+                    <Label x:Name="RelatedValuesStatusLabel" Margin="0,10,0,0" Foreground="Green" FontWeight="Bold"/>
                 </StackPanel>
             </TabItem>
         </TabControl>

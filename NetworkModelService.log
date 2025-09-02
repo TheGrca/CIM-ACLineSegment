@@ -1,0 +1,2060 @@
+1.9.2025. 18:58:09 : Starting Network Model Serivice...
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000700000001).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000100000001).
+1.9.2025. 18:58:09 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+1.9.2025. 18:58:09 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+1.9.2025. 18:58:09 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000700000002).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000200000001).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000100000002).
+1.9.2025. 18:58:09 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+1.9.2025. 18:58:09 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+1.9.2025. 18:58:09 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000700000003).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000200000002).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000100000003).
+1.9.2025. 18:58:09 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+1.9.2025. 18:58:09 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+1.9.2025. 18:58:09 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000700000004).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000200000003).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000100000004).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000500000001).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000400000001).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000300000001).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000600000001).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000700000005).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000200000004).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000100000005).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000500000002).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000400000002).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000300000002).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000600000002).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000700000006).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000200000005).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000100000006).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000500000003).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000400000003).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000300000003).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000600000003).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000700000007).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000200000006).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000100000007).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000500000003).
+1.9.2025. 18:58:09 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 18:58:09 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000700000008).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000200000007).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000100000008).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000500000003).
+1.9.2025. 18:58:09 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 18:58:09 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000700000009).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000200000008).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000100000009).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000500000003).
+1.9.2025. 18:58:09 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 18:58:09 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 18:58:09 : Inserting entity with GID (000000070000000a).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000200000009).
+1.9.2025. 18:58:09 : Inserting entity with GID (000000010000000a).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000500000003).
+1.9.2025. 18:58:09 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 18:58:09 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 18:58:09 : Inserting entity with GID (000000070000000b).
+1.9.2025. 18:58:09 : Inserting entity with GID (000000020000000a).
+1.9.2025. 18:58:09 : Inserting entity with GID (000000010000000b).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000500000003).
+1.9.2025. 18:58:09 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 18:58:09 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 18:58:09 : Inserting entity with GID (000000070000000c).
+1.9.2025. 18:58:09 : Inserting entity with GID (000000020000000b).
+1.9.2025. 18:58:09 : Inserting entity with GID (000000010000000c).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000500000004).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000400000004).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000300000004).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000600000004).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000600000005).
+1.9.2025. 18:58:09 : Inserting entity with GID (000000070000000d).
+1.9.2025. 18:58:09 : Inserting entity with GID (000000020000000c).
+1.9.2025. 18:58:09 : Inserting entity with GID (000000010000000d).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000500000005).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000400000005).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000300000005).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000600000006).
+1.9.2025. 18:58:09 : Inserting entity with GID (0000000600000007).
+1.9.2025. 18:58:10 : The WCF service GenericDataAccess is ready.
+1.9.2025. 18:58:10 : Endpoints:
+1.9.2025. 18:58:10 : net.tcp://localhost:10000/NetworkModelService/GDA/
+1.9.2025. 18:58:10 : Connection string: ../NetworkModelData.data
+1.9.2025. 18:58:10 : Trace level: Info
+1.9.2025. 18:58:10 : The Network Model Service is started.
+1.9.2025. 18:58:10 : Press <Enter> to stop the service.
+1.9.2025. 19:05:18 : Applying  delta to network model.
+1.9.2025. 19:05:18 : Inserting entity with GID (000000070000000e).
+1.9.2025. 19:05:18 : Inserting entity with GID (000000020000000d).
+1.9.2025. 19:05:18 : Inserting entity with GID (000000010000000e).
+1.9.2025. 19:05:18 : Inserting entity with GID (0000000500000006).
+1.9.2025. 19:05:18 : Inserting entity with GID (0000000400000006).
+1.9.2025. 19:05:18 : Inserting entity with GID (0000000300000006).
+1.9.2025. 19:05:18 : Inserting entity with GID (0000000600000008).
+1.9.2025. 19:05:18 : Inserting entity with GID (0000000600000009).
+1.9.2025. 19:05:18 : Applying delta to network model successfully finished.
+1.9.2025. 19:10:56 : Failed to get related values for source GID = 0x0000000600000008. Entity with GID = 0x0000000600000008 does not contain prperty with Id = PID_PHASEIMPEDANCE..
+1.9.2025. 19:10:56 : Getting related values for resource with ID = 0x0000000600000008 failed. Failed to get related values for source GID = 0x0000000600000008. Entity with GID = 0x0000000600000008 does not contain prperty with Id = PID_PHASEIMPEDANCE..
+1.9.2025. 19:13:46 : Starting Network Model Serivice...
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000700000001).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000100000001).
+1.9.2025. 19:13:46 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+1.9.2025. 19:13:46 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+1.9.2025. 19:13:46 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000700000002).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000200000001).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000100000002).
+1.9.2025. 19:13:46 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+1.9.2025. 19:13:46 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+1.9.2025. 19:13:46 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000700000003).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000200000002).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000100000003).
+1.9.2025. 19:13:46 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+1.9.2025. 19:13:46 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+1.9.2025. 19:13:46 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000700000004).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000200000003).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000100000004).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000500000001).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000400000001).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000300000001).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000600000001).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000700000005).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000200000004).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000100000005).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000500000002).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000400000002).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000300000002).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000600000002).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000700000006).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000200000005).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000100000006).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000500000003).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000400000003).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000300000003).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000600000003).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000700000007).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000200000006).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000100000007).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000500000003).
+1.9.2025. 19:13:46 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 19:13:46 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000700000008).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000200000007).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000100000008).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000500000003).
+1.9.2025. 19:13:46 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 19:13:46 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000700000009).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000200000008).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000100000009).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000500000003).
+1.9.2025. 19:13:46 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 19:13:46 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 19:13:46 : Inserting entity with GID (000000070000000a).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000200000009).
+1.9.2025. 19:13:46 : Inserting entity with GID (000000010000000a).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000500000003).
+1.9.2025. 19:13:46 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 19:13:46 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 19:13:46 : Inserting entity with GID (000000070000000b).
+1.9.2025. 19:13:46 : Inserting entity with GID (000000020000000a).
+1.9.2025. 19:13:46 : Inserting entity with GID (000000010000000b).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000500000003).
+1.9.2025. 19:13:46 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 19:13:46 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+1.9.2025. 19:13:46 : Inserting entity with GID (000000070000000c).
+1.9.2025. 19:13:46 : Inserting entity with GID (000000020000000b).
+1.9.2025. 19:13:46 : Inserting entity with GID (000000010000000c).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000500000004).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000400000004).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000300000004).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000600000004).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000600000005).
+1.9.2025. 19:13:46 : Inserting entity with GID (000000070000000d).
+1.9.2025. 19:13:46 : Inserting entity with GID (000000020000000c).
+1.9.2025. 19:13:46 : Inserting entity with GID (000000010000000d).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000500000005).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000400000005).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000300000005).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000600000006).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000600000007).
+1.9.2025. 19:13:46 : Inserting entity with GID (000000070000000e).
+1.9.2025. 19:13:46 : Inserting entity with GID (000000020000000d).
+1.9.2025. 19:13:46 : Inserting entity with GID (000000010000000e).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000500000006).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000400000006).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000300000006).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000600000008).
+1.9.2025. 19:13:46 : Inserting entity with GID (0000000600000009).
+1.9.2025. 19:13:47 : The WCF service GenericDataAccess is ready.
+1.9.2025. 19:13:47 : Endpoints:
+1.9.2025. 19:13:47 : net.tcp://localhost:10000/NetworkModelService/GDA/
+1.9.2025. 19:13:47 : Connection string: ../NetworkModelData.data
+1.9.2025. 19:13:47 : Trace level: Info
+1.9.2025. 19:13:47 : The Network Model Service is started.
+1.9.2025. 19:13:47 : Press <Enter> to stop the service.
+1.9.2025. 19:13:58 : Applying  delta to network model.
+1.9.2025. 19:13:58 : Inserting entity with GID (000000070000000f).
+1.9.2025. 19:13:58 : Inserting entity with GID (000000020000000e).
+1.9.2025. 19:13:58 : Inserting entity with GID (000000010000000f).
+1.9.2025. 19:13:58 : Inserting entity with GID (0000000500000007).
+1.9.2025. 19:13:58 : Inserting entity with GID (0000000400000007).
+1.9.2025. 19:13:58 : Inserting entity with GID (0000000300000007).
+1.9.2025. 19:13:58 : Inserting entity with GID (000000060000000a).
+1.9.2025. 19:13:58 : Inserting entity with GID (000000060000000b).
+1.9.2025. 19:13:58 : Applying delta to network model successfully finished.
+1.9.2025. 19:17:41 : Applying  delta to network model.
+1.9.2025. 19:17:41 : Inserting entity with GID (0000000700000010).
+1.9.2025. 19:17:41 : Inserting entity with GID (000000020000000f).
+1.9.2025. 19:17:41 : Inserting entity with GID (0000000100000010).
+1.9.2025. 19:17:41 : Inserting entity with GID (0000000500000008).
+1.9.2025. 19:17:41 : Inserting entity with GID (0000000500000009).
+1.9.2025. 19:17:41 : Inserting entity with GID (0000000400000008).
+1.9.2025. 19:17:41 : Inserting entity with GID (0000000300000008).
+1.9.2025. 19:17:41 : Inserting entity with GID (000000060000000c).
+1.9.2025. 19:17:41 : Inserting entity with GID (000000060000000d).
+1.9.2025. 19:17:41 : Applying delta to network model successfully finished.
+1.9.2025. 19:19:30 : Applying  delta to network model.
+1.9.2025. 19:19:30 : Inserting entity with GID (0000000700000011).
+1.9.2025. 19:19:30 : Inserting entity with GID (0000000200000010).
+1.9.2025. 19:19:30 : Inserting entity with GID (0000000100000011).
+1.9.2025. 19:19:30 : Inserting entity with GID (000000050000000a).
+1.9.2025. 19:19:30 : Inserting entity with GID (000000050000000b).
+1.9.2025. 19:19:30 : Inserting entity with GID (0000000400000009).
+1.9.2025. 19:19:30 : Inserting entity with GID (0000000300000009).
+1.9.2025. 19:19:30 : Inserting entity with GID (000000060000000e).
+1.9.2025. 19:19:30 : Inserting entity with GID (000000060000000f).
+1.9.2025. 19:19:30 : Applying delta to network model successfully finished.
+2.9.2025. 13:47:43 : Starting Network Model Serivice...
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000700000001).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000100000001).
+2.9.2025. 13:47:43 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 13:47:43 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 13:47:43 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000700000002).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000200000001).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000100000002).
+2.9.2025. 13:47:43 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 13:47:43 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 13:47:43 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000700000003).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000200000002).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000100000003).
+2.9.2025. 13:47:43 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 13:47:43 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 13:47:43 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000700000004).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000200000003).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000100000004).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000001).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000400000001).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000300000001).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000600000001).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000700000005).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000200000004).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000100000005).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000002).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000400000002).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000300000002).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000600000002).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000700000006).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000200000005).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000100000006).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000003).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000400000003).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000300000003).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000600000003).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000700000007).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000200000006).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000100000007).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000003).
+2.9.2025. 13:47:43 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 13:47:43 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000700000008).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000200000007).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000100000008).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000003).
+2.9.2025. 13:47:43 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 13:47:43 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000700000009).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000200000008).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000100000009).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000003).
+2.9.2025. 13:47:43 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 13:47:43 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 13:47:43 : Inserting entity with GID (000000070000000a).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000200000009).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000010000000a).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000003).
+2.9.2025. 13:47:43 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 13:47:43 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 13:47:43 : Inserting entity with GID (000000070000000b).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000020000000a).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000010000000b).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000003).
+2.9.2025. 13:47:43 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 13:47:43 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 13:47:43 : Inserting entity with GID (000000070000000c).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000020000000b).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000010000000c).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000004).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000400000004).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000300000004).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000600000004).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000600000005).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000070000000d).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000020000000c).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000010000000d).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000005).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000400000005).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000300000005).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000600000006).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000600000007).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000070000000e).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000020000000d).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000010000000e).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000006).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000400000006).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000300000006).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000600000008).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000600000009).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000070000000f).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000020000000e).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000010000000f).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000007).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000400000007).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000300000007).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000060000000a).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000060000000b).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000700000010).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000020000000f).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000100000010).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000008).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000500000009).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000400000008).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000300000008).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000060000000c).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000060000000d).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000700000011).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000200000010).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000100000011).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000050000000a).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000050000000b).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000400000009).
+2.9.2025. 13:47:43 : Inserting entity with GID (0000000300000009).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000060000000e).
+2.9.2025. 13:47:43 : Inserting entity with GID (000000060000000f).
+2.9.2025. 13:47:44 : The WCF service GenericDataAccess is ready.
+2.9.2025. 13:47:44 : Endpoints:
+2.9.2025. 13:47:44 : net.tcp://localhost:10000/NetworkModelService/GDA/
+2.9.2025. 13:47:44 : Connection string: ../NetworkModelData.data
+2.9.2025. 13:47:44 : Trace level: Info
+2.9.2025. 13:47:44 : The Network Model Service is started.
+2.9.2025. 13:47:44 : Press <Enter> to stop the service.
+2.9.2025. 13:47:54 : Applying  delta to network model.
+2.9.2025. 13:47:55 : Inserting entity with GID (0000000700000012).
+2.9.2025. 13:47:55 : Inserting entity with GID (0000000200000011).
+2.9.2025. 13:47:55 : Inserting entity with GID (0000000100000012).
+2.9.2025. 13:47:55 : Inserting entity with GID (000000050000000c).
+2.9.2025. 13:47:55 : Inserting entity with GID (000000040000000a).
+2.9.2025. 13:47:55 : Inserting entity with GID (000000030000000a).
+2.9.2025. 13:47:55 : Inserting entity with GID (0000000600000010).
+2.9.2025. 13:47:55 : Inserting entity with GID (0000000600000011).
+2.9.2025. 13:47:55 : Applying delta to network model successfully finished.
+2.9.2025. 13:53:11 : Applying  delta to network model.
+2.9.2025. 13:53:11 : Inserting entity with GID (0000000700000013).
+2.9.2025. 13:53:11 : Inserting entity with GID (0000000200000012).
+2.9.2025. 13:53:11 : Inserting entity with GID (0000000100000013).
+2.9.2025. 13:53:11 : Inserting entity with GID (000000050000000d).
+2.9.2025. 13:53:11 : Inserting entity with GID (000000040000000b).
+2.9.2025. 13:53:11 : Inserting entity with GID (000000030000000b).
+2.9.2025. 13:53:11 : Inserting entity with GID (0000000600000012).
+2.9.2025. 13:53:11 : Inserting entity with GID (0000000600000013).
+2.9.2025. 13:53:11 : Applying delta to network model successfully finished.
+2.9.2025. 14:02:32 : Starting Network Model Serivice...
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000700000001).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000100000001).
+2.9.2025. 14:02:32 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:02:32 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:02:32 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000700000002).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000200000001).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000100000002).
+2.9.2025. 14:02:32 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:02:32 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:02:32 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000700000003).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000200000002).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000100000003).
+2.9.2025. 14:02:32 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:02:32 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:02:32 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000700000004).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000200000003).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000100000004).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000001).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000400000001).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000300000001).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000600000001).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000700000005).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000200000004).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000100000005).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000002).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000400000002).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000300000002).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000600000002).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000700000006).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000200000005).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000100000006).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000400000003).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000300000003).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000600000003).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000700000007).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000200000006).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000100000007).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:02:32 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:02:32 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000700000008).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000200000007).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000100000008).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:02:32 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:02:32 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000700000009).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000200000008).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000100000009).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:02:32 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:02:32 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:02:32 : Inserting entity with GID (000000070000000a).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000200000009).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000010000000a).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:02:32 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:02:32 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:02:32 : Inserting entity with GID (000000070000000b).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000020000000a).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000010000000b).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:02:32 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:02:32 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:02:32 : Inserting entity with GID (000000070000000c).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000020000000b).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000010000000c).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000004).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000400000004).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000300000004).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000600000004).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000600000005).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000070000000d).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000020000000c).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000010000000d).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000005).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000400000005).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000300000005).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000600000006).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000600000007).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000070000000e).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000020000000d).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000010000000e).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000006).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000400000006).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000300000006).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000600000008).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000600000009).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000070000000f).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000020000000e).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000010000000f).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000007).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000400000007).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000300000007).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000060000000a).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000060000000b).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000700000010).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000020000000f).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000100000010).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000008).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000500000009).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000400000008).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000300000008).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000060000000c).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000060000000d).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000700000011).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000200000010).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000100000011).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000050000000a).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000050000000b).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000400000009).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000300000009).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000060000000e).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000060000000f).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000700000012).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000200000011).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000100000012).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000050000000c).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000040000000a).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000030000000a).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000600000010).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000600000011).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000700000013).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000200000012).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000100000013).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000050000000d).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000040000000b).
+2.9.2025. 14:02:32 : Inserting entity with GID (000000030000000b).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000600000012).
+2.9.2025. 14:02:32 : Inserting entity with GID (0000000600000013).
+2.9.2025. 14:02:32 : The WCF service GenericDataAccess is ready.
+2.9.2025. 14:02:32 : Endpoints:
+2.9.2025. 14:02:32 : net.tcp://localhost:10000/NetworkModelService/GDA/
+2.9.2025. 14:02:32 : Connection string: ../NetworkModelData.data
+2.9.2025. 14:02:32 : Trace level: Info
+2.9.2025. 14:02:32 : The Network Model Service is started.
+2.9.2025. 14:02:32 : Press <Enter> to stop the service.
+2.9.2025. 14:05:21 : Starting Network Model Serivice...
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000700000001).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000100000001).
+2.9.2025. 14:05:21 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:05:21 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:05:21 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000700000002).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000200000001).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000100000002).
+2.9.2025. 14:05:21 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:05:21 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:05:21 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000700000003).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000200000002).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000100000003).
+2.9.2025. 14:05:21 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:05:21 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:05:21 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000700000004).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000200000003).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000100000004).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000001).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000400000001).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000300000001).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000600000001).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000700000005).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000200000004).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000100000005).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000002).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000400000002).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000300000002).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000600000002).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000700000006).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000200000005).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000100000006).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000400000003).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000300000003).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000600000003).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000700000007).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000200000006).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000100000007).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:05:21 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:05:21 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000700000008).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000200000007).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000100000008).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:05:21 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:05:21 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000700000009).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000200000008).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000100000009).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:05:21 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:05:21 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:05:21 : Inserting entity with GID (000000070000000a).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000200000009).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000010000000a).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:05:21 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:05:21 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:05:21 : Inserting entity with GID (000000070000000b).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000020000000a).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000010000000b).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:05:21 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:05:21 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:05:21 : Inserting entity with GID (000000070000000c).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000020000000b).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000010000000c).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000004).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000400000004).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000300000004).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000600000004).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000600000005).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000070000000d).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000020000000c).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000010000000d).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000005).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000400000005).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000300000005).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000600000006).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000600000007).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000070000000e).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000020000000d).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000010000000e).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000006).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000400000006).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000300000006).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000600000008).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000600000009).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000070000000f).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000020000000e).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000010000000f).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000007).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000400000007).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000300000007).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000060000000a).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000060000000b).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000700000010).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000020000000f).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000100000010).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000008).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000500000009).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000400000008).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000300000008).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000060000000c).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000060000000d).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000700000011).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000200000010).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000100000011).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000050000000a).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000050000000b).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000400000009).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000300000009).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000060000000e).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000060000000f).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000700000012).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000200000011).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000100000012).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000050000000c).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000040000000a).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000030000000a).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000600000010).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000600000011).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000700000013).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000200000012).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000100000013).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000050000000d).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000040000000b).
+2.9.2025. 14:05:21 : Inserting entity with GID (000000030000000b).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000600000012).
+2.9.2025. 14:05:21 : Inserting entity with GID (0000000600000013).
+2.9.2025. 14:05:22 : The WCF service GenericDataAccess is ready.
+2.9.2025. 14:05:22 : Endpoints:
+2.9.2025. 14:05:22 : net.tcp://localhost:10000/NetworkModelService/GDA/
+2.9.2025. 14:05:22 : Connection string: ../NetworkModelData.data
+2.9.2025. 14:05:22 : Trace level: Info
+2.9.2025. 14:05:22 : The Network Model Service is started.
+2.9.2025. 14:05:22 : Press <Enter> to stop the service.
+2.9.2025. 14:06:10 : Starting Network Model Serivice...
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000700000001).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000100000001).
+2.9.2025. 14:06:10 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:06:10 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:06:10 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000700000002).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000200000001).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000100000002).
+2.9.2025. 14:06:10 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:06:10 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:06:10 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000700000003).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000200000002).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000100000003).
+2.9.2025. 14:06:10 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:06:10 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:06:10 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000700000004).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000200000003).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000100000004).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000001).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000400000001).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000300000001).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000600000001).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000700000005).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000200000004).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000100000005).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000002).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000400000002).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000300000002).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000600000002).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000700000006).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000200000005).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000100000006).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000400000003).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000300000003).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000600000003).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000700000007).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000200000006).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000100000007).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:06:10 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:06:10 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000700000008).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000200000007).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000100000008).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:06:10 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:06:10 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000700000009).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000200000008).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000100000009).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:06:10 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:06:10 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:06:10 : Inserting entity with GID (000000070000000a).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000200000009).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000010000000a).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:06:10 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:06:10 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:06:10 : Inserting entity with GID (000000070000000b).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000020000000a).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000010000000b).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:06:10 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:06:10 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:06:10 : Inserting entity with GID (000000070000000c).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000020000000b).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000010000000c).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000004).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000400000004).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000300000004).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000600000004).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000600000005).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000070000000d).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000020000000c).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000010000000d).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000005).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000400000005).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000300000005).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000600000006).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000600000007).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000070000000e).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000020000000d).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000010000000e).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000006).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000400000006).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000300000006).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000600000008).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000600000009).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000070000000f).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000020000000e).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000010000000f).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000007).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000400000007).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000300000007).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000060000000a).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000060000000b).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000700000010).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000020000000f).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000100000010).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000008).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000500000009).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000400000008).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000300000008).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000060000000c).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000060000000d).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000700000011).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000200000010).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000100000011).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000050000000a).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000050000000b).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000400000009).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000300000009).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000060000000e).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000060000000f).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000700000012).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000200000011).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000100000012).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000050000000c).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000040000000a).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000030000000a).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000600000010).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000600000011).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000700000013).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000200000012).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000100000013).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000050000000d).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000040000000b).
+2.9.2025. 14:06:10 : Inserting entity with GID (000000030000000b).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000600000012).
+2.9.2025. 14:06:10 : Inserting entity with GID (0000000600000013).
+2.9.2025. 14:06:10 : The WCF service GenericDataAccess is ready.
+2.9.2025. 14:06:10 : Endpoints:
+2.9.2025. 14:06:10 : net.tcp://localhost:10000/NetworkModelService/GDA/
+2.9.2025. 14:06:10 : Connection string: ../NetworkModelData.data
+2.9.2025. 14:06:10 : Trace level: Info
+2.9.2025. 14:06:10 : The Network Model Service is started.
+2.9.2025. 14:06:10 : Press <Enter> to stop the service.
+2.9.2025. 14:24:40 : Starting Network Model Serivice...
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000700000001).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000100000001).
+2.9.2025. 14:24:41 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:24:41 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:24:41 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000700000002).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000200000001).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000100000002).
+2.9.2025. 14:24:41 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:24:41 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:24:41 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000700000003).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000200000002).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000100000003).
+2.9.2025. 14:24:41 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:24:41 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:24:41 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000700000004).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000200000003).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000100000004).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000001).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000400000001).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000300000001).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000600000001).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000700000005).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000200000004).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000100000005).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000002).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000400000002).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000300000002).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000600000002).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000700000006).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000200000005).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000100000006).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000400000003).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000300000003).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000600000003).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000700000007).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000200000006).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000100000007).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:24:41 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:24:41 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000700000008).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000200000007).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000100000008).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:24:41 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:24:41 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000700000009).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000200000008).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000100000009).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:24:41 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:24:41 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:24:41 : Inserting entity with GID (000000070000000a).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000200000009).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000010000000a).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:24:41 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:24:41 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:24:41 : Inserting entity with GID (000000070000000b).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000020000000a).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000010000000b).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:24:41 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:24:41 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:24:41 : Inserting entity with GID (000000070000000c).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000020000000b).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000010000000c).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000004).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000400000004).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000300000004).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000600000004).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000600000005).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000070000000d).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000020000000c).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000010000000d).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000005).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000400000005).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000300000005).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000600000006).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000600000007).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000070000000e).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000020000000d).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000010000000e).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000006).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000400000006).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000300000006).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000600000008).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000600000009).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000070000000f).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000020000000e).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000010000000f).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000007).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000400000007).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000300000007).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000060000000a).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000060000000b).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000700000010).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000020000000f).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000100000010).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000008).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000500000009).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000400000008).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000300000008).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000060000000c).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000060000000d).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000700000011).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000200000010).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000100000011).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000050000000a).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000050000000b).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000400000009).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000300000009).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000060000000e).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000060000000f).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000700000012).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000200000011).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000100000012).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000050000000c).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000040000000a).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000030000000a).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000600000010).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000600000011).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000700000013).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000200000012).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000100000013).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000050000000d).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000040000000b).
+2.9.2025. 14:24:41 : Inserting entity with GID (000000030000000b).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000600000012).
+2.9.2025. 14:24:41 : Inserting entity with GID (0000000600000013).
+2.9.2025. 14:24:41 : The WCF service GenericDataAccess is ready.
+2.9.2025. 14:24:41 : Endpoints:
+2.9.2025. 14:24:41 : net.tcp://localhost:10000/NetworkModelService/GDA/
+2.9.2025. 14:24:41 : Connection string: ../NetworkModelData.data
+2.9.2025. 14:24:41 : Trace level: Info
+2.9.2025. 14:24:41 : The Network Model Service is started.
+2.9.2025. 14:24:41 : Press <Enter> to stop the service.
+2.9.2025. 14:24:50 : Applying  delta to network model.
+2.9.2025. 14:24:50 : Inserting entity with GID (0000000700000014).
+2.9.2025. 14:24:50 : Inserting entity with GID (0000000200000013).
+2.9.2025. 14:24:50 : Inserting entity with GID (0000000100000014).
+2.9.2025. 14:24:50 : Inserting entity with GID (000000050000000e).
+2.9.2025. 14:24:50 : Inserting entity with GID (000000040000000c).
+2.9.2025. 14:24:50 : Inserting entity with GID (000000030000000c).
+2.9.2025. 14:24:50 : Inserting entity with GID (0000000600000014).
+2.9.2025. 14:24:50 : Inserting entity with GID (0000000600000015).
+2.9.2025. 14:24:50 : Applying delta to network model successfully finished.
+2.9.2025. 14:26:24 : Starting Network Model Serivice...
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000001).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000001).
+2.9.2025. 14:26:24 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:26:24 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:26:24 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000002).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000200000001).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000002).
+2.9.2025. 14:26:24 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:26:24 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:26:24 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000003).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000200000002).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000003).
+2.9.2025. 14:26:24 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:26:24 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:26:24 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000004).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000200000003).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000004).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000001).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000400000001).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000300000001).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000001).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000005).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000200000004).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000005).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000002).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000400000002).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000300000002).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000002).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000006).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000200000005).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000006).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000400000003).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000300000003).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000003).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000007).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000200000006).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000007).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:26:24 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:26:24 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000008).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000200000007).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000008).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:26:24 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:26:24 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000009).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000200000008).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000009).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:26:24 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:26:24 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:26:24 : Inserting entity with GID (000000070000000a).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000200000009).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000010000000a).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:26:24 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:26:24 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:26:24 : Inserting entity with GID (000000070000000b).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000020000000a).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000010000000b).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:26:24 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:26:24 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:26:24 : Inserting entity with GID (000000070000000c).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000020000000b).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000010000000c).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000004).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000400000004).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000300000004).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000004).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000005).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000070000000d).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000020000000c).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000010000000d).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000005).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000400000005).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000300000005).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000006).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000007).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000070000000e).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000020000000d).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000010000000e).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000006).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000400000006).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000300000006).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000008).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000009).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000070000000f).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000020000000e).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000010000000f).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000007).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000400000007).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000300000007).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000060000000a).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000060000000b).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000010).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000020000000f).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000010).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000008).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000500000009).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000400000008).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000300000008).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000060000000c).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000060000000d).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000011).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000200000010).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000011).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000050000000a).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000050000000b).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000400000009).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000300000009).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000060000000e).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000060000000f).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000012).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000200000011).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000012).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000050000000c).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000040000000a).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000030000000a).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000010).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000011).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000013).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000200000012).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000013).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000050000000d).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000040000000b).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000030000000b).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000012).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000013).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000700000014).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000200000013).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000100000014).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000050000000e).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000040000000c).
+2.9.2025. 14:26:24 : Inserting entity with GID (000000030000000c).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000014).
+2.9.2025. 14:26:24 : Inserting entity with GID (0000000600000015).
+2.9.2025. 14:26:24 : The WCF service GenericDataAccess is ready.
+2.9.2025. 14:26:24 : Endpoints:
+2.9.2025. 14:26:24 : net.tcp://localhost:10000/NetworkModelService/GDA/
+2.9.2025. 14:26:24 : Connection string: ../NetworkModelData.data
+2.9.2025. 14:26:24 : Trace level: Info
+2.9.2025. 14:26:24 : The Network Model Service is started.
+2.9.2025. 14:26:24 : Press <Enter> to stop the service.
+2.9.2025. 14:27:07 : Starting Network Model Serivice...
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000001).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000001).
+2.9.2025. 14:27:07 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:27:07 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:27:07 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000002).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000200000001).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000002).
+2.9.2025. 14:27:07 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:27:07 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:27:07 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000003).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000200000002).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000003).
+2.9.2025. 14:27:07 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:27:07 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:27:07 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000004).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000200000003).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000004).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000001).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000400000001).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000300000001).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000001).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000005).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000200000004).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000005).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000002).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000400000002).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000300000002).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000002).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000006).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000200000005).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000006).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000400000003).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000300000003).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000003).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000007).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000200000006).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000007).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:27:07 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:27:07 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000008).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000200000007).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000008).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:27:07 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:27:07 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000009).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000200000008).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000009).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:27:07 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:27:07 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:27:07 : Inserting entity with GID (000000070000000a).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000200000009).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000010000000a).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:27:07 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:27:07 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:27:07 : Inserting entity with GID (000000070000000b).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000020000000a).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000010000000b).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:27:07 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:27:07 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:27:07 : Inserting entity with GID (000000070000000c).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000020000000b).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000010000000c).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000004).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000400000004).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000300000004).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000004).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000005).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000070000000d).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000020000000c).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000010000000d).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000005).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000400000005).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000300000005).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000006).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000007).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000070000000e).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000020000000d).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000010000000e).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000006).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000400000006).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000300000006).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000008).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000009).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000070000000f).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000020000000e).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000010000000f).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000007).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000400000007).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000300000007).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000060000000a).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000060000000b).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000010).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000020000000f).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000010).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000008).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000500000009).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000400000008).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000300000008).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000060000000c).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000060000000d).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000011).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000200000010).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000011).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000050000000a).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000050000000b).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000400000009).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000300000009).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000060000000e).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000060000000f).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000012).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000200000011).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000012).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000050000000c).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000040000000a).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000030000000a).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000010).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000011).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000013).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000200000012).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000013).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000050000000d).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000040000000b).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000030000000b).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000012).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000013).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000700000014).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000200000013).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000100000014).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000050000000e).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000040000000c).
+2.9.2025. 14:27:07 : Inserting entity with GID (000000030000000c).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000014).
+2.9.2025. 14:27:07 : Inserting entity with GID (0000000600000015).
+2.9.2025. 14:27:08 : The WCF service GenericDataAccess is ready.
+2.9.2025. 14:27:08 : Endpoints:
+2.9.2025. 14:27:08 : net.tcp://localhost:10000/NetworkModelService/GDA/
+2.9.2025. 14:27:08 : Connection string: ../NetworkModelData.data
+2.9.2025. 14:27:08 : Trace level: Info
+2.9.2025. 14:27:08 : The Network Model Service is started.
+2.9.2025. 14:27:08 : Press <Enter> to stop the service.
+2.9.2025. 14:27:14 : Applying  delta to network model.
+2.9.2025. 14:27:14 : Inserting entity with GID (0000000700000015).
+2.9.2025. 14:27:14 : Inserting entity with GID (0000000200000014).
+2.9.2025. 14:27:14 : Inserting entity with GID (0000000100000015).
+2.9.2025. 14:27:14 : Inserting entity with GID (000000050000000f).
+2.9.2025. 14:27:14 : Inserting entity with GID (000000040000000d).
+2.9.2025. 14:27:14 : Inserting entity with GID (000000030000000d).
+2.9.2025. 14:27:14 : Inserting entity with GID (0000000600000016).
+2.9.2025. 14:27:14 : Inserting entity with GID (0000000600000017).
+2.9.2025. 14:27:14 : Applying delta to network model successfully finished.
+2.9.2025. 14:29:25 : Starting Network Model Serivice...
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000001).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000001).
+2.9.2025. 14:29:25 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:29:25 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:29:25 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000002).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000001).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000002).
+2.9.2025. 14:29:25 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:29:25 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:29:25 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000003).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000002).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000003).
+2.9.2025. 14:29:25 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:29:25 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:29:25 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000004).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000003).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000004).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000001).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000400000001).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000300000001).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000001).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000005).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000004).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000005).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000002).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000400000002).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000300000002).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000002).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000006).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000005).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000006).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000400000003).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000300000003).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000003).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000007).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000006).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000007).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:29:25 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:29:25 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000008).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000007).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000008).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:29:25 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:29:25 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000009).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000008).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000009).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:29:25 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:29:25 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:29:25 : Inserting entity with GID (000000070000000a).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000009).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000010000000a).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:29:25 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:29:25 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:29:25 : Inserting entity with GID (000000070000000b).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000020000000a).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000010000000b).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:29:25 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:29:25 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:29:25 : Inserting entity with GID (000000070000000c).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000020000000b).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000010000000c).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000004).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000400000004).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000300000004).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000004).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000005).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000070000000d).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000020000000c).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000010000000d).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000005).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000400000005).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000300000005).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000006).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000007).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000070000000e).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000020000000d).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000010000000e).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000006).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000400000006).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000300000006).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000008).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000009).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000070000000f).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000020000000e).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000010000000f).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000007).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000400000007).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000300000007).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000060000000a).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000060000000b).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000010).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000020000000f).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000010).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000008).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000500000009).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000400000008).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000300000008).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000060000000c).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000060000000d).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000011).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000010).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000011).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000050000000a).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000050000000b).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000400000009).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000300000009).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000060000000e).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000060000000f).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000012).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000011).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000012).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000050000000c).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000040000000a).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000030000000a).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000010).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000011).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000013).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000012).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000013).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000050000000d).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000040000000b).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000030000000b).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000012).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000013).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000014).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000013).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000014).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000050000000e).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000040000000c).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000030000000c).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000014).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000015).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000700000015).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000200000014).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000100000015).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000050000000f).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000040000000d).
+2.9.2025. 14:29:25 : Inserting entity with GID (000000030000000d).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000016).
+2.9.2025. 14:29:25 : Inserting entity with GID (0000000600000017).
+2.9.2025. 14:29:25 : The WCF service GenericDataAccess is ready.
+2.9.2025. 14:29:25 : Endpoints:
+2.9.2025. 14:29:25 : net.tcp://localhost:10000/NetworkModelService/GDA/
+2.9.2025. 14:29:25 : Connection string: ../NetworkModelData.data
+2.9.2025. 14:29:25 : Trace level: Info
+2.9.2025. 14:29:25 : The Network Model Service is started.
+2.9.2025. 14:29:25 : Press <Enter> to stop the service.
+2.9.2025. 14:31:46 : Starting Network Model Serivice...
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000001).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000001).
+2.9.2025. 14:31:46 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:31:46 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:31:46 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000002).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000001).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000002).
+2.9.2025. 14:31:46 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:31:46 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:31:46 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000003).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000002).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000003).
+2.9.2025. 14:31:46 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:31:46 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:31:46 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000004).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000003).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000004).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000001).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000400000001).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000300000001).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000001).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000005).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000004).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000005).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000002).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000400000002).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000300000002).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000002).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000006).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000005).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000006).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000400000003).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000300000003).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000003).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000007).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000006).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000007).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:31:46 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:31:46 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000008).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000007).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000008).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:31:46 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:31:46 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000009).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000008).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000009).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:31:46 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:31:46 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:31:46 : Inserting entity with GID (000000070000000a).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000009).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000010000000a).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:31:46 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:31:46 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:31:46 : Inserting entity with GID (000000070000000b).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000020000000a).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000010000000b).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:31:46 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:31:46 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:31:46 : Inserting entity with GID (000000070000000c).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000020000000b).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000010000000c).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000004).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000400000004).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000300000004).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000004).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000005).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000070000000d).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000020000000c).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000010000000d).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000005).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000400000005).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000300000005).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000006).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000007).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000070000000e).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000020000000d).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000010000000e).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000006).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000400000006).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000300000006).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000008).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000009).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000070000000f).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000020000000e).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000010000000f).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000007).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000400000007).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000300000007).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000060000000a).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000060000000b).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000010).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000020000000f).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000010).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000008).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000500000009).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000400000008).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000300000008).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000060000000c).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000060000000d).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000011).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000010).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000011).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000050000000a).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000050000000b).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000400000009).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000300000009).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000060000000e).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000060000000f).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000012).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000011).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000012).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000050000000c).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000040000000a).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000030000000a).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000010).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000011).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000013).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000012).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000013).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000050000000d).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000040000000b).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000030000000b).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000012).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000013).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000014).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000013).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000014).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000050000000e).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000040000000c).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000030000000c).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000014).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000015).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000700000015).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000200000014).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000100000015).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000050000000f).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000040000000d).
+2.9.2025. 14:31:46 : Inserting entity with GID (000000030000000d).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000016).
+2.9.2025. 14:31:46 : Inserting entity with GID (0000000600000017).
+2.9.2025. 14:31:46 : The WCF service GenericDataAccess is ready.
+2.9.2025. 14:31:46 : Endpoints:
+2.9.2025. 14:31:46 : net.tcp://localhost:10000/NetworkModelService/GDA/
+2.9.2025. 14:31:47 : Connection string: ../NetworkModelData.data
+2.9.2025. 14:31:47 : Trace level: Info
+2.9.2025. 14:31:47 : The Network Model Service is started.
+2.9.2025. 14:31:47 : Press <Enter> to stop the service.
+2.9.2025. 14:33:05 : Starting Network Model Serivice...
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000001).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000001).
+2.9.2025. 14:33:05 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:33:05 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:33:05 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000002).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000001).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000002).
+2.9.2025. 14:33:05 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:33:05 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:33:05 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000003).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000002).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000003).
+2.9.2025. 14:33:05 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:33:05 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:33:05 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000004).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000003).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000004).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000001).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000400000001).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000300000001).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000001).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000005).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000004).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000005).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000002).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000400000002).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000300000002).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000002).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000006).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000005).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000006).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000400000003).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000300000003).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000003).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000007).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000006).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000007).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:33:05 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:33:05 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000008).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000007).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000008).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:33:05 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:33:05 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000009).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000008).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000009).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:33:05 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:33:05 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:33:05 : Inserting entity with GID (000000070000000a).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000009).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000010000000a).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:33:05 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:33:05 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:33:05 : Inserting entity with GID (000000070000000b).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000020000000a).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000010000000b).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:33:05 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:33:05 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:33:05 : Inserting entity with GID (000000070000000c).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000020000000b).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000010000000c).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000004).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000400000004).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000300000004).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000004).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000005).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000070000000d).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000020000000c).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000010000000d).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000005).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000400000005).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000300000005).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000006).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000007).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000070000000e).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000020000000d).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000010000000e).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000006).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000400000006).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000300000006).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000008).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000009).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000070000000f).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000020000000e).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000010000000f).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000007).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000400000007).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000300000007).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000060000000a).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000060000000b).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000010).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000020000000f).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000010).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000008).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000500000009).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000400000008).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000300000008).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000060000000c).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000060000000d).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000011).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000010).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000011).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000050000000a).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000050000000b).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000400000009).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000300000009).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000060000000e).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000060000000f).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000012).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000011).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000012).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000050000000c).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000040000000a).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000030000000a).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000010).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000011).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000013).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000012).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000013).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000050000000d).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000040000000b).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000030000000b).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000012).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000013).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000014).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000013).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000014).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000050000000e).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000040000000c).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000030000000c).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000014).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000015).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000700000015).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000200000014).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000100000015).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000050000000f).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000040000000d).
+2.9.2025. 14:33:05 : Inserting entity with GID (000000030000000d).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000016).
+2.9.2025. 14:33:05 : Inserting entity with GID (0000000600000017).
+2.9.2025. 14:33:06 : The WCF service GenericDataAccess is ready.
+2.9.2025. 14:33:06 : Endpoints:
+2.9.2025. 14:33:06 : net.tcp://localhost:10000/NetworkModelService/GDA/
+2.9.2025. 14:33:06 : Connection string: ../NetworkModelData.data
+2.9.2025. 14:33:06 : Trace level: Info
+2.9.2025. 14:33:06 : The Network Model Service is started.
+2.9.2025. 14:33:06 : Press <Enter> to stop the service.
+2.9.2025. 14:47:08 : Starting Network Model Serivice...
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000001).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000001).
+2.9.2025. 14:47:08 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:47:08 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:47:08 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000002).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000001).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000002).
+2.9.2025. 14:47:08 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:47:08 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:47:08 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000003).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000002).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000003).
+2.9.2025. 14:47:08 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:47:08 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:47:08 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000004).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000003).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000004).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000001).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000400000001).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000300000001).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000001).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000005).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000004).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000005).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000002).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000400000002).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000300000002).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000002).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000006).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000005).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000006).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000400000003).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000300000003).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000003).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000007).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000006).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000007).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:47:08 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:47:08 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000008).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000007).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000008).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:47:08 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:47:08 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000009).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000008).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000009).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:47:08 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:47:08 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:47:08 : Inserting entity with GID (000000070000000a).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000009).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000010000000a).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:47:08 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:47:08 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:47:08 : Inserting entity with GID (000000070000000b).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000020000000a).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000010000000b).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:47:08 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:47:08 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:47:08 : Inserting entity with GID (000000070000000c).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000020000000b).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000010000000c).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000004).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000400000004).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000300000004).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000004).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000005).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000070000000d).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000020000000c).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000010000000d).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000005).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000400000005).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000300000005).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000006).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000007).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000070000000e).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000020000000d).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000010000000e).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000006).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000400000006).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000300000006).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000008).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000009).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000070000000f).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000020000000e).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000010000000f).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000007).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000400000007).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000300000007).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000060000000a).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000060000000b).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000010).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000020000000f).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000010).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000008).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000500000009).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000400000008).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000300000008).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000060000000c).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000060000000d).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000011).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000010).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000011).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000050000000a).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000050000000b).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000400000009).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000300000009).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000060000000e).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000060000000f).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000012).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000011).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000012).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000050000000c).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000040000000a).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000030000000a).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000010).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000011).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000013).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000012).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000013).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000050000000d).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000040000000b).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000030000000b).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000012).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000013).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000014).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000013).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000014).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000050000000e).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000040000000c).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000030000000c).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000014).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000015).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000700000015).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000200000014).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000100000015).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000050000000f).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000040000000d).
+2.9.2025. 14:47:08 : Inserting entity with GID (000000030000000d).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000016).
+2.9.2025. 14:47:08 : Inserting entity with GID (0000000600000017).
+2.9.2025. 14:47:09 : The WCF service GenericDataAccess is ready.
+2.9.2025. 14:47:09 : Endpoints:
+2.9.2025. 14:47:09 : net.tcp://localhost:10000/NetworkModelService/GDA/
+2.9.2025. 14:47:09 : Connection string: ../NetworkModelData.data
+2.9.2025. 14:47:09 : Trace level: Info
+2.9.2025. 14:47:09 : The Network Model Service is started.
+2.9.2025. 14:47:09 : Press <Enter> to stop the service.
+2.9.2025. 14:52:02 : Starting Network Model Serivice...
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000001).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000001).
+2.9.2025. 14:52:02 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:52:02 : Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:52:02 : Error while applying delta (id = 1) during service initialization. Failed to insert entity (GID = 0x0000000100000001) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000001).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000002).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000001).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000002).
+2.9.2025. 14:52:02 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:52:02 : Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:52:02 : Error while applying delta (id = 2) during service initialization. Failed to insert entity (GID = 0x0000000100000002) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000002).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000003).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000002).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000003).
+2.9.2025. 14:52:02 : Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:52:02 : Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:52:02 : Error while applying delta (id = 3) during service initialization. Failed to insert entity (GID = 0x0000000100000003) into model. Unknown property id = 1297036692682769156 for entity (GID = 0x0000000100000003).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000004).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000003).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000004).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000001).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000400000001).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000300000001).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000001).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000005).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000004).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000005).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000002).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000400000002).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000300000002).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000002).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000006).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000005).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000006).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000400000003).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000300000003).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000003).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000007).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000006).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000007).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:52:02 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:52:02 : Error while applying delta (id = 7) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000008).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000007).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000008).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:52:02 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:52:02 : Error while applying delta (id = 8) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000009).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000008).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000009).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:52:02 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:52:02 : Error while applying delta (id = 9) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:52:02 : Inserting entity with GID (000000070000000a).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000009).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000010000000a).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:52:02 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:52:02 : Error while applying delta (id = 10) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:52:02 : Inserting entity with GID (000000070000000b).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000020000000a).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000010000000b).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000003).
+2.9.2025. 14:52:02 : Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:52:02 : Error while applying delta (id = 11) during service initialization. Failed to insert entity because entity with specified GID (0000000500000003) already exists in network model.
+2.9.2025. 14:52:02 : Inserting entity with GID (000000070000000c).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000020000000b).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000010000000c).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000004).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000400000004).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000300000004).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000004).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000005).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000070000000d).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000020000000c).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000010000000d).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000005).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000400000005).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000300000005).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000006).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000007).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000070000000e).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000020000000d).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000010000000e).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000006).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000400000006).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000300000006).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000008).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000009).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000070000000f).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000020000000e).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000010000000f).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000007).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000400000007).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000300000007).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000060000000a).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000060000000b).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000010).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000020000000f).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000010).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000008).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000500000009).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000400000008).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000300000008).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000060000000c).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000060000000d).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000011).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000010).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000011).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000050000000a).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000050000000b).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000400000009).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000300000009).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000060000000e).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000060000000f).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000012).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000011).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000012).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000050000000c).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000040000000a).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000030000000a).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000010).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000011).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000013).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000012).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000013).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000050000000d).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000040000000b).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000030000000b).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000012).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000013).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000014).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000013).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000014).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000050000000e).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000040000000c).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000030000000c).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000014).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000015).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000700000015).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000200000014).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000100000015).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000050000000f).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000040000000d).
+2.9.2025. 14:52:02 : Inserting entity with GID (000000030000000d).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000016).
+2.9.2025. 14:52:02 : Inserting entity with GID (0000000600000017).
+2.9.2025. 14:52:02 : The WCF service GenericDataAccess is ready.
+2.9.2025. 14:52:02 : Endpoints:
+2.9.2025. 14:52:02 : net.tcp://localhost:10000/NetworkModelService/GDA/
+2.9.2025. 14:52:02 : Connection string: ../NetworkModelData.data
+2.9.2025. 14:52:03 : Trace level: Info
+2.9.2025. 14:52:03 : The Network Model Service is started.
+2.9.2025. 14:52:03 : Press <Enter> to stop the service.

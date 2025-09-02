@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\nmstestclientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|solutionrelative:nmstestclientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\nmstestclientwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|solutionrelative:nmstestclientwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\nmstestclientwpf\\testgda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|solutionrelative:nmstestclientwpf\\testgda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|c:\\users\\korisnik\\desktop\\modeli\\projekat\\modellabsprojekat\\modellabs\\nmstestclientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|solutionrelative:nmstestclientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\networkmodelservice\\networkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|solutionrelative:networkmodelservice\\networkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\networkmodelservice\\datamodel\\wires\\perlengthphaseimpedance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\wires\\perlengthphaseimpedance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\networkmodelservice\\datamodel\\wires\\dclinesegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\wires\\dclinesegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\nmstestclientwpf\\testgda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|solutionrelative:nmstestclientwpf\\testgda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\cimadapter\\importer\\powertransformerimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\powertransformerimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\cimadapter\\importer\\powertransformerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\powertransformerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\common\\gda\\resourcedescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\resourcedescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\cimadapter\\cimadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\cimadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\networkmodelservice\\networkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|solutionrelative:networkmodelservice\\networkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\networkmodelservice\\datamodel\\core\\identifiedobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,35 +63,19 @@
       "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\core\\conductingequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|c:\\users\\korisnik\\desktop\\modeli\\projekat\\modellabsprojekat\\modellabs\\nmstestclientwpf\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\nmstestclientwpf\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|solutionrelative:nmstestclientwpf\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\cimadapter\\cimadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\cimadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\cimadapter\\importer\\powertransformerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\powertransformerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\korisnik\\desktop\\modeli\\projekat\\modellabsprojekat\\modellabs\\cimadapter\\transformandloadreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\cimadapter\\transformandloadreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\transformandloadreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\common\\modelcodehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modelcodehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32EE9373-A350-42AC-972B-41B2EDABA082}|NetworkModelService\\Test\\NMSTestClient\\NMSTestClient.csproj|c:\\users\\korisnik\\desktop\\modeli\\projekat\\modellabsprojekat\\modellabs\\networkmodelservice\\test\\nmstestclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32EE9373-A350-42AC-972B-41B2EDABA082}|NetworkModelService\\Test\\NMSTestClient\\NMSTestClient.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\networkmodelservice\\test\\nmstestclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32EE9373-A350-42AC-972B-41B2EDABA082}|NetworkModelService\\Test\\NMSTestClient\\NMSTestClient.csproj|solutionrelative:networkmodelservice\\test\\nmstestclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -109,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\networkmodelservice\\datamodel\\wires\\conductor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\wires\\conductor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\networkmodelservice\\datamodel\\wires\\dclinesegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\wires\\dclinesegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\networkmodelservice\\datamodel\\wires\\perlengthimpedance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -165,46 +169,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NetworkModel.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\NetworkModel.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\NetworkModel.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\NetworkModel.cs",
-              "RelativeToolTip": "NetworkModelService\\NetworkModel.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAYwJEAAAADAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ModelDefines.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelDefines.cs",
+              "RelativeDocumentMoniker": "Common\\ModelDefines.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelDefines.cs",
+              "RelativeToolTip": "Common\\ModelDefines.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T15:38:27.25Z",
+              "WhenOpened": "2025-07-23T11:45:40.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NMSTestClientWPF\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "NMSTestClientWPF\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NMSTestClientWPF\\MainWindow.xaml.cs",
-              "RelativeToolTip": "NMSTestClientWPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADMBAAAAAAAAAADwv1EBAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T11:44:47.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TestGda.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NMSTestClientWPF\\TestGda.cs",
-              "RelativeDocumentMoniker": "NMSTestClientWPF\\TestGda.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NMSTestClientWPF\\TestGda.cs",
-              "RelativeToolTip": "NMSTestClientWPF\\TestGda.cs",
-              "ViewState": "AgIAALQAAAAAAAAAAAAcwNgAAACTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T11:44:44.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NMSTestClientWPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "NMSTestClientWPF\\MainWindow.xaml",
@@ -216,20 +194,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NMSTestClientWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "NMSTestClientWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NMSTestClientWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "NMSTestClientWPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAwwCYBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T11:44:47.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "PerLengthPhaseImpedance.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\PerLengthPhaseImpedance.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Wires\\PerLengthPhaseImpedance.cs",
               "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\PerLengthPhaseImpedance.cs",
               "RelativeToolTip": "NetworkModelService\\DataModel\\Wires\\PerLengthPhaseImpedance.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T16:03:09.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "PowerTransformerImporter.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "RelativeToolTip": "CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T14:54:11.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ConductingEquipment.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Core\\ConductingEquipment.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Core\\ConductingEquipment.cs",
@@ -237,25 +240,23 @@
               "RelativeToolTip": "NetworkModelService\\DataModel\\Core\\ConductingEquipment.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T11:52:43.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PowerTransformerImporter.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerImporter.cs",
-              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\PowerTransformerImporter.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerImporter.cs",
-              "RelativeToolTip": "CIMAdapter\\Importer\\PowerTransformerImporter.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowGAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T14:54:11.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T11:52:43.864Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "TestGda.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NMSTestClientWPF\\TestGda.cs",
+              "RelativeDocumentMoniker": "NMSTestClientWPF\\TestGda.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NMSTestClientWPF\\TestGda.cs",
+              "RelativeToolTip": "NMSTestClientWPF\\TestGda.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAANgAAACTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T11:44:44.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "IdentifiedObject.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Core\\IdentifiedObject.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Core\\IdentifiedObject.cs",
@@ -263,12 +264,11 @@
               "RelativeToolTip": "NetworkModelService\\DataModel\\Core\\IdentifiedObject.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAEIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:39:42.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T14:39:42.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Equipment.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Core\\Equipment.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Core\\Equipment.cs",
@@ -276,12 +276,11 @@
               "RelativeToolTip": "NetworkModelService\\DataModel\\Core\\Equipment.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T16:03:48.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T16:03:48.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Config.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NMSTestClientWPF\\Config.cs",
               "RelativeDocumentMoniker": "NMSTestClientWPF\\Config.cs",
@@ -289,47 +288,57 @@
               "RelativeToolTip": "NMSTestClientWPF\\Config.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T09:32:07.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T09:32:07.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "PowerTransformerConverter.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerConverter.cs",
               "RelativeDocumentMoniker": "CIMAdapter\\Importer\\PowerTransformerConverter.cs",
               "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerConverter.cs",
               "RelativeToolTip": "CIMAdapter\\Importer\\PowerTransformerConverter.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAswNMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwC0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T17:36:59.968Z",
+              "WhenOpened": "2025-07-12T17:36:59.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModelResourcesDesc.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelResourcesDesc.cs",
+              "RelativeDocumentMoniker": "Common\\ModelResourcesDesc.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelResourcesDesc.cs",
+              "RelativeToolTip": "Common\\ModelResourcesDesc.cs",
+              "ViewState": "AgIAAGUDAAAAAAAAAAAAAGUDAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T17:27:58.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ModelDefines.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelDefines.cs",
-              "RelativeDocumentMoniker": "Common\\ModelDefines.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelDefines.cs",
-              "RelativeToolTip": "Common\\ModelDefines.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "DCLineSegment.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\DCLineSegment.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Wires\\DCLineSegment.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\DCLineSegment.cs",
+              "RelativeToolTip": "NetworkModelService\\DataModel\\Wires\\DCLineSegment.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T11:45:40.647Z",
+              "WhenOpened": "2025-07-15T16:02:34.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TransformAndLoadReport.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\TransformAndLoadReport.cs",
-              "RelativeDocumentMoniker": "CIMAdapter\\TransformAndLoadReport.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\TransformAndLoadReport.cs",
-              "RelativeToolTip": "CIMAdapter\\TransformAndLoadReport.cs",
+              "DocumentIndex": 9,
+              "Title": "ResourceDescription.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\GDA\\ResourceDescription.cs",
+              "RelativeDocumentMoniker": "Common\\GDA\\ResourceDescription.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\GDA\\ResourceDescription.cs",
+              "RelativeToolTip": "Common\\GDA\\ResourceDescription.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T09:27:36.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T17:23:55.233Z"
             },
             {
               "$type": "Document",
@@ -339,27 +348,37 @@
               "RelativeDocumentMoniker": "CIMAdapter\\CIMAdapter.cs",
               "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\CIMAdapter.cs",
               "RelativeToolTip": "CIMAdapter\\CIMAdapter.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T12:07:45.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T12:07:45.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ModelResourcesDesc.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelResourcesDesc.cs",
-              "RelativeDocumentMoniker": "Common\\ModelResourcesDesc.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelResourcesDesc.cs",
-              "RelativeToolTip": "Common\\ModelResourcesDesc.cs",
-              "ViewState": "AgIAAEICAAAAAAAAAAAiwF8CAAAZAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "NetworkModel.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\NetworkModel.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\NetworkModel.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\NetworkModel.cs",
+              "RelativeToolTip": "NetworkModelService\\NetworkModel.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAYwJEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T17:27:58.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T15:38:27.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
+              "Title": "TransformAndLoadReport.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\TransformAndLoadReport.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\TransformAndLoadReport.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\TransformAndLoadReport.cs",
+              "RelativeToolTip": "CIMAdapter\\TransformAndLoadReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T09:27:36.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ModelCodeHelper.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelCodeHelper.cs",
               "RelativeDocumentMoniker": "Common\\ModelCodeHelper.cs",
@@ -367,12 +386,11 @@
               "RelativeToolTip": "Common\\ModelCodeHelper.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T18:10:20.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T18:10:20.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\Test\\NMSTestClient\\Program.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\Test\\NMSTestClient\\Program.cs",
@@ -380,12 +398,11 @@
               "RelativeToolTip": "NetworkModelService\\Test\\NMSTestClient\\Program.cs",
               "ViewState": "AgIAAOAAAAAAAAAAAAAiwOAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T12:42:09.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T12:42:09.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "TestGda.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\Test\\NMSTestClient\\TestGda.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\Test\\NMSTestClient\\TestGda.cs",
@@ -397,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\Test\\NMSTestClient\\app.config",
               "RelativeDocumentMoniker": "NetworkModelService\\Test\\NMSTestClient\\app.config",
@@ -409,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Config.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\Test\\NMSTestClient\\Config.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\Test\\NMSTestClient\\Config.cs",
@@ -421,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "ImportHelper.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMAdapter\\Importer\\ImportHelper.cs",
               "RelativeDocumentMoniker": "CIMAdapter\\Importer\\ImportHelper.cs",
@@ -433,19 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "DCLineSegment.cs",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\DCLineSegment.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Wires\\DCLineSegment.cs",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\DCLineSegment.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Wires\\DCLineSegment.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T16:02:34.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "PerLengthImpedance.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\PerLengthImpedance.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Wires\\PerLengthImpedance.cs",
@@ -457,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "PowerSystemResource.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Core\\PowerSystemResource.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Core\\PowerSystemResource.cs",
@@ -469,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "NetworkModelService.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\NetworkModelService.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\NetworkModelService.cs",
@@ -481,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "PhaseImpedanceData.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\PhaseImpedanceData.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Wires\\PhaseImpedanceData.cs",
@@ -493,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "SeriesCompensator.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\SeriesCompensator.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Wires\\SeriesCompensator.cs",
@@ -505,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Container.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\Container.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\Container.cs",
@@ -517,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "PerLengthSequenceImpedance.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\PerLengthSequenceImpedance.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Wires\\PerLengthSequenceImpedance.cs",
@@ -529,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "ACLineSegment.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\ACLineSegment.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Wires\\ACLineSegment.cs",
@@ -541,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Conductor.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\Conductor.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Wires\\Conductor.cs",
@@ -553,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\f696bbaf62e093d640eb06e54cf584f1413a7a3ddc293db43bb5e910722eafa3\\Program.cs",
@@ -564,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "EnumDescs.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\EnumDescs.cs",
               "RelativeDocumentMoniker": "Common\\EnumDescs.cs",
@@ -576,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Program.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Program.cs",
@@ -584,12 +589,11 @@
               "RelativeToolTip": "NetworkModelService\\ServiceHost\\NetworkModelServiceSelfHost\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:35:52.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T14:35:52.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Profile.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMProfileCreator\\Model\\Profile.cs",
               "RelativeDocumentMoniker": "CIMProfileCreator\\Model\\Profile.cs",
@@ -601,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "EnumMember.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\CIMProfileCreator\\Model\\EnumMember.cs",
               "RelativeDocumentMoniker": "CIMProfileCreator\\Model\\EnumMember.cs",
@@ -613,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\Enums.cs",
               "RelativeDocumentMoniker": "Common\\Enums.cs",

@@ -157,3 +157,140 @@
 1.9.2025. 12:05:55 : Getting related values method started.
 1.9.2025. 12:05:55 : Getting related values method successfully finished. Found 1 related resources.
 1.9.2025. 12:06:00 : Getting related values method started.
+1.9.2025. 19:06:06 : Getting related values method started.
+1.9.2025. 19:06:06 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:06:17 : Getting related values method started.
+1.9.2025. 19:06:17 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:06:17 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:06:22 : Getting related values method started.
+1.9.2025. 19:06:22 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:06:24 : Getting related values method started.
+1.9.2025. 19:06:24 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:06:25 : Getting related values method started.
+1.9.2025. 19:06:25 : Getting related values method failed for sourceGlobalId = 25769803785 and association (propertyId = TERM_CONDUCTINGEQUIPMENT, type = 1373879361324777472). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1373879361324777472' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+1.9.2025. 19:06:27 : Getting related values method started.
+1.9.2025. 19:06:27 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:06:31 : Getting related values method started.
+1.9.2025. 19:06:31 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:07:09 : Getting values method started.
+1.9.2025. 19:07:09 : Failed to get model type code for DMS type: 0. Invalid DMS type
+1.9.2025. 19:07:09 : Getting values method for entered id = 1879048192 failed.
+	Failed to get model type code for DMS type: 0. Invalid DMS type
+1.9.2025. 19:08:41 : Getting extent values method started.
+1.9.2025. 19:08:41 : Getting extent values method successfully finished. Found 1 resources.
+1.9.2025. 19:09:01 : Getting extent values method started.
+1.9.2025. 19:09:01 : Getting extent values method successfully finished. Found 1 resources.
+1.9.2025. 19:10:09 : Getting related values method started.
+1.9.2025. 19:10:09 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:10:38 : Getting related values method started.
+1.9.2025. 19:10:38 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:10:38 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:10:41 : Getting related values method started.
+1.9.2025. 19:10:41 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:10:43 : Getting related values method started.
+1.9.2025. 19:10:43 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:10:44 : Getting related values method started.
+1.9.2025. 19:10:44 : Getting related values method failed for sourceGlobalId = 25769803784 and association (propertyId = TERM_CONDUCTINGEQUIPMENT, type = 1373879361324777472). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1373879361324777472' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+1.9.2025. 19:10:46 : Getting related values method started.
+1.9.2025. 19:10:46 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:10:49 : Getting related values method started.
+1.9.2025. 19:10:49 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:10:56 : Getting related values method started.
+1.9.2025. 19:14:24 : Getting related values method started.
+1.9.2025. 19:14:24 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:14:24 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:16:10 : Getting related values method started.
+1.9.2025. 19:16:10 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:16:10 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:16:14 : Getting related values method started.
+1.9.2025. 19:16:14 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:16:14 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:16:18 : Getting related values method started.
+1.9.2025. 19:16:18 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:16:18 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:17:53 : Getting related values method started.
+1.9.2025. 19:17:53 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:17:53 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:17:55 : Getting related values method started.
+1.9.2025. 19:17:55 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:17:55 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:17:59 : Getting related values method started.
+1.9.2025. 19:17:59 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:17:59 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:18:11 : Getting related values method started.
+1.9.2025. 19:18:11 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:18:59 : Getting related values method started.
+1.9.2025. 19:18:59 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:19:05 : Getting related values method started.
+1.9.2025. 19:19:05 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:19:07 : Getting related values method started.
+1.9.2025. 19:19:07 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:19:07 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:19:09 : Getting related values method started.
+1.9.2025. 19:19:09 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:19:09 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:19:09 : Getting related values method started.
+1.9.2025. 19:19:09 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:19:09 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:19:09 : Getting related values method started.
+1.9.2025. 19:19:09 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:19:09 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:19:09 : Getting related values method started.
+1.9.2025. 19:19:09 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:19:09 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:19:09 : Getting related values method started.
+1.9.2025. 19:19:09 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:19:09 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:19:09 : Getting related values method started.
+1.9.2025. 19:19:09 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:19:09 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:19:10 : Getting related values method started.
+1.9.2025. 19:19:10 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:19:10 : Getting related values method successfully finished. Found 0 related resources.
+1.9.2025. 19:19:17 : Getting related values method started.
+1.9.2025. 19:19:17 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:19:17 : Getting related values method successfully finished. Found 1 related resources.
+1.9.2025. 19:19:36 : Getting related values method started.
+1.9.2025. 19:19:36 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+1.9.2025. 19:19:36 : Getting related values method successfully finished. Found 1 related resources.
+2.9.2025. 13:48:01 : Getting values method started.
+2.9.2025. 13:48:01 : Getting values method successfully finished.
+2.9.2025. 13:50:12 : Getting values method started.
+2.9.2025. 13:50:12 : Getting values method successfully finished.
+2.9.2025. 13:51:41 : Entering entity id failed. Please use hex (0x) or decimal format.
+2.9.2025. 13:51:46 : Getting values method started.
+2.9.2025. 13:51:46 : Getting values method successfully finished.
+2.9.2025. 14:29:32 : Getting values method started.
+2.9.2025. 14:29:32 : Failed to get model type code for DMS type: 0. Invalid DMS type
+2.9.2025. 14:29:32 : Getting values method for entered id = 4194305 failed.
+	Failed to get model type code for DMS type: 0. Invalid DMS type
+2.9.2025. 14:29:36 : Getting values method started.
+2.9.2025. 14:29:36 : Failed to get model type code for DMS type: 0. Invalid DMS type
+2.9.2025. 14:29:36 : Getting values method for entered id = 4194317 failed.
+	Failed to get model type code for DMS type: 0. Invalid DMS type
+2.9.2025. 14:30:07 : Getting values method started.
+2.9.2025. 14:30:07 : Failed to get model type code for DMS type: 0. Invalid DMS type
+2.9.2025. 14:30:07 : Getting values method for entered id = 67108883 failed.
+	Failed to get model type code for DMS type: 0. Invalid DMS type
+2.9.2025. 14:31:52 : Getting values method started.
+2.9.2025. 14:31:52 : Getting values method successfully finished.
+2.9.2025. 14:32:00 : Getting values method started.
+2.9.2025. 14:32:00 : Getting values method successfully finished.
+2.9.2025. 14:32:09 : Getting values method started.
+2.9.2025. 14:32:09 : Getting values method successfully finished.
+2.9.2025. 14:32:17 : Getting values method started.
+2.9.2025. 14:32:17 : Getting values method successfully finished.
+2.9.2025. 14:34:33 : Getting extent values method started.
+2.9.2025. 14:34:34 : Getting extent values method successfully finished. Found 21 resources.
+2.9.2025. 14:36:02 : Getting extent values method started.
+2.9.2025. 14:36:02 : Getting extent values method successfully finished. Found 1 resources.
+2.9.2025. 14:36:40 : Getting extent values method started.
+2.9.2025. 14:36:40 : Getting extent values method successfully finished. Found 1 resources.
+2.9.2025. 14:37:08 : Getting extent values method started.
+2.9.2025. 14:37:08 : Getting extent values method successfully finished. Found 23 resources.
+2.9.2025. 14:47:58 : Getting extent values method started.
+2.9.2025. 14:47:59 : Getting extent values method successfully finished. Found 21 resources.
+2.9.2025. 14:48:12 : Getting extent values method started.
+2.9.2025. 14:48:12 : Getting extent values method successfully finished. Found 21 resources.
+2.9.2025. 14:48:23 : Getting extent values method started.
+2.9.2025. 14:48:23 : Getting extent values method successfully finished. Found 23 resources.
