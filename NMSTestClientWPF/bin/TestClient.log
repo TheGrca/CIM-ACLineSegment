@@ -294,3 +294,9 @@
 2.9.2025. 14:48:12 : Getting extent values method successfully finished. Found 21 resources.
 2.9.2025. 14:48:23 : Getting extent values method started.
 2.9.2025. 14:48:23 : Getting extent values method successfully finished. Found 23 resources.
+6.9.2025. 16:02:40 : Getting related values method started.
+6.9.2025. 16:02:40 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+6.9.2025. 16:02:41 : Getting related values method successfully finished. Found 0 related resources.
+6.9.2025. 16:03:00 : Getting related values method started.
+6.9.2025. 16:03:00 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+6.9.2025. 16:03:00 : Getting related values method successfully finished. Found 1 related resources.

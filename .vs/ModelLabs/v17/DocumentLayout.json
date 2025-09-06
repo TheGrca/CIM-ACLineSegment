@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\nmstestclientwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\nmstestclientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|solutionrelative:nmstestclientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|c:\\users\\korisnik\\desktop\\modeli\\projekat\\modellabsprojekat\\modellabs\\nmstestclientwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|solutionrelative:nmstestclientwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|c:\\users\\korisnik\\desktop\\modeli\\projekat\\modellabsprojekat\\modellabs\\nmstestclientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCFE854A-AF5C-413E-96F2-1EC2D8B41860}|NMSTestClientWPF\\NMSTestClientWPF.csproj|solutionrelative:nmstestclientwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\networkmodelservice\\datamodel\\wires\\perlengthphaseimpedance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\wires\\perlengthphaseimpedance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\networkmodelservice\\datamodel\\wires\\perlengthphaseimpedance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\wires\\perlengthphaseimpedance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\networkmodelservice\\datamodel\\wires\\dclinesegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -161,7 +161,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -169,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ModelDefines.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelDefines.cs",
               "RelativeDocumentMoniker": "Common\\ModelDefines.cs",
@@ -177,12 +177,11 @@
               "RelativeToolTip": "Common\\ModelDefines.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T11:45:40.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T11:45:40.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NMSTestClientWPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "NMSTestClientWPF\\MainWindow.xaml",
@@ -194,26 +193,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NMSTestClientWPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "NMSTestClientWPF\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NMSTestClientWPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "NMSTestClientWPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABABAAAAAAAAAAAwwD8BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAH8BAAAAAAAAAAAQwKIBAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T11:44:47.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "PerLengthPhaseImpedance.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\PerLengthPhaseImpedance.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Wires\\PerLengthPhaseImpedance.cs",
               "ToolTip": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\PerLengthPhaseImpedance.cs",
               "RelativeToolTip": "NetworkModelService\\DataModel\\Wires\\PerLengthPhaseImpedance.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAowIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T16:03:09.874Z",
               "EditorCaption": ""
@@ -304,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ModelResourcesDesc.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\Modeli\\Projekat\\ModelLabsProjekat\\ModelLabs\\Common\\ModelResourcesDesc.cs",
               "RelativeDocumentMoniker": "Common\\ModelResourcesDesc.cs",
@@ -312,8 +311,7 @@
               "RelativeToolTip": "Common\\ModelResourcesDesc.cs",
               "ViewState": "AgIAAGUDAAAAAAAAAAAAAGUDAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T17:27:58.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T17:27:58.242Z"
             },
             {
               "$type": "Document",
@@ -325,8 +323,7 @@
               "RelativeToolTip": "NetworkModelService\\DataModel\\Wires\\DCLineSegment.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T16:02:34.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T16:02:34.543Z"
             },
             {
               "$type": "Document",

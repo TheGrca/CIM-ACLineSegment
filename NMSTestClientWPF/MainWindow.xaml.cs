@@ -317,102 +317,214 @@ namespace NMSTestClientWPF
         }
 
         // GET RELATED VALUES
-        private void PropertyIdComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void SourceEntityTypeComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            // This can be used to provide context-specific help or validation
-            if (PropertyIdComboBox.SelectedItem is ComboBoxItem selectedItem)
+            RelatedPropertyComboBox.Items.Clear();
+            RelatedTargetTypeComboBox.Items.Clear();
+            RelatedPropertyComboBox.IsEnabled = false;
+            RelatedTargetTypeComboBox.IsEnabled = false;
+            GetRelatedValuesButton.IsEnabled = false;
+
+            if (SourceEntityTypeComboBox.SelectedItem == null) return;
+
+            string entityTypeName = ((ComboBoxItem)SourceEntityTypeComboBox.SelectedItem).Content.ToString();
+
+            // Based on your diagram, populate available properties for each entity type
+            switch (entityTypeName)
             {
-                string tag = selectedItem.Tag?.ToString();
-                // You can add logic here to show relevant target types based on the property selected
+                case "Terminal":
+                    RelatedPropertyComboBox.Items.Add(new ComboBoxItem
+                    {
+                        Content = "ConductingEquipment",
+                        Tag = "0x1400000000060109"
+                    });
+                    break;
+
+                case "ACLineSegment":
+                case "SeriesCompensator":
+                case "DCLineSegment":
+                    RelatedPropertyComboBox.Items.Add(new ComboBoxItem
+                    {
+                        Content = "Terminals",
+                        Tag = "0x1311000000000119"
+                    });
+                    if (entityTypeName == "ACLineSegment")
+                    {
+                        RelatedPropertyComboBox.Items.Add(new ComboBoxItem
+                        {
+                            Content = "PerLengthImpedance",
+                            Tag = "0x1311120000050909"
+                        });
+                    }
+                    break;
+
+                case "PerLengthPhaseImpedance":
+                    RelatedPropertyComboBox.Items.Add(new ComboBoxItem
+                    {
+                        Content = "PhaseImpedanceDatas",
+                        Tag = "0x1110000000070219"
+                    });
+                    RelatedPropertyComboBox.Items.Add(new ComboBoxItem
+                    {
+                        Content = "ACLineSegments",
+                        Tag = "0x1100000000000119"
+                    });
+                    break;
+
+                case "PhaseImpedanceData":
+                    RelatedPropertyComboBox.Items.Add(new ComboBoxItem
+                    {
+                        Content = "PhaseImpedance",
+                        Tag = "0x1200000000010509"
+                    });
+                    break;
+            }
+
+            RelatedPropertyComboBox.IsEnabled = RelatedPropertyComboBox.Items.Count > 0;
+            if (RelatedPropertyComboBox.Items.Count > 0)
+            {
+                RelatedPropertyComboBox.SelectedIndex = 0;
+            }
+        }
+
+        private void RelatedPropertyComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            RelatedTargetTypeComboBox.Items.Clear();
+            RelatedTargetTypeComboBox.IsEnabled = false;
+            GetRelatedValuesButton.IsEnabled = false;
+
+            if (RelatedPropertyComboBox.SelectedItem == null) return;
+
+            string propertyContent = ((ComboBoxItem)RelatedPropertyComboBox.SelectedItem).Content.ToString();
+            string sourceEntityType = ((ComboBoxItem)SourceEntityTypeComboBox.SelectedItem).Content.ToString();
+
+            // Based on your diagram, populate target types for each property
+            switch (propertyContent)
+            {
+                case "ConductingEquipment": // Terminal -> ConductingEquipment
+                    RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "ACLineSegment", Tag = "0x1311120000050000" });
+                    RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "SeriesCompensator", Tag = "0x1311200000040000" });
+                    RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "DCLineSegment", Tag = "0x1311110000030000" });
+                    break;
+
+                case "Terminals": // ConductingEquipment -> Terminals
+                    RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "Terminal", Tag = "0x1400000000060000" });
+                    break;
+
+                case "PerLengthImpedance": // ACLineSegment -> PerLengthImpedance
+                    RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "PerLengthPhaseImpedance", Tag = "0x1110000000070000" });
+                    break;
+
+                case "PhaseImpedanceDatas": // PLPI -> PhaseImpedanceData
+                    RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "PhaseImpedanceData", Tag = "0x1200000000010000" });
+                    break;
+
+                case "ACLineSegments": // PLPI -> ACLineSegments (inverse)
+                    RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "ACLineSegment", Tag = "0x1311120000050000" });
+                    break;
+
+                case "PhaseImpedance": // PhaseImpedanceData -> PLPI (inverse)
+                    RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "PerLengthPhaseImpedance", Tag = "0x1110000000070000" });
+                    break;
+            }
+
+            RelatedTargetTypeComboBox.IsEnabled = RelatedTargetTypeComboBox.Items.Count > 0;
+            GetRelatedValuesButton.IsEnabled = true;
+
+            if (RelatedTargetTypeComboBox.Items.Count > 0)
+            {
+                RelatedTargetTypeComboBox.SelectedIndex = 0;
             }
         }
 
         private void GetRelatedValues_Click(object sender, RoutedEventArgs e)
         {
+            if (SourceEntityTypeComboBox.SelectedItem == null)
+            {
+                RelatedValuesStatusLabel.Content = "Please select a source entity type";
+                RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Orange);
+                return;
+            }
+
+            if (string.IsNullOrEmpty(RelatedPositionTextBox.Text))
+            {
+                RelatedValuesStatusLabel.Content = "Please enter a position";
+                RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Orange);
+                return;
+            }
+
+            if (RelatedPropertyComboBox.SelectedItem == null)
+            {
+                RelatedValuesStatusLabel.Content = "Please select a property";
+                RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Orange);
+                return;
+            }
+
             TestGda tgda = new TestGda();
-            string sourceGidText = SourceGidTextBox.Text.Trim();
-
-            if (string.IsNullOrEmpty(sourceGidText))
-            {
-                RelatedValuesStatusLabel.Content = "Please enter a source GID.";
-                RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Red);
-                return;
-            }
-
-            if (PropertyIdComboBox.SelectedItem == null)
-            {
-                RelatedValuesStatusLabel.Content = "Please select a Property ID.";
-                RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Red);
-                return;
-            }
 
             try
             {
-                long sourceGid = InputGlobalId(sourceGidText);
+                // Build GID from entity type + position
+                string entityTypeTag = ((ComboBoxItem)SourceEntityTypeComboBox.SelectedItem).Tag.ToString();
+                string entityTypeName = ((ComboBoxItem)SourceEntityTypeComboBox.SelectedItem).Content.ToString();
+                string position = RelatedPositionTextBox.Text.Trim().PadLeft(2, '0');
+                string baseHex = entityTypeTag.Substring(2);
+                string fullGidHex = $"0x{baseHex}{position}";
 
-                // Get the selected property ID string and convert using the correct hex values
-                string propertyIdString = ((ComboBoxItem)PropertyIdComboBox.SelectedItem).Tag.ToString();
+                long sourceGid = InputGlobalId(fullGidHex);
 
-                // Parse the hex string to long first, then cast to ModelCode
-                long propertyIdLong;
-                if (propertyIdString.StartsWith("0x"))
-                {
-                    propertyIdLong = Convert.ToInt64(propertyIdString.Substring(2), 16);
-                }
-                else
-                {
-                    propertyIdLong = Convert.ToInt64(propertyIdString);
-                }
+                // Get property ID
+                string propertyIdString = ((ComboBoxItem)RelatedPropertyComboBox.SelectedItem).Tag.ToString();
+                long propertyIdLong = Convert.ToInt64(propertyIdString.Substring(2), 16);
                 ModelCode propertyId = (ModelCode)propertyIdLong;
 
-                // Get the selected target type
-                ModelCode targetType = 0; // Default to base type
-                if (TargetTypeComboBox.SelectedItem != null)
+                // Get target type
+                ModelCode targetType = 0;
+                if (RelatedTargetTypeComboBox.SelectedItem != null)
                 {
-                    string targetTypeString = ((ComboBoxItem)TargetTypeComboBox.SelectedItem).Tag.ToString();
-                    if (targetTypeString != "0x0000000000000000") // Not "All Types"
-                    {
-                        long targetTypeLong;
-                        if (targetTypeString.StartsWith("0x"))
-                        {
-                            targetTypeLong = Convert.ToInt64(targetTypeString.Substring(2), 16);
-                        }
-                        else
-                        {
-                            targetTypeLong = Convert.ToInt64(targetTypeString);
-                        }
-                        targetType = (ModelCode)targetTypeLong;
-                    }
+                    string targetTypeString = ((ComboBoxItem)RelatedTargetTypeComboBox.SelectedItem).Tag.ToString();
+                    long targetTypeLong = Convert.ToInt64(targetTypeString.Substring(2), 16);
+                    targetType = (ModelCode)targetTypeLong;
                 }
 
-                // Create Association
+                // Create Association (determine if inverse based on relationship direction)
+                bool isInverse = DetermineIfInverse(entityTypeName, ((ComboBoxItem)RelatedPropertyComboBox.SelectedItem).Content.ToString());
+
                 Association association = new Association()
                 {
                     PropertyId = propertyId,
                     Type = targetType,
-                    Inverse = InverseCheckBox.IsChecked ?? false
+                    Inverse = isInverse
                 };
 
-                // Debug output to verify values
-                Console.WriteLine($"Source GID: {sourceGid}");
-                Console.WriteLine($"Property ID: {propertyId} ({(long)propertyId})");
-                Console.WriteLine($"Target Type: {targetType} ({(long)targetType})");
-                Console.WriteLine($"Inverse: {association.Inverse}");
                 var result = tgda.GetRelatedValues(sourceGid, association);
-                RelatedValuesStatusLabel.Content = $"GetRelatedValues successful. Found {result.Count} related resources.";
+                RelatedValuesStatusLabel.Content = $"Found {result.Count} related resources for {entityTypeName} position {position}";
                 RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Green);
             }
             catch (Exception ex)
             {
                 RelatedValuesStatusLabel.Content = $"Error: {ex.Message}";
                 RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Red);
+            }
+        }
 
-                // Additional debug info
-                Console.WriteLine($"Full exception: {ex}");
-                if (ex.InnerException != null)
-                {
-                    Console.WriteLine($"Inner exception: {ex.InnerException.Message}");
-                }
+        private bool DetermineIfInverse(string sourceEntityType, string propertyName)
+        {
+            // Based on your diagram, determine if the relationship requires inverse traversal
+            switch (sourceEntityType)
+            {
+                case "Terminal":
+                    return propertyName == "ConductingEquipment" ? false : true;
+                case "ACLineSegment":
+                case "SeriesCompensator":
+                case "DCLineSegment":
+                    return propertyName == "Terminals" ? true : false;
+                case "PerLengthPhaseImpedance":
+                    return propertyName == "ACLineSegments" ? true : false;
+                case "PhaseImpedanceData":
+                    return propertyName == "PhaseImpedance" ? false : true;
+                default:
+                    return false;
             }
         }
     }
