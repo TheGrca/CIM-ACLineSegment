@@ -1,140 +1,288 @@
 ﻿<Window x:Class="NMSTestClientWPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="NMSTestClient" Height="600" Width="320">
-    <Grid>
-        <TabControl>
+        Title="NMS Test Client" Height="1000" Width="900"
+        Background="#F5F5F5"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <!-- Modern color palette -->
+        <SolidColorBrush x:Key="PrimaryBrush" Color="#2196F3"/>
+        <SolidColorBrush x:Key="PrimaryLightBrush" Color="#E3F2FD"/>
+        <SolidColorBrush x:Key="AccentBrush" Color="#FF5722"/>
+        <SolidColorBrush x:Key="SuccessBrush" Color="#4CAF50"/>
+        <SolidColorBrush x:Key="WarningBrush" Color="#FF9800"/>
+        <SolidColorBrush x:Key="ErrorBrush" Color="#F44336"/>
+        <SolidColorBrush x:Key="SurfaceBrush" Color="#FFFFFF"/>
+        <SolidColorBrush x:Key="BorderBrush" Color="#E0E0E0"/>
+        <SolidColorBrush x:Key="TextBrush" Color="#424242"/>
+
+        <!-- Modern button style -->
+        <Style x:Key="ModernButton" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource PrimaryBrush}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="30,10"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="2" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}" Height="50" Width="150">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#1976D2"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#0D47A1"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Background" Value="#BDBDBD"/>
+                                <Setter Property="Cursor" Value="Arrow"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Modern ComboBox style -->
+        <Style x:Key="ModernComboBox" TargetType="ComboBox">
+            <Setter Property="Background" Value="{StaticResource SurfaceBrush}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="Height" Value="40"/>
+        </Style>
+
+        <!-- Modern TextBox style -->
+        <Style x:Key="ModernTextBox" TargetType="TextBox">
+            <Setter Property="Background" Value="{StaticResource SurfaceBrush}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="Height" Value="40"/>
+        </Style>
+
+        <!-- Modern Label style -->
+        <Style x:Key="ModernLabel" TargetType="Label">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+            <Setter Property="Margin" Value="0,8,0,5"/>
+        </Style>
+
+        <!-- Card style -->
+        <Style x:Key="Card" TargetType="Border">
+            <Setter Property="Background" Value="{StaticResource SurfaceBrush}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Padding" Value="24"/>
+            <Setter Property="Margin" Value="8"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="Black" Opacity="0.1" ShadowDepth="2" BlurRadius="8"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="16">
+        <TabControl Background="Transparent" BorderThickness="0">
+            <TabControl.Resources>
+                <Style TargetType="TabItem">
+                    <Setter Property="FontSize" Value="14"/>
+                    <Setter Property="FontWeight" Value="Medium"/>
+                    <Setter Property="Padding" Value="20,12"/>
+                    <Setter Property="Margin" Value="2,0"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TabItem">
+                                <Border Name="TabBorder" 
+                                        Background="Transparent" 
+                                        BorderBrush="{StaticResource BorderBrush}" 
+                                        BorderThickness="0,0,0,2" 
+                                        Padding="{TemplateBinding Padding}">
+                                    <ContentPresenter ContentSource="Header"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter TargetName="TabBorder" Property="BorderBrush" Value="{StaticResource PrimaryBrush}"/>
+                                        <Setter Property="Foreground" Value="{StaticResource PrimaryBrush}"/>
+                                    </Trigger>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="TabBorder" Property="Background" Value="{StaticResource PrimaryLightBrush}"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TabControl.Resources>
+
             <!-- Tab 1: Get Values -->
             <TabItem Header="Get Values">
-                <StackPanel Margin="20" VerticalAlignment="Top" HorizontalAlignment="Left">
-                    <Label Content="Select Entity Type:" />
-                    <ComboBox x:Name="EntityTypeComboBox" Width="200" Margin="0,5,0,10">
-                        <ComboBoxItem Content="PerLengthPhaseImpedance" Tag="0x00000007000000"/>
-                        <ComboBoxItem Content="PhaseImpedanceData" Tag="0x00000001000000"/>
-                        <ComboBoxItem Content="PerLengthSequenceImpedance" Tag="0x00000002000000"/>
-                        <ComboBoxItem Content="ACLineSegment" Tag="0x00000005000000"/>
-                        <ComboBoxItem Content="DCLineSegment" Tag="0x00000003000000"/>
-                        <ComboBoxItem Content="SeriesCompensator" Tag="0x00000004000000"/>
-                        <ComboBoxItem Content="Terminal" Tag="0x00000006000000"/>
-                    </ComboBox>
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <Border Style="{StaticResource Card}">
+                        <StackPanel MaxWidth="600">
+                            <TextBlock Text="Get Values" FontSize="24" FontWeight="Bold" Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,20"/>
 
-                    <Label Content="Enter Position: " />
-                    <TextBox x:Name="PositionInputTextBox" Width="200" Margin="0,5,0,10" />
+                            <Label Content="Select Entity Type:" Style="{StaticResource ModernLabel}"/>
+                            <ComboBox x:Name="EntityTypeComboBox" Style="{StaticResource ModernComboBox}" Margin="0,0,0,16">
+                                <ComboBoxItem Content="PerLengthPhaseImpedance" Tag="0x00000007000000"/>
+                                <ComboBoxItem Content="PhaseImpedanceData" Tag="0x00000001000000"/>
+                                <ComboBoxItem Content="PerLengthSequenceImpedance" Tag="0x00000002000000"/>
+                                <ComboBoxItem Content="ACLineSegment" Tag="0x00000005000000"/>
+                                <ComboBoxItem Content="DCLineSegment" Tag="0x00000003000000"/>
+                                <ComboBoxItem Content="SeriesCompensator" Tag="0x00000004000000"/>
+                                <ComboBoxItem Content="Terminal" Tag="0x00000006000000"/>
+                            </ComboBox>
 
-                    <Button Content="Get Values" Width="120" Height="30" Click="GetValues_Click" />
-                    <Label x:Name="GetValuesStatusLabel" Margin="0,10,0,0"
-                           Foreground="Green" FontWeight="Bold"/>
-                    <Label Content="Values:" Margin="0,10,0,5" FontWeight="Bold"/>
-                    <ScrollViewer x:Name="XmlContentScrollViewer" 
-                      Height="300" 
-                      Width="600" 
-                      Margin="0,5,0,10"
-                      HorizontalScrollBarVisibility="Auto"
-                      VerticalScrollBarVisibility="Auto"
-                      BorderBrush="Gray"
-                      BorderThickness="1">
-                        <TextBlock x:Name="XmlContentTextBlock" 
-                       Background="White"
-                       Padding="10"
-                       TextWrapping="Wrap"
-                       FontFamily="Consolas"
-                       FontSize="12"/>
-                    </ScrollViewer>
-                </StackPanel>
+                            <Label Content="Enter Position:" Style="{StaticResource ModernLabel}"/>
+                            <TextBox x:Name="PositionInputTextBox" Style="{StaticResource ModernTextBox}" Margin="0,0,0,20"/>
+
+                            <Button Content="Get Values" Style="{StaticResource ModernButton}" Click="GetValues_Click" HorizontalAlignment="Left"/>
+
+                            <Label x:Name="GetValuesStatusLabel" Margin="0,16,0,0" FontWeight="Bold" FontSize="14"/>
+
+                            <Label Content="Values:" Style="{StaticResource ModernLabel}" Margin="0,20,0,10"/>
+                            <Border BorderBrush="{StaticResource BorderBrush}" BorderThickness="1" CornerRadius="4">
+                                <ScrollViewer x:Name="XmlContentScrollViewer" 
+                                              Height="300" 
+                                              HorizontalScrollBarVisibility="Auto"
+                                              VerticalScrollBarVisibility="Auto">
+                                    <TextBlock x:Name="XmlContentTextBlock" 
+                                               Background="{StaticResource SurfaceBrush}"
+                                               Padding="16"
+                                               TextWrapping="Wrap"
+                                               FontFamily="Consolas"
+                                               FontSize="12"
+                                               Foreground="{StaticResource TextBrush}"/>
+                                </ScrollViewer>
+                            </Border>
+                        </StackPanel>
+                    </Border>
+                </ScrollViewer>
             </TabItem>
 
             <!-- Tab 2: Get Extended Values -->
             <TabItem Header="Get Extent Values">
-                <StackPanel Margin="20" VerticalAlignment="Top" HorizontalAlignment="Left">
-                    <Label Content="Select Entity Type:" HorizontalAlignment="Left" />
-                    <ComboBox x:Name="ExtentEntityTypeComboBox" Width="200" Margin="7,5,0,10" SelectionChanged="ExtentEntityTypeComboBox_SelectionChanged">
-                        <ComboBoxItem Content="PerLengthPhaseImpedance" Tag="0x1110000000070000"/>
-                        <ComboBoxItem Content="PhaseImpedanceData" Tag="0x1200000000010000"/>
-                        <ComboBoxItem Content="PerLengthSequenceImpedance" Tag="0x1120000000020000"/>
-                        <ComboBoxItem Content="DCLineSegment" Tag="0x1311110000030000"/>
-                        <ComboBoxItem Content="SeriesCompensator" Tag="0x1311200000040000"/>
-                        <ComboBoxItem Content="ACLineSegment" Tag="0x1311120000050000"/>
-                        <ComboBoxItem Content="Terminal" Tag="0x1400000000060000"/>
-                    </ComboBox>
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <Border Style="{StaticResource Card}">
+                        <StackPanel MaxWidth="600">
+                            <TextBlock Text="Get Extent Values" FontSize="24" FontWeight="Bold" Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,20"/>
 
-                    <Button x:Name="LoadAttributesButton" Content="Load Attributes" Width="140" Height="30" Margin="0,10,0,10" Click="LoadAttributes_Click" IsEnabled="False"/>
+                            <Label Content="Select Entity Type:" Style="{StaticResource ModernLabel}"/>
+                            <ComboBox x:Name="ExtentEntityTypeComboBox" Style="{StaticResource ModernComboBox}" Margin="0,0,0,16" SelectionChanged="ExtentEntityTypeComboBox_SelectionChanged">
+                                <ComboBoxItem Content="PerLengthPhaseImpedance" Tag="0x1110000000070000"/>
+                                <ComboBoxItem Content="PhaseImpedanceData" Tag="0x1200000000010000"/>
+                                <ComboBoxItem Content="PerLengthSequenceImpedance" Tag="0x1120000000020000"/>
+                                <ComboBoxItem Content="DCLineSegment" Tag="0x1311110000030000"/>
+                                <ComboBoxItem Content="SeriesCompensator" Tag="0x1311200000040000"/>
+                                <ComboBoxItem Content="ACLineSegment" Tag="0x1311120000050000"/>
+                                <ComboBoxItem Content="Terminal" Tag="0x1400000000060000"/>
+                            </ComboBox>
 
-                    <!-- Placeholder for dynamic checkboxes -->
-                    <ItemsControl x:Name="DynamicCheckboxesPanel">
-                        <ItemsControl.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <StackPanel />
-                            </ItemsPanelTemplate>
-                        </ItemsControl.ItemsPanel>
-                    </ItemsControl>
+                            <Button x:Name="LoadAttributesButton" Content="Load Attributes" Style="{StaticResource ModernButton}" Click="LoadAttributes_Click" IsEnabled="False" HorizontalAlignment="Left" Margin="0,0,0,16"/>
 
-                    <Label x:Name="AttributesMessageLabel"
-           Margin="0,10,0,0"
-           Foreground="Red"
-           FontWeight="Bold"
-           Visibility="Collapsed"/>
+                            <!-- Attributes Section -->
+                            <Border Background="{StaticResource PrimaryLightBrush}" CornerRadius="4" Padding="16" Margin="0,0,0,16">
+                                <StackPanel>
+                                    <TextBlock Text="Attributes" FontWeight="Bold" FontSize="16" Margin="0,0,0,12"/>
+                                    <ItemsControl x:Name="DynamicCheckboxesPanel">
+                                        <ItemsControl.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <StackPanel />
+                                            </ItemsPanelTemplate>
+                                        </ItemsControl.ItemsPanel>
+                                    </ItemsControl>
+                                    <Label x:Name="AttributesMessageLabel"
+                                           Margin="0,10,0,0"
+                                           Foreground="{StaticResource ErrorBrush}"
+                                           FontWeight="Bold"
+                                           Visibility="Collapsed"/>
+                                </StackPanel>
+                            </Border>
 
-                    <Button x:Name="GetExtendedValuesButton" Content="Get Extended Values" Width="160" Height="30" Margin="0,10,0,0" Click="GetExtentValues_Click" IsEnabled="False"/>
-                    <Label x:Name="ExtendedValuesStatusLabel" Margin="0,10,0,0"
-               Foreground="Green" FontWeight="Bold"/>
-                    <Label Content="Extend Values:" Margin="0,10,0,5" FontWeight="Bold"/>
-                    <ScrollViewer x:Name="ExtentXmlContentScrollViewer" 
-                      Height="300" 
-                      Width="600" 
-                      Margin="0,5,0,10"
-                      HorizontalScrollBarVisibility="Auto"
-                      VerticalScrollBarVisibility="Auto"
-                      BorderBrush="Gray"
-                      BorderThickness="1">
-                        <TextBlock x:Name="ExtentXmlContentTextBlock" 
-                       Background="White"
-                       Padding="10"
-                       TextWrapping="Wrap"
-                       FontFamily="Consolas"
-                       FontSize="12"/>
-                    </ScrollViewer>
-                </StackPanel>
+                            <Button x:Name="GetExtendedValuesButton" Content="Get Extended Values" Style="{StaticResource ModernButton}" Click="GetExtentValues_Click" IsEnabled="False" HorizontalAlignment="Left"/>
+
+                            <Label x:Name="ExtendedValuesStatusLabel" Margin="0,16,0,0" FontWeight="Bold" FontSize="14"/>
+
+                            <Label Content="Extent Values:" Style="{StaticResource ModernLabel}" Margin="0,20,0,10"/>
+                            <Border BorderBrush="{StaticResource BorderBrush}" BorderThickness="1" CornerRadius="4">
+                                <ScrollViewer x:Name="ExtentXmlContentScrollViewer" 
+                                              Height="300" 
+                                              HorizontalScrollBarVisibility="Auto"
+                                              VerticalScrollBarVisibility="Auto">
+                                    <TextBlock x:Name="ExtentXmlContentTextBlock" 
+                                               Background="{StaticResource SurfaceBrush}"
+                                               Padding="16"
+                                               TextWrapping="Wrap"
+                                               FontFamily="Consolas"
+                                               FontSize="12"
+                                               Foreground="{StaticResource TextBrush}"/>
+                                </ScrollViewer>
+                            </Border>
+                        </StackPanel>
+                    </Border>
+                </ScrollViewer>
             </TabItem>
 
             <!-- Tab 3: Get Related Values -->
             <TabItem Header="Get Related Values">
-                <StackPanel Margin="20" VerticalAlignment="Top" HorizontalAlignment="Left">
-                    <Label Content="Select Source Entity Type:" />
-                    <ComboBox x:Name="SourceEntityTypeComboBox" Width="200" Margin="0,5,0,10" SelectionChanged="SourceEntityTypeComboBox_SelectionChanged">
-                        <ComboBoxItem Content="Terminal" Tag="0x00000006000000"/>
-                        <ComboBoxItem Content="ACLineSegment" Tag="0x00000005000000"/>
-                        <ComboBoxItem Content="PerLengthPhaseImpedance" Tag="0x00000007000000"/>
-                        <ComboBoxItem Content="PhaseImpedanceData" Tag="0x00000001000000"/>
-                    </ComboBox>
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <Border Style="{StaticResource Card}">
+                        <StackPanel MaxWidth="600">
+                            <TextBlock Text="Get Related Values" FontSize="24" FontWeight="Bold" Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,20"/>
 
-                    <Label Content="Enter Position:" />
-                    <TextBox x:Name="RelatedPositionTextBox" Width="200" Margin="0,5,0,10" />
+                            <Label Content="Select Source Entity Type:" Style="{StaticResource ModernLabel}"/>
+                            <ComboBox x:Name="SourceEntityTypeComboBox" Style="{StaticResource ModernComboBox}" Margin="0,0,0,16" SelectionChanged="SourceEntityTypeComboBox_SelectionChanged">
+                                <ComboBoxItem Content="Terminal" Tag="0x00000006000000"/>
+                                <ComboBoxItem Content="ACLineSegment" Tag="0x00000005000000"/>
+                                <ComboBoxItem Content="PerLengthPhaseImpedance" Tag="0x00000007000000"/>
+                                <ComboBoxItem Content="PhaseImpedanceData" Tag="0x00000001000000"/>
+                            </ComboBox>
 
-                    <Label Content="Select Property:" />
-                    <ComboBox x:Name="RelatedPropertyComboBox" Width="200" Margin="0,5,0,10" IsEnabled="False" SelectionChanged="RelatedPropertyComboBox_SelectionChanged"/>
+                            <Label Content="Enter Position:" Style="{StaticResource ModernLabel}"/>
+                            <TextBox x:Name="RelatedPositionTextBox" Style="{StaticResource ModernTextBox}" Margin="0,0,0,16"/>
 
-                    <Label Content="Select Target Type:" />
-                    <ComboBox x:Name="RelatedTargetTypeComboBox" Width="200" Margin="0,5,0,10" IsEnabled="False"/>
+                            <Label Content="Select Property:" Style="{StaticResource ModernLabel}"/>
+                            <ComboBox x:Name="RelatedPropertyComboBox" Style="{StaticResource ModernComboBox}" Margin="0,0,0,16" IsEnabled="False" SelectionChanged="RelatedPropertyComboBox_SelectionChanged"/>
 
-                    <Button x:Name="GetRelatedValuesButton" Content="Get Related Values" Width="160" Height="30" Margin="0,10,0,0" Click="GetRelatedValues_Click" IsEnabled="False"/>
-                    <Label x:Name="RelatedValuesStatusLabel" Margin="0,10,0,0" Foreground="Green" FontWeight="Bold"/>
-                    <Label Content="Related Values:" Margin="0,10,0,5" FontWeight="Bold"/>
-                    <ScrollViewer x:Name="RelatedXmlContentScrollViewer" 
-                      Height="300" 
-                      Width="600" 
-                      Margin="0,5,0,10"
-                      HorizontalScrollBarVisibility="Auto"
-                      VerticalScrollBarVisibility="Auto"
-                      BorderBrush="Gray"
-                      BorderThickness="1">
-                        <TextBlock x:Name="RelatedXmlContentTextBlock" 
-                       Background="White"
-                       Padding="10"
-                       TextWrapping="Wrap"
-                       FontFamily="Consolas"
-                       FontSize="12"/>
-                    </ScrollViewer>
-                </StackPanel>
+                            <Label Content="Select Target Type:" Style="{StaticResource ModernLabel}"/>
+                            <ComboBox x:Name="RelatedTargetTypeComboBox" Style="{StaticResource ModernComboBox}" Margin="0,0,0,20" IsEnabled="False"/>
+
+                            <Button x:Name="GetRelatedValuesButton" Content="Get Related Values" Style="{StaticResource ModernButton}" Click="GetRelatedValues_Click" IsEnabled="False" HorizontalAlignment="Left"/>
+
+                            <Label x:Name="RelatedValuesStatusLabel" Margin="0,16,0,0" FontWeight="Bold" FontSize="14"/>
+
+                            <Label Content="Related Values:" Style="{StaticResource ModernLabel}" Margin="0,20,0,10"/>
+                            <Border BorderBrush="{StaticResource BorderBrush}" BorderThickness="1" CornerRadius="4">
+                                <ScrollViewer x:Name="RelatedXmlContentScrollViewer" 
+                                              Height="300" 
+                                              HorizontalScrollBarVisibility="Auto"
+                                              VerticalScrollBarVisibility="Auto">
+                                    <TextBlock x:Name="RelatedXmlContentTextBlock" 
+                                               Background="{StaticResource SurfaceBrush}"
+                                               Padding="16"
+                                               TextWrapping="Wrap"
+                                               FontFamily="Consolas"
+                                               FontSize="12"
+                                               Foreground="{StaticResource TextBrush}"/>
+                                </ScrollViewer>
+                            </Border>
+                        </StackPanel>
+                    </Border>
+                </ScrollViewer>
             </TabItem>
         </TabControl>
     </Grid>

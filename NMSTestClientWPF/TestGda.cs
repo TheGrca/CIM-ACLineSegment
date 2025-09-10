@@ -130,16 +130,13 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
 
                     for (int i = 0; i < rds.Count; i++)
                     {
-                        // If position is 0 (get all) or we're at the requested position
                         if (position == 0 || currentPosition == position - 1)
                         {
                             ids.Add(rds[i].Id);
 
-                            // Export to file
                             rds[i].ExportToXml(xmlWriter);
                             xmlWriter.Flush();
 
-                            // Capture XML content for display
                             using (StringWriter stringWriter = new StringWriter())
                             {
                                 using (XmlTextWriter memoryXmlWriter = new XmlTextWriter(stringWriter))
@@ -147,8 +144,6 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                                     memoryXmlWriter.Formatting = Formatting.Indented;
                                     rds[i].ExportToXml(memoryXmlWriter);
                                     memoryXmlWriter.Flush();
-
-                                    // Add indentation to each line for proper display formatting
                                     string resourceXml = stringWriter.ToString();
                                     string[] lines = resourceXml.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
                                     foreach (string line in lines)
@@ -218,13 +213,11 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
             StringBuilder xmlContentBuilder = new StringBuilder();
             try
             {
-                // Get default properties for related entities - basic identification properties
                 List<ModelCode> properties = new List<ModelCode>();
                 properties.Add(ModelCode.IDOBJ_ALLIASNAME);
                 properties.Add(ModelCode.IDOBJ_MRID);
                 properties.Add(ModelCode.IDOBJ_NAME);
 
-                // If the association has a specific type, get all properties for that type
                 if (association.Type != ModelCode.IDOBJ && association.Type != 0)
                 {
                     try
@@ -234,7 +227,6 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                         {
                             List<ModelCode> typeSpecificProperties = modelResourcesDesc.GetAllPropertyIds((DMSType)targetType);
 
-                            // Add type-specific properties, avoiding duplicates
                             foreach (var prop in typeSpecificProperties)
                             {
                                 if (!properties.Contains(prop))
@@ -255,19 +247,16 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
 
                 Console.WriteLine($"Iterator ID: {iteratorId}");
                 Console.WriteLine($"Resources left: {resourcesLeft}");
-                Console.WriteLine($"Association - PropertyId: {association.PropertyId}, Type: {association.Type}, Inverse: {association.Inverse}");
 
                 xmlWriter = new XmlTextWriter(Config.Instance.ResultDirecotry + "\\GetRelatedValues_Results.xml", Encoding.Unicode);
                 xmlWriter.Formatting = Formatting.Indented;
 
-                // Add XML document root for display content
                 xmlContentBuilder.AppendLine("<?xml version=\"1.0\" encoding=\"utf-16\"?>");
                 xmlContentBuilder.AppendLine("<RelatedValuesResults>");
                 xmlContentBuilder.AppendLine($"  <SourceGlobalId>{sourceGlobalId:X16}</SourceGlobalId>");
                 xmlContentBuilder.AppendLine($"  <Association>");
                 xmlContentBuilder.AppendLine($"    <PropertyId>{association.PropertyId}</PropertyId>");
                 xmlContentBuilder.AppendLine($"    <Type>{association.Type}</Type>");
-                xmlContentBuilder.AppendLine($"    <Inverse>{association.Inverse}</Inverse>");
                 xmlContentBuilder.AppendLine($"  </Association>");
                 xmlContentBuilder.AppendLine($"  <RelatedResources>");
                 while (resourcesLeft > 0)
@@ -287,7 +276,6 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                                 rds[i].ExportToXml(memoryXmlWriter);
                                 memoryXmlWriter.Flush();
 
-                                // Add indentation to each line for proper display formatting
                                 string resourceXml = stringWriter.ToString();
                                 string[] lines = resourceXml.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
                                 foreach (string line in lines)
@@ -307,7 +295,7 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                 xmlContentBuilder.AppendLine("</RelatedValuesResults>");
 
                 GdaQueryProxy.IteratorClose(iteratorId);
-                iteratorId = 0; // Mark as closed
+                iteratorId = 0; 
 
                 message = $"Getting related values method successfully finished. Found {resultIds.Count} related resources.";
                 Console.WriteLine(message);
@@ -337,7 +325,7 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                     }
                     catch
                     {
-                        // Iterator might already be closed or invalid
+                        
                     }
                 }
             }
