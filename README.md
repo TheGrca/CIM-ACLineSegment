@@ -4,7 +4,7 @@
 
 This project involves modeling a power system structure based on the CIM (Common Information Model) standard. The application includes a WPF-based GUI, CIM/XML manipulation, GDA (Generic Data Access) integration, and the use of generated code based on an RDFS-exported CIM profile.
 
-![UML Diagram](diagram.png)
+![UML Diagram](diagram.PNG)
 
 ## Technologies Used
 
