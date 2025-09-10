@@ -45,7 +45,7 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
 
 		#region GDAQueryService
 
-		public ResourceDescription GetValues(long globalId)
+		public (ResourceDescription rd, string xmlContent) GetValues(long globalId)
 		{
             string message = "Getting values method started.";
             Console.WriteLine(message);
@@ -53,18 +53,27 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
 
 			XmlTextWriter xmlWriter = null;
 			ResourceDescription rd = null;
-						
-			try
+            string xmlContent = string.Empty;
+            try
 			{
 				short type = ModelCodeHelper.ExtractTypeFromGlobalId(globalId);
 				List<ModelCode> properties = modelResourcesDesc.GetAllPropertyIds((DMSType)type);
-
                 rd = GdaQueryProxy.GetValues(globalId, properties);
+                using (StringWriter stringWriter = new StringWriter())
+                {
+                    using (XmlTextWriter memoryXmlWriter = new XmlTextWriter(stringWriter))
+                    {
+                        memoryXmlWriter.Formatting = Formatting.Indented;
+                        rd.ExportToXml(memoryXmlWriter);
+                        memoryXmlWriter.Flush();
+                        xmlContent = stringWriter.ToString();
+                    }
+                }
 
                 xmlWriter = new XmlTextWriter(Config.Instance.ResultDirecotry + "\\GetValues_Results.xml", Encoding.Unicode);
-				xmlWriter.Formatting = Formatting.Indented;
-				rd.ExportToXml(xmlWriter);
-				xmlWriter.Flush();
+                xmlWriter.Formatting = Formatting.Indented;
+                rd.ExportToXml(xmlWriter);
+                xmlWriter.Flush();
 
                 message = "Getting values method successfully finished.";
                 Console.WriteLine(message);
@@ -75,7 +84,9 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                 message = string.Format("Getting values method for entered id = {0} failed.\n\t{1}", globalId, e.Message);
                 Console.WriteLine(message);
                 CommonTrace.WriteTrace(CommonTrace.TraceError, message);
-   			}
+                xmlContent = $"Error occurred: {e.Message}";
+                throw;
+            }
 			finally
 			{
 				if (xmlWriter != null)
@@ -84,9 +95,9 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
 				}
 			}
 
-			return rd;
+			return (rd, xmlContent);
 		}
-        public List<long> GetExtentValues(ModelCode modelCode, List<ModelCode> selectedProperties, int position = 0)
+        public (List<long> ids, string xmlContent) GetExtentValues(ModelCode modelCode, List<ModelCode> selectedProperties, int position = 0)
         {
             string message = "Getting extent values method started.";
             CommonTrace.WriteTrace(CommonTrace.TraceError, message);
@@ -94,6 +105,7 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
             XmlTextWriter xmlWriter = null;
             int iteratorId = 0;
             List<long> ids = new List<long>();
+            StringBuilder xmlContentBuilder = new StringBuilder();
 
             try
             {
@@ -101,7 +113,6 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                 int resourcesLeft = 0;
                 int currentPosition = 0;
                 bool found = false;
-
                 List<ModelCode> properties = selectedProperties;
 
                 iteratorId = GdaQueryProxy.GetExtentValues(modelCode, properties);
@@ -109,6 +120,9 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
 
                 xmlWriter = new XmlTextWriter(Config.Instance.ResultDirecotry + "\\GetExtentValues_Results.xml", Encoding.Unicode);
                 xmlWriter.Formatting = Formatting.Indented;
+
+                xmlContentBuilder.AppendLine("<?xml version=\"1.0\" encoding=\"utf-16\"?>");
+                xmlContentBuilder.AppendLine("<ExtentValuesResults>");
 
                 while (resourcesLeft > 0 && !found)
                 {
@@ -120,8 +134,32 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                         if (position == 0 || currentPosition == position - 1)
                         {
                             ids.Add(rds[i].Id);
+
+                            // Export to file
                             rds[i].ExportToXml(xmlWriter);
                             xmlWriter.Flush();
+
+                            // Capture XML content for display
+                            using (StringWriter stringWriter = new StringWriter())
+                            {
+                                using (XmlTextWriter memoryXmlWriter = new XmlTextWriter(stringWriter))
+                                {
+                                    memoryXmlWriter.Formatting = Formatting.Indented;
+                                    rds[i].ExportToXml(memoryXmlWriter);
+                                    memoryXmlWriter.Flush();
+
+                                    // Add indentation to each line for proper display formatting
+                                    string resourceXml = stringWriter.ToString();
+                                    string[] lines = resourceXml.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+                                    foreach (string line in lines)
+                                    {
+                                        if (!string.IsNullOrWhiteSpace(line))
+                                        {
+                                            xmlContentBuilder.AppendLine("  " + line);
+                                        }
+                                    }
+                                }
+                            }
 
                             if (position > 0)
                             {
@@ -131,9 +169,10 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                         }
                         currentPosition++;
                     }
-
                     resourcesLeft = GdaQueryProxy.IteratorResourcesLeft(iteratorId);
                 }
+
+                xmlContentBuilder.AppendLine("</ExtentValuesResults>");
 
                 GdaQueryProxy.IteratorClose(iteratorId);
 
@@ -155,16 +194,18 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                 message = $"Getting extent values method failed for {modelCode}.\n\t{ex.Message}";
                 Console.WriteLine(message);
                 CommonTrace.WriteTrace(CommonTrace.TraceError, message);
+
+                string errorXml = $"<?xml version=\"1.0\" encoding=\"utf-16\"?>\n<Error>\n  <Message>{ex.Message}</Message>\n</Error>";
+                return (ids, errorXml);
             }
             finally
             {
                 xmlWriter?.Close();
             }
 
-            return ids;
+            return (ids, xmlContentBuilder.ToString());
         }
-
-        public List<long> GetRelatedValues(long sourceGlobalId, Association association)
+        public (List<long> resultIds, string xmlContent) GetRelatedValues(long sourceGlobalId, Association association)
         {
             string message = "Getting related values method started.";
             Console.WriteLine(message);
@@ -174,7 +215,7 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
             XmlTextWriter xmlWriter = null;
             int numberOfResources = 2;
             int iteratorId = 0;
-
+            StringBuilder xmlContentBuilder = new StringBuilder();
             try
             {
                 // Get default properties for related entities - basic identification properties
@@ -219,6 +260,16 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                 xmlWriter = new XmlTextWriter(Config.Instance.ResultDirecotry + "\\GetRelatedValues_Results.xml", Encoding.Unicode);
                 xmlWriter.Formatting = Formatting.Indented;
 
+                // Add XML document root for display content
+                xmlContentBuilder.AppendLine("<?xml version=\"1.0\" encoding=\"utf-16\"?>");
+                xmlContentBuilder.AppendLine("<RelatedValuesResults>");
+                xmlContentBuilder.AppendLine($"  <SourceGlobalId>{sourceGlobalId:X16}</SourceGlobalId>");
+                xmlContentBuilder.AppendLine($"  <Association>");
+                xmlContentBuilder.AppendLine($"    <PropertyId>{association.PropertyId}</PropertyId>");
+                xmlContentBuilder.AppendLine($"    <Type>{association.Type}</Type>");
+                xmlContentBuilder.AppendLine($"    <Inverse>{association.Inverse}</Inverse>");
+                xmlContentBuilder.AppendLine($"  </Association>");
+                xmlContentBuilder.AppendLine($"  <RelatedResources>");
                 while (resourcesLeft > 0)
                 {
                     List<ResourceDescription> rds = GdaQueryProxy.IteratorNext(numberOfResources, iteratorId);
@@ -228,10 +279,32 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                         resultIds.Add(rds[i].Id);
                         rds[i].ExportToXml(xmlWriter);
                         xmlWriter.Flush();
+                        using (StringWriter stringWriter = new StringWriter())
+                        {
+                            using (XmlTextWriter memoryXmlWriter = new XmlTextWriter(stringWriter))
+                            {
+                                memoryXmlWriter.Formatting = Formatting.Indented;
+                                rds[i].ExportToXml(memoryXmlWriter);
+                                memoryXmlWriter.Flush();
+
+                                // Add indentation to each line for proper display formatting
+                                string resourceXml = stringWriter.ToString();
+                                string[] lines = resourceXml.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+                                foreach (string line in lines)
+                                {
+                                    if (!string.IsNullOrWhiteSpace(line))
+                                    {
+                                        xmlContentBuilder.AppendLine("    " + line);
+                                    }
+                                }
+                            }
+                        }
                     }
 
                     resourcesLeft = GdaQueryProxy.IteratorResourcesLeft(iteratorId);
                 }
+                xmlContentBuilder.AppendLine("  </RelatedResources>");
+                xmlContentBuilder.AppendLine("</RelatedValuesResults>");
 
                 GdaQueryProxy.IteratorClose(iteratorId);
                 iteratorId = 0; // Mark as closed
@@ -245,6 +318,9 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                 message = string.Format("Getting related values method failed for sourceGlobalId = {0} and association (propertyId = {1}, type = {2}). Reason: {3}", sourceGlobalId, association.PropertyId, association.Type, e.Message);
                 Console.WriteLine(message);
                 CommonTrace.WriteTrace(CommonTrace.TraceError, message);
+
+                string errorXml = $"<?xml version=\"1.0\" encoding=\"utf-16\"?>\n<Error>\n  <Message>{e.Message}</Message>\n  <SourceGlobalId>{sourceGlobalId:X16}</SourceGlobalId>\n</Error>";
+                return (resultIds, errorXml);
             }
             finally
             {
@@ -266,7 +342,7 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
                 }
             }
 
-            return resultIds;
+            return (resultIds, xmlContentBuilder.ToString());
         }
         #endregion GDAQueryService
 

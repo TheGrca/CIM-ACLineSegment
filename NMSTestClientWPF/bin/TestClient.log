@@ -300,3 +300,116 @@
 6.9.2025. 16:03:00 : Getting related values method started.
 6.9.2025. 16:03:00 : Failed to get model type code for DMS type: 4608. Invalid DMS type
 6.9.2025. 16:03:00 : Getting related values method successfully finished. Found 1 related resources.
+10.9.2025. 12:53:57 : Getting values method started.
+10.9.2025. 12:53:57 : Getting values method successfully finished.
+10.9.2025. 12:53:57 : Getting values method started.
+10.9.2025. 12:53:57 : Getting values method successfully finished.
+10.9.2025. 12:54:46 : Getting values method started.
+10.9.2025. 12:54:46 : Getting values method successfully finished.
+10.9.2025. 12:54:46 : Getting values method started.
+10.9.2025. 12:54:46 : Getting values method successfully finished.
+10.9.2025. 13:04:21 : Getting related values method started.
+10.9.2025. 13:04:21 : Failed to get model type code for DMS type: 8192. Invalid DMS type
+10.9.2025. 13:04:22 : Getting related values method successfully finished. Found 0 related resources.
+10.9.2025. 13:04:29 : Getting related values method started.
+10.9.2025. 13:04:29 : Failed to get model type code for DMS type: 8192. Invalid DMS type
+10.9.2025. 13:04:29 : Getting related values method successfully finished. Found 1 related resources.
+10.9.2025. 13:04:37 : Getting related values method started.
+10.9.2025. 13:04:37 : Failed to get model type code for DMS type: 8192. Invalid DMS type
+10.9.2025. 13:04:37 : Getting related values method successfully finished. Found 0 related resources.
+10.9.2025. 13:04:47 : Getting related values method started.
+10.9.2025. 13:04:47 : Failed to get model type code for DMS type: 8192. Invalid DMS type
+10.9.2025. 13:04:47 : Getting related values method successfully finished. Found 1 related resources.
+10.9.2025. 13:56:37 : Getting related values method started.
+10.9.2025. 13:56:37 : Getting related values method successfully finished. Found 0 related resources.
+10.9.2025. 13:56:49 : Getting related values method started.
+10.9.2025. 13:56:49 : Getting related values method successfully finished. Found 0 related resources.
+10.9.2025. 13:56:52 : Getting related values method started.
+10.9.2025. 13:56:52 : Getting related values method successfully finished. Found 0 related resources.
+10.9.2025. 13:56:58 : Getting related values method started.
+10.9.2025. 13:56:58 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+10.9.2025. 13:56:58 : Getting related values method successfully finished. Found 0 related resources.
+10.9.2025. 13:57:01 : Getting related values method started.
+10.9.2025. 13:57:01 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+10.9.2025. 13:57:01 : Getting related values method successfully finished. Found 1 related resources.
+10.9.2025. 13:57:04 : Getting related values method started.
+10.9.2025. 13:57:04 : Failed to get model type code for DMS type: 8192. Invalid DMS type
+10.9.2025. 13:57:04 : Getting related values method successfully finished. Found 0 related resources.
+10.9.2025. 13:57:06 : Getting related values method started.
+10.9.2025. 13:57:06 : Failed to get model type code for DMS type: 4352. Invalid DMS type
+10.9.2025. 13:57:06 : Getting related values method successfully finished. Found 0 related resources.
+10.9.2025. 14:06:17 : Getting related values method started.
+10.9.2025. 14:06:24 : Getting related values method failed for sourceGlobalId = 21474836498 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = PLPI). Reason: Getting related values for resource with ID = 0x0000000500000012 failed. Failed to get related values for source GID = 0x0000000500000012. Entity  (GID = 0x0000000500000012) does not exist..
+10.9.2025. 14:06:30 : Getting related values method started.
+10.9.2025. 14:06:30 : Getting related values method successfully finished. Found 1 related resources.
+10.9.2025. 14:07:02 : Getting related values method started.
+10.9.2025. 14:07:02 : Getting related values method failed for sourceGlobalId = 21474836487 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:05 : Getting related values method started.
+10.9.2025. 14:07:05 : Getting related values method failed for sourceGlobalId = 21474836488 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:08 : Getting related values method started.
+10.9.2025. 14:07:08 : Getting related values method failed for sourceGlobalId = 21474836489 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:12 : Getting related values method started.
+10.9.2025. 14:07:12 : Getting related values method failed for sourceGlobalId = 21474836496 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:14 : Getting related values method started.
+10.9.2025. 14:07:14 : Getting related values method failed for sourceGlobalId = 21474836497 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:17 : Getting related values method started.
+10.9.2025. 14:07:17 : Getting related values method failed for sourceGlobalId = 21474836498 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:20 : Getting related values method started.
+10.9.2025. 14:07:20 : Getting related values method failed for sourceGlobalId = 21474836499 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:22 : Getting related values method started.
+10.9.2025. 14:07:22 : Getting related values method failed for sourceGlobalId = 21474836500 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:24 : Getting related values method started.
+10.9.2025. 14:07:24 : Getting related values method failed for sourceGlobalId = 21474836501 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:27 : Getting related values method started.
+10.9.2025. 14:07:27 : Getting related values method failed for sourceGlobalId = 21474836502 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:29 : Getting related values method started.
+10.9.2025. 14:07:29 : Getting related values method failed for sourceGlobalId = 21474836503 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:31 : Getting related values method started.
+10.9.2025. 14:07:31 : Getting related values method failed for sourceGlobalId = 21474836504 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:38 : Getting related values method started.
+10.9.2025. 14:07:38 : Getting related values method failed for sourceGlobalId = 21474836505 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:41 : Getting related values method started.
+10.9.2025. 14:07:41 : Getting related values method failed for sourceGlobalId = 21474836512 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:44 : Getting related values method started.
+10.9.2025. 14:07:44 : Getting related values method failed for sourceGlobalId = 21474836513 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:47 : Getting related values method started.
+10.9.2025. 14:07:47 : Getting related values method failed for sourceGlobalId = 21474836514 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:49 : Getting related values method started.
+10.9.2025. 14:07:49 : Getting related values method failed for sourceGlobalId = 21474836515 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:52 : Getting related values method started.
+10.9.2025. 14:07:52 : Getting related values method failed for sourceGlobalId = 21474836516 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:54 : Getting related values method started.
+10.9.2025. 14:07:54 : Getting related values method failed for sourceGlobalId = 21474836517 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:56 : Getting related values method started.
+10.9.2025. 14:07:56 : Getting related values method failed for sourceGlobalId = 21474836518 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:07:59 : Getting related values method started.
+10.9.2025. 14:07:59 : Getting related values method failed for sourceGlobalId = 21474836519 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:08:02 : Getting related values method started.
+10.9.2025. 14:08:02 : Getting related values method failed for sourceGlobalId = 21474836520 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:08:05 : Getting related values method started.
+10.9.2025. 14:08:05 : Getting related values method failed for sourceGlobalId = 21474836521 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:08:07 : Getting related values method started.
+10.9.2025. 14:08:07 : Getting related values method failed for sourceGlobalId = 21474836528 and association (propertyId = ACLS_PERLENGTHIMPEDANCE, type = 1229764173249314816). Reason: There was an error while trying to serialize parameter http://tempuri.org/:association. The InnerException message was 'Enum value '1229764173249314816' is invalid for type 'FTN.Common.ModelCode' and cannot be serialized. Ensure that the necessary enum values are present and are marked with EnumMemberAttribute attribute if the type has DataContractAttribute attribute.'.  Please see InnerException for more details.
+10.9.2025. 14:08:54 : Getting related values method started.
+10.9.2025. 14:08:54 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+10.9.2025. 14:08:54 : Getting related values method successfully finished. Found 0 related resources.
+10.9.2025. 14:09:03 : Getting related values method started.
+10.9.2025. 14:09:03 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+10.9.2025. 14:09:03 : Getting related values method successfully finished. Found 0 related resources.
+10.9.2025. 14:09:09 : Getting related values method started.
+10.9.2025. 14:09:09 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+10.9.2025. 14:09:09 : Getting related values method successfully finished. Found 0 related resources.
+10.9.2025. 14:09:12 : Getting related values method started.
+10.9.2025. 14:09:12 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+10.9.2025. 14:09:14 : Getting related values method failed for sourceGlobalId = 25769803808 and association (propertyId = TERM_CONDUCTINGEQUIPMENT, type = ACLS). Reason: Getting related values for resource with ID = 0x0000000600000020 failed. Failed to get related values for source GID = 0x0000000600000020. Entity  (GID = 0x0000000600000020) does not exist..
+10.9.2025. 14:09:23 : Getting related values method started.
+10.9.2025. 14:09:23 : Failed to get model type code for DMS type: 4352. Invalid DMS type
+10.9.2025. 14:09:23 : Getting related values method successfully finished. Found 0 related resources.
+10.9.2025. 14:09:28 : Getting related values method started.
+10.9.2025. 14:09:28 : Failed to get model type code for DMS type: 4608. Invalid DMS type
+10.9.2025. 14:09:28 : Getting related values method successfully finished. Found 0 related resources.
+10.9.2025. 14:09:31 : Getting related values method started.
+10.9.2025. 14:09:31 : Failed to get model type code for DMS type: 8192. Invalid DMS type
+10.9.2025. 14:09:31 : Getting related values method successfully finished. Found 1 related resources.
+10.9.2025. 14:09:48 : Getting related values method started.
+10.9.2025. 14:09:48 : Failed to get model type code for DMS type: 4352. Invalid DMS type

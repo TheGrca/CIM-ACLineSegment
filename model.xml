@@ -81,5 +81,43 @@
     <cim:IdentifiedObject.mRID>Terminal2MRID</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Terminal2Name</cim:IdentifiedObject.name>
   </cim:Terminal>
+  <cim:Terminal rdf:ID="Terminal_3">
+    <cim:Terminal.ConductingEquipment rdf:resource="#DCL_1"/>
+    <cim:IdentifiedObject.aliasName>Terminal2Alias</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>Terminal2MRID</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Terminal2Name</cim:IdentifiedObject.name>
+  </cim:Terminal>
+
+  <cim:ACLineSegment rdf:ID="ACLS_2">
+    <cim:ACLineSegment.PerLengthImpedance rdf:resource="#PLSI_1"/>
+    <cim:ACLineSegment.b0ch>0.10</cim:ACLineSegment.b0ch>
+    <cim:ACLineSegment.bch>0.20</cim:ACLineSegment.bch>
+    <cim:ACLineSegment.g0ch>0.30</cim:ACLineSegment.g0ch>
+    <cim:ACLineSegment.gch>0.40</cim:ACLineSegment.gch>
+    <cim:ACLineSegment.r>0.50</cim:ACLineSegment.r>
+    <cim:ACLineSegment.r0>0.60</cim:ACLineSegment.r0>
+    <cim:ACLineSegment.x>0.70</cim:ACLineSegment.x>
+    <cim:ACLineSegment.x0>0.80</cim:ACLineSegment.x0> 
+    <cim:Conductor.length>1</cim:Conductor.length>
+    <cim:IdentifiedObject.aliasName>ACLineSegmentAlias</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>ACLineSegmentMRID</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>ACLineSegmentName</cim:IdentifiedObject.name>
+  </cim:ACLineSegment>
+
+  <cim:ACLineSegment rdf:ID="ACLS_2">
+    <cim:ACLineSegment.PerLengthImpedance rdf:resource="#PLPI_1"/>
+    <cim:ACLineSegment.b0ch>0.10</cim:ACLineSegment.b0ch>
+    <cim:ACLineSegment.bch>0.20</cim:ACLineSegment.bch>
+    <cim:ACLineSegment.g0ch>0.30</cim:ACLineSegment.g0ch>
+    <cim:ACLineSegment.gch>0.40</cim:ACLineSegment.gch>
+    <cim:ACLineSegment.r>0.50</cim:ACLineSegment.r>
+    <cim:ACLineSegment.r0>0.60</cim:ACLineSegment.r0>
+    <cim:ACLineSegment.x>0.70</cim:ACLineSegment.x>
+    <cim:ACLineSegment.x0>0.80</cim:ACLineSegment.x0> 
+    <cim:Conductor.length>1</cim:Conductor.length>
+    <cim:IdentifiedObject.aliasName>ACLineSegmentAlias</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>ACLineSegmentMRID</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>ACLineSegmentName</cim:IdentifiedObject.name>
+  </cim:ACLineSegment>
 
 </rdf:RDF>

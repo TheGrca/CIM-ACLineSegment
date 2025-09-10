@@ -24,6 +24,22 @@
                     <Button Content="Get Values" Width="120" Height="30" Click="GetValues_Click" />
                     <Label x:Name="GetValuesStatusLabel" Margin="0,10,0,0"
                            Foreground="Green" FontWeight="Bold"/>
+                    <Label Content="Values:" Margin="0,10,0,5" FontWeight="Bold"/>
+                    <ScrollViewer x:Name="XmlContentScrollViewer" 
+                      Height="300" 
+                      Width="600" 
+                      Margin="0,5,0,10"
+                      HorizontalScrollBarVisibility="Auto"
+                      VerticalScrollBarVisibility="Auto"
+                      BorderBrush="Gray"
+                      BorderThickness="1">
+                        <TextBlock x:Name="XmlContentTextBlock" 
+                       Background="White"
+                       Padding="10"
+                       TextWrapping="Wrap"
+                       FontFamily="Consolas"
+                       FontSize="12"/>
+                    </ScrollViewer>
                 </StackPanel>
             </TabItem>
 
@@ -61,6 +77,22 @@
                     <Button x:Name="GetExtendedValuesButton" Content="Get Extended Values" Width="160" Height="30" Margin="0,10,0,0" Click="GetExtentValues_Click" IsEnabled="False"/>
                     <Label x:Name="ExtendedValuesStatusLabel" Margin="0,10,0,0"
                Foreground="Green" FontWeight="Bold"/>
+                    <Label Content="Extend Values:" Margin="0,10,0,5" FontWeight="Bold"/>
+                    <ScrollViewer x:Name="ExtentXmlContentScrollViewer" 
+                      Height="300" 
+                      Width="600" 
+                      Margin="0,5,0,10"
+                      HorizontalScrollBarVisibility="Auto"
+                      VerticalScrollBarVisibility="Auto"
+                      BorderBrush="Gray"
+                      BorderThickness="1">
+                        <TextBlock x:Name="ExtentXmlContentTextBlock" 
+                       Background="White"
+                       Padding="10"
+                       TextWrapping="Wrap"
+                       FontFamily="Consolas"
+                       FontSize="12"/>
+                    </ScrollViewer>
                 </StackPanel>
             </TabItem>
 
@@ -71,8 +103,6 @@
                     <ComboBox x:Name="SourceEntityTypeComboBox" Width="200" Margin="0,5,0,10" SelectionChanged="SourceEntityTypeComboBox_SelectionChanged">
                         <ComboBoxItem Content="Terminal" Tag="0x00000006000000"/>
                         <ComboBoxItem Content="ACLineSegment" Tag="0x00000005000000"/>
-                        <ComboBoxItem Content="SeriesCompensator" Tag="0x00000004000000"/>
-                        <ComboBoxItem Content="DCLineSegment" Tag="0x00000003000000"/>
                         <ComboBoxItem Content="PerLengthPhaseImpedance" Tag="0x00000007000000"/>
                         <ComboBoxItem Content="PhaseImpedanceData" Tag="0x00000001000000"/>
                     </ComboBox>
@@ -88,6 +118,22 @@
 
                     <Button x:Name="GetRelatedValuesButton" Content="Get Related Values" Width="160" Height="30" Margin="0,10,0,0" Click="GetRelatedValues_Click" IsEnabled="False"/>
                     <Label x:Name="RelatedValuesStatusLabel" Margin="0,10,0,0" Foreground="Green" FontWeight="Bold"/>
+                    <Label Content="Related Values:" Margin="0,10,0,5" FontWeight="Bold"/>
+                    <ScrollViewer x:Name="RelatedXmlContentScrollViewer" 
+                      Height="300" 
+                      Width="600" 
+                      Margin="0,5,0,10"
+                      HorizontalScrollBarVisibility="Auto"
+                      VerticalScrollBarVisibility="Auto"
+                      BorderBrush="Gray"
+                      BorderThickness="1">
+                        <TextBlock x:Name="RelatedXmlContentTextBlock" 
+                       Background="White"
+                       Padding="10"
+                       TextWrapping="Wrap"
+                       FontFamily="Consolas"
+                       FontSize="12"/>
+                    </ScrollViewer>
                 </StackPanel>
             </TabItem>
         </TabControl>

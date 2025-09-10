@@ -1,7 +1,7 @@
 ﻿<delta id="0">
   <operations>
     <operation type="insert">
-      <ResourceDescriptions count="8">
+      <ResourceDescriptions count="10">
         <ResourceDescription>
           <id gid="0x00000007ffffffff" type="PLPI" />
           <Properties>
@@ -59,6 +59,24 @@
           </Properties>
         </ResourceDescription>
         <ResourceDescription>
+          <id gid="0x00000005fffffffe" type="ACLS" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="ACLineSegmentMRID" />
+            <Property id="IDOBJ_NAME" value="ACLineSegmentName" />
+            <Property id="IDOBJ_ALLIASNAME" value="ACLineSegmentAlias" />
+            <Property id="COND_LENGTH" value="1" />
+            <Property id="ACLS_B0CH" value="0.1" />
+            <Property id="ACLS_BCH" value="0.2" />
+            <Property id="ACLS_G0CH" value="0.3" />
+            <Property id="ACLS_GCH" value="0.4" />
+            <Property id="ACLS_R" value="0.5" />
+            <Property id="ACLS_R0" value="0.6" />
+            <Property id="ACLS_X" value="0.7" />
+            <Property id="ACLS_X0" value="0.8" />
+            <Property id="ACLS_PERLENGTHIMPEDANCE" value="0x00000002ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
           <id gid="0x00000003ffffffff" type="DCLS" />
           <Properties>
             <Property id="IDOBJ_MRID" value="DCLineSegmentMRID" />
@@ -95,6 +113,15 @@
             <Property id="IDOBJ_NAME" value="Terminal2Name" />
             <Property id="IDOBJ_ALLIASNAME" value="Terminal2Alias" />
             <Property id="TERM_CONDUCTINGEQUIPMENT" value="0x00000004ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffffd" type="TERM" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="Terminal2MRID" />
+            <Property id="IDOBJ_NAME" value="Terminal2Name" />
+            <Property id="IDOBJ_ALLIASNAME" value="Terminal2Alias" />
+            <Property id="TERM_CONDUCTINGEQUIPMENT" value="0x00000003ffffffff" />
           </Properties>
         </ResourceDescription>
       </ResourceDescriptions>

@@ -121,16 +121,17 @@ namespace NMSTestClientWPF
             {
                 string entityTypeTag = ((ComboBoxItem)EntityTypeComboBox.SelectedItem).Tag.ToString();
                 string entityTypeName = ((ComboBoxItem)EntityTypeComboBox.SelectedItem).Content.ToString();
-                string position = PositionInputTextBox.Text.Trim().PadLeft(2, '0'); // Pad position to 2 chars
+                string position = PositionInputTextBox.Text.Trim().PadLeft(2, '0'); 
 
-                // Remove 0x prefix and add position
-                string baseHex = entityTypeTag.Substring(2); // Remove "0x"
+                string baseHex = entityTypeTag.Substring(2); 
                 string fullGidHex = $"0x{baseHex}{position}";
 
-                Console.WriteLine("FULL GID: " + fullGidHex);
+                var (rd, xmlContent) = tgda.GetValues(InputGlobalId(fullGidHex));
                 tgda.GetValues(InputGlobalId(fullGidHex));
                 GetValuesStatusLabel.Content = $"GetValues successful for {entityTypeName}";
                 GetValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Green);
+
+                XmlContentTextBlock.Text = xmlContent;
             }
             catch (Exception ex)
             {
@@ -289,14 +290,16 @@ namespace NMSTestClientWPF
 
             try
             {
-                var result = tgda.GetExtentValues(InputModelCode(modelCodeString), selectedModelCodes, 0); // Always position 0 (all)
+                var (result, xmlContent) = tgda.GetExtentValues(InputModelCode(modelCodeString), selectedModelCodes, 0);
                 ExtendedValuesStatusLabel.Content = $"GetExtentValues successful for {entityTypeName}";
                 ExtendedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Green);
+                ExtentXmlContentTextBlock.Text = xmlContent;
             }
             catch (Exception ex)
             {
                 ExtendedValuesStatusLabel.Content = $"Error: {ex.Message}";
                 ExtendedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Red);
+                ExtentXmlContentTextBlock.Text = $"Error occurred: {ex.Message}";
             }
         }
 
@@ -341,21 +344,11 @@ namespace NMSTestClientWPF
                     break;
 
                 case "ACLineSegment":
-                case "SeriesCompensator":
-                case "DCLineSegment":
                     RelatedPropertyComboBox.Items.Add(new ComboBoxItem
                     {
-                        Content = "Terminals",
-                        Tag = "0x1311000000000119"
+                        Content = "PerLengthImpedance",
+                        Tag = "0x1311120000050909"
                     });
-                    if (entityTypeName == "ACLineSegment")
-                    {
-                        RelatedPropertyComboBox.Items.Add(new ComboBoxItem
-                        {
-                            Content = "PerLengthImpedance",
-                            Tag = "0x1311120000050909"
-                        });
-                    }
                     break;
 
                 case "PerLengthPhaseImpedance":
@@ -364,17 +357,12 @@ namespace NMSTestClientWPF
                         Content = "PhaseImpedanceDatas",
                         Tag = "0x1110000000070219"
                     });
-                    RelatedPropertyComboBox.Items.Add(new ComboBoxItem
-                    {
-                        Content = "ACLineSegments",
-                        Tag = "0x1100000000000119"
-                    });
                     break;
 
                 case "PhaseImpedanceData":
                     RelatedPropertyComboBox.Items.Add(new ComboBoxItem
                     {
-                        Content = "PhaseImpedance",
+                        Content = "PerLengthPhaseImpedance",
                         Tag = "0x1200000000010509"
                     });
                     break;
@@ -398,32 +386,24 @@ namespace NMSTestClientWPF
             string propertyContent = ((ComboBoxItem)RelatedPropertyComboBox.SelectedItem).Content.ToString();
             string sourceEntityType = ((ComboBoxItem)SourceEntityTypeComboBox.SelectedItem).Content.ToString();
 
-            // Based on your diagram, populate target types for each property
             switch (propertyContent)
             {
-                case "ConductingEquipment": // Terminal -> ConductingEquipment
+                case "ConductingEquipment": 
                     RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "ACLineSegment", Tag = "0x1311120000050000" });
                     RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "SeriesCompensator", Tag = "0x1311200000040000" });
                     RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "DCLineSegment", Tag = "0x1311110000030000" });
                     break;
 
-                case "Terminals": // ConductingEquipment -> Terminals
-                    RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "Terminal", Tag = "0x1400000000060000" });
-                    break;
-
-                case "PerLengthImpedance": // ACLineSegment -> PerLengthImpedance
+                case "PerLengthImpedance": 
                     RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "PerLengthPhaseImpedance", Tag = "0x1110000000070000" });
+                    RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "PerLengthSequenceImpedance", Tag = "0x1111000000070000" }); // You may need to update this tag
                     break;
 
-                case "PhaseImpedanceDatas": // PLPI -> PhaseImpedanceData
+                case "PhaseImpedanceDatas": 
                     RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "PhaseImpedanceData", Tag = "0x1200000000010000" });
                     break;
 
-                case "ACLineSegments": // PLPI -> ACLineSegments (inverse)
-                    RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "ACLineSegment", Tag = "0x1311120000050000" });
-                    break;
-
-                case "PhaseImpedance": // PhaseImpedanceData -> PLPI (inverse)
+                case "PerLengthPhaseImpedance": 
                     RelatedTargetTypeComboBox.Items.Add(new ComboBoxItem { Content = "PerLengthPhaseImpedance", Tag = "0x1110000000070000" });
                     break;
             }
@@ -443,25 +423,25 @@ namespace NMSTestClientWPF
             {
                 RelatedValuesStatusLabel.Content = "Please select a source entity type";
                 RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Orange);
+                RelatedXmlContentTextBlock.Text = "Error: Please select a source entity type";
                 return;
             }
-
             if (string.IsNullOrEmpty(RelatedPositionTextBox.Text))
             {
                 RelatedValuesStatusLabel.Content = "Please enter a position";
                 RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Orange);
+                RelatedXmlContentTextBlock.Text = "Error: Please enter a position";
                 return;
             }
-
             if (RelatedPropertyComboBox.SelectedItem == null)
             {
                 RelatedValuesStatusLabel.Content = "Please select a property";
                 RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Orange);
+                RelatedXmlContentTextBlock.Text = "Error: Please select a property";
                 return;
             }
 
             TestGda tgda = new TestGda();
-
             try
             {
                 // Build GID from entity type + position
@@ -470,7 +450,6 @@ namespace NMSTestClientWPF
                 string position = RelatedPositionTextBox.Text.Trim().PadLeft(2, '0');
                 string baseHex = entityTypeTag.Substring(2);
                 string fullGidHex = $"0x{baseHex}{position}";
-
                 long sourceGid = InputGlobalId(fullGidHex);
 
                 // Get property ID
@@ -489,7 +468,6 @@ namespace NMSTestClientWPF
 
                 // Create Association (determine if inverse based on relationship direction)
                 bool isInverse = DetermineIfInverse(entityTypeName, ((ComboBoxItem)RelatedPropertyComboBox.SelectedItem).Content.ToString());
-
                 Association association = new Association()
                 {
                     PropertyId = propertyId,
@@ -497,32 +475,38 @@ namespace NMSTestClientWPF
                     Inverse = isInverse
                 };
 
-                var result = tgda.GetRelatedValues(sourceGid, association);
+                // Call the modified GetRelatedValues method that returns both IDs and XML content
+                var (result, xmlContent) = tgda.GetRelatedValues(sourceGid, association);
+
+                // Update the UI with success status
                 RelatedValuesStatusLabel.Content = $"Found {result.Count} related resources for {entityTypeName} position {position}";
                 RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Green);
+
+                // Display the XML content in the ScrollViewer
+                RelatedXmlContentTextBlock.Text = xmlContent;
             }
             catch (Exception ex)
             {
                 RelatedValuesStatusLabel.Content = $"Error: {ex.Message}";
                 RelatedValuesStatusLabel.Foreground = new SolidColorBrush(Colors.Red);
+
+                // Show error message in the XML content area as well
+                RelatedXmlContentTextBlock.Text = $"Error occurred: {ex.Message}";
             }
         }
 
         private bool DetermineIfInverse(string sourceEntityType, string propertyName)
         {
-            // Based on your diagram, determine if the relationship requires inverse traversal
             switch (sourceEntityType)
             {
                 case "Terminal":
                     return propertyName == "ConductingEquipment" ? false : true;
                 case "ACLineSegment":
-                case "SeriesCompensator":
-                case "DCLineSegment":
-                    return propertyName == "Terminals" ? true : false;
+                    return propertyName == "PerLengthImpedance" ? false : true;
                 case "PerLengthPhaseImpedance":
-                    return propertyName == "ACLineSegments" ? true : false;
+                    return propertyName == "PhaseImpedanceDatas" ? false : true;
                 case "PhaseImpedanceData":
-                    return propertyName == "PhaseImpedance" ? false : true;
+                    return propertyName == "PerLengthPhaseImpedance" ? false : true;
                 default:
                     return false;
             }
